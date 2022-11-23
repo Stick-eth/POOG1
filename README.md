@@ -3,13 +3,12 @@
 Livrable 3 du groupe 1
 
 ## Membres de l’équipe
+______________
 
----
+>Aniss : `Chef d’équipe`👑**
 
-**********Aniss : `Chef d’équipe`👑**
+>Axel : `Collaborateur`🤝**
 
-********Axel : `Collaborateur`🤝**
+>Clyde :`Collaborateur`🤝**
 
-**********Clyde :`Collaborateur`🤝**
-
-**********Lilia :`Collaboratrice` 🤝**
+>Lilia :`Collaboratrice` 🤝**
