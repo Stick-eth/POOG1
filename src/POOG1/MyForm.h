@@ -1,4 +1,8 @@
 #pragma once
+#include "MyFormGestionClient.h"
+#include "MyFormGestionArticle.h"
+#include "MyFormGestionPersonnel.h"
+#include "MyFormGestionCommande.h"
 
 namespace POOG1 {
 
@@ -35,7 +39,14 @@ namespace POOG1 {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Label^ label1;
+	private: System::Windows::Forms::Button^ GestionClient;
+	private: System::Windows::Forms::Button^ GestionPersonnel;
+	private: System::Windows::Forms::Button^ GestionCommande;
+	private: System::Windows::Forms::Button^ GestionArticle;
+	private: System::Windows::Forms::Button^ GestionStats;
+	private: System::Windows::Forms::Label^ LabelTest;
+	private: System::Windows::Forms::Button^ OnOffLabel;
+
 	protected:
 
 	private:
@@ -51,36 +62,136 @@ namespace POOG1 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->GestionClient = (gcnew System::Windows::Forms::Button());
+			this->GestionPersonnel = (gcnew System::Windows::Forms::Button());
+			this->GestionCommande = (gcnew System::Windows::Forms::Button());
+			this->GestionArticle = (gcnew System::Windows::Forms::Button());
+			this->GestionStats = (gcnew System::Windows::Forms::Button());
+			this->LabelTest = (gcnew System::Windows::Forms::Label());
+			this->OnOffLabel = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
-			// label1
+			// GestionClient
 			// 
-			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 36, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
-				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(80, 146);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(499, 69);
-			this->label1->TabIndex = 0;
-			this->label1->Text = L"UE";
-			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
+			this->GestionClient->Location = System::Drawing::Point(12, 12);
+			this->GestionClient->Name = L"GestionClient";
+			this->GestionClient->Size = System::Drawing::Size(200, 100);
+			this->GestionClient->TabIndex = 0;
+			this->GestionClient->Text = L"Gestion Client";
+			this->GestionClient->UseVisualStyleBackColor = true;
+			this->GestionClient->Click += gcnew System::EventHandler(this, &MyForm::GestionClient_Click);
+			// 
+			// GestionPersonnel
+			// 
+			this->GestionPersonnel->Location = System::Drawing::Point(12, 118);
+			this->GestionPersonnel->Name = L"GestionPersonnel";
+			this->GestionPersonnel->Size = System::Drawing::Size(200, 100);
+			this->GestionPersonnel->TabIndex = 1;
+			this->GestionPersonnel->Text = L"Gestion Personnel";
+			this->GestionPersonnel->UseVisualStyleBackColor = true;
+			this->GestionPersonnel->Click += gcnew System::EventHandler(this, &MyForm::GestionPersonnel_Click);
+			// 
+			// GestionCommande
+			// 
+			this->GestionCommande->Location = System::Drawing::Point(12, 224);
+			this->GestionCommande->Name = L"GestionCommande";
+			this->GestionCommande->Size = System::Drawing::Size(200, 100);
+			this->GestionCommande->TabIndex = 2;
+			this->GestionCommande->Text = L"Gestion Commande";
+			this->GestionCommande->UseVisualStyleBackColor = true;
+			this->GestionCommande->Click += gcnew System::EventHandler(this, &MyForm::GestionCommande_Click);
+			// 
+			// GestionArticle
+			// 
+			this->GestionArticle->Location = System::Drawing::Point(12, 330);
+			this->GestionArticle->Name = L"GestionArticle";
+			this->GestionArticle->Size = System::Drawing::Size(200, 100);
+			this->GestionArticle->TabIndex = 3;
+			this->GestionArticle->Text = L"Gestion Article";
+			this->GestionArticle->UseVisualStyleBackColor = true;
+			this->GestionArticle->Click += gcnew System::EventHandler(this, &MyForm::GestionArticle_Click);
+			// 
+			// GestionStats
+			// 
+			this->GestionStats->Location = System::Drawing::Point(12, 436);
+			this->GestionStats->Name = L"GestionStats";
+			this->GestionStats->Size = System::Drawing::Size(200, 100);
+			this->GestionStats->TabIndex = 4;
+			this->GestionStats->Text = L"Gestion Stats";
+			this->GestionStats->UseVisualStyleBackColor = true;
+			this->GestionStats->Click += gcnew System::EventHandler(this, &MyForm::GestionStats_Click);
+			// 
+			// LabelTest
+			// 
+			this->LabelTest->AutoSize = true;
+			this->LabelTest->Location = System::Drawing::Point(360, 181);
+			this->LabelTest->Name = L"LabelTest";
+			this->LabelTest->Size = System::Drawing::Size(68, 16);
+			this->LabelTest->TabIndex = 5;
+			this->LabelTest->Text = L"LabelTest";
+			// 
+			// OnOffLabel
+			// 
+			this->OnOffLabel->Location = System::Drawing::Point(218, 12);
+			this->OnOffLabel->Name = L"OnOffLabel";
+			this->OnOffLabel->Size = System::Drawing::Size(200, 100);
+			this->OnOffLabel->TabIndex = 6;
+			this->OnOffLabel->Text = L"on/off label";
+			this->OnOffLabel->UseVisualStyleBackColor = true;
+			this->OnOffLabel->Click += gcnew System::EventHandler(this, &MyForm::OnOffLabel_Click);
 			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(634, 501);
-			this->Controls->Add(this->label1);
+			this->ClientSize = System::Drawing::Size(634, 593);
+			this->Controls->Add(this->OnOffLabel);
+			this->Controls->Add(this->LabelTest);
+			this->Controls->Add(this->GestionStats);
+			this->Controls->Add(this->GestionArticle);
+			this->Controls->Add(this->GestionCommande);
+			this->Controls->Add(this->GestionPersonnel);
+			this->Controls->Add(this->GestionClient);
 			this->Name = L"MyForm";
 			this->Text = L"MyForm";
+			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
-	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
-		this->label1->Text = this->label1->Text + "UE";
+	private: System::Void GestionClient_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->LabelTest->Text = this->GestionClient->Text;
+		MyFormGestionClient^ S1 = gcnew MyFormGestionClient();
+		S1->Show();
 	}
-	};
+	private: System::Void GestionPersonnel_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->LabelTest->Text = this->GestionPersonnel->Text;
+		MyFormGestionPersonnel^ S1 = gcnew MyFormGestionPersonnel();
+		S1->Show();
+	}
+	private: System::Void GestionCommande_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->LabelTest->Text = this->GestionCommande->Text;
+		MyFormGestionCommande^ S1 = gcnew MyFormGestionCommande();
+		S1->Show();
+	}
+	private: System::Void GestionArticle_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->LabelTest->Text = this->GestionArticle->Text;
+		MyFormGestionArticle^ S1 = gcnew MyFormGestionArticle();
+		S1->Show();
+	}
+	private: System::Void GestionStats_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->LabelTest->Text = this->GestionStats->Text;
+		//MyFormGestionStats^ S1 = gcnew MyFormGestionStats();
+		//S1->Show();
+	}
+	private: System::Void OnOffLabel_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->LabelTest->Visible = !this->LabelTest->Visible;
+	}
+
+
+
+private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
+}
+};
 }

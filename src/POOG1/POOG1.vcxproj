@@ -121,15 +121,38 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="MyFormGestionArticle.cpp" />
+    <ClCompile Include="MyFormGestionClient.cpp" />
+    <ClCompile Include="MyFormGestionCommande.cpp" />
+    <ClCompile Include="MyFormGestionPersonnel.cpp" />
+    <ClCompile Include="MyFormGestionStock.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyFormGestionArticle.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyFormGestionClient.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyFormGestionCommande.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyFormGestionPersonnel.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyFormGestionArticle.resx">
+      <DependentUpon>MyFormGestionArticle.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyFormGestionClient.resx">
+      <DependentUpon>MyFormGestionClient.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
