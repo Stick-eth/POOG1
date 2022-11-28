@@ -15,7 +15,6 @@ namespace POOG1 {
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
 	public:
-
 		MyForm(void)
 		{
 			InitializeComponent();
