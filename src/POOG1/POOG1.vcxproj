@@ -144,6 +144,9 @@
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MyFormCreationArticle.resx">
+      <DependentUpon>MyFormCreationArticle.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyFormCreationClient.resx">
       <DependentUpon>MyFormCreationClient.h</DependentUpon>
     </EmbeddedResource>
