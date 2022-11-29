@@ -171,10 +171,12 @@ namespace POOG1 {
 	}
 	private: System::Void GestionStats_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->LabelTest->Text = this->GestionStats->Text;
+		MyFormv2^ S1 = gcnew MyFormv2(1);
+		S1->Show();
 	}
 	private: System::Void OnOffLabel_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->LabelTest->Visible = !this->LabelTest->Visible;
-		MyFormv2^ S1 = gcnew MyFormv2();
+		MyFormv2^ S1 = gcnew MyFormv2(0);
 		S1->Show();
 	}
 

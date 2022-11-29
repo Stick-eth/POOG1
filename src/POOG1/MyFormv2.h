@@ -17,12 +17,17 @@ namespace POOG1 {
 	{
 	public:
 
-		MyFormv2(void)
+		MyFormv2(int t_departement)
 		{
 			InitializeComponent();
 			//
 			//TODO: ajoutez ici le code du constructeur
 			//
+			if (t_departement == 1)
+			{
+				this->GestionArticle->Visible = false;
+			}
+
 		}
 
 	protected:
@@ -148,7 +153,6 @@ namespace POOG1 {
 			this->GestionArticle->TabIndex = 3;
 			this->GestionArticle->Text = L"Gestion Article";
 			this->GestionArticle->UseVisualStyleBackColor = true;
-			this->GestionArticle->Visible = false;
 			this->GestionArticle->Click += gcnew System::EventHandler(this, &MyFormv2::GestionArticle_Click);
 			// 
 			// GestionStats
