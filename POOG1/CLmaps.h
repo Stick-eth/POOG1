@@ -1,11 +1,14 @@
 #pragma once
-
-
-ref class CLmaps
+namespace Comp_Mappage
 {
-public :
-	System::String Select();
-	System::String Insert();
-	System::String Delete();
-	System::String Update();
-};
+
+	ref class CLmaps
+	{
+	public:
+		virtual System::String Select() = 0;
+		virtual System::String Insert() = 0;
+		virtual System::String Delete() = 0;
+		virtual System::String Update() = 0;
+	};
+
+}
