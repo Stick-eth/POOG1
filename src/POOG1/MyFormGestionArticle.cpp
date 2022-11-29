@@ -1,2 +1,0 @@
-#include "MyFormGestionArticle.h"
-

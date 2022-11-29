@@ -1,8 +1,5 @@
 #pragma once
-#include "MyFormGestionClient.h"
-#include "MyFormGestionArticle.h"
-#include "MyFormGestionPersonnel.h"
-#include "MyFormGestionCommande.h"
+#include "MyFormv2.h"
 
 namespace POOG1 {
 
@@ -136,7 +133,7 @@ namespace POOG1 {
 			this->OnOffLabel->Name = L"OnOffLabel";
 			this->OnOffLabel->Size = System::Drawing::Size(200, 100);
 			this->OnOffLabel->TabIndex = 6;
-			this->OnOffLabel->Text = L"on/off label";
+			this->OnOffLabel->Text = L"Ouvrir l\'interface V2";
 			this->OnOffLabel->UseVisualStyleBackColor = true;
 			this->OnOffLabel->Click += gcnew System::EventHandler(this, &MyForm::OnOffLabel_Click);
 			// 
@@ -162,31 +159,23 @@ namespace POOG1 {
 #pragma endregion
 	private: System::Void GestionClient_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->LabelTest->Text = this->GestionClient->Text;
-		MyFormGestionClient^ S1 = gcnew MyFormGestionClient();
-		S1->Show();
 	}
 	private: System::Void GestionPersonnel_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->LabelTest->Text = this->GestionPersonnel->Text;
-		MyFormGestionPersonnel^ S1 = gcnew MyFormGestionPersonnel();
-		S1->Show();
 	}
 	private: System::Void GestionCommande_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->LabelTest->Text = this->GestionCommande->Text;
-		MyFormGestionCommande^ S1 = gcnew MyFormGestionCommande();
-		S1->Show();
 	}
 	private: System::Void GestionArticle_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->LabelTest->Text = this->GestionArticle->Text;
-		MyFormGestionArticle^ S1 = gcnew MyFormGestionArticle();
-		S1->Show();
 	}
 	private: System::Void GestionStats_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->LabelTest->Text = this->GestionStats->Text;
-		//MyFormGestionStats^ S1 = gcnew MyFormGestionStats();
-		//S1->Show();
 	}
 	private: System::Void OnOffLabel_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->LabelTest->Visible = !this->LabelTest->Visible;
+		MyFormv2^ S1 = gcnew MyFormv2();
+		S1->Show();
 	}
 
 
