@@ -119,6 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CLadresse.cpp" />
+    <ClCompile Include="CLarticle.cpp" />
     <ClCompile Include="CLclient.cpp" />
     <ClCompile Include="CLmaps.cpp" />
     <ClCompile Include="CLpersonne.cpp" />
@@ -129,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLadresse.h" />
+    <ClInclude Include="CLarticle.h" />
     <ClInclude Include="CLclient.h" />
     <ClInclude Include="CLmaps.h" />
     <ClInclude Include="CLpersonne.h" />

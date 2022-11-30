@@ -1,6 +1,26 @@
 #include "CLclient.h"
-
+using namespace Comp_Mappage;
 //Définition des setters
+
+System::String CLclient::Select(void)
+{
+	// PROCEDURE STOCKEE
+}
+
+System::String CLclient::Insert(void)
+{
+	// PROCEDURE STOCKEE
+}
+
+System::String CLclient::Update(void)
+{
+	// PROCEDURE STOCKEE
+}
+
+System::String CLclient::Delete(void)
+{
+	// PROCEDURE STOCKEE
+}
 
 void CLclient::setid_client(int newid)
 {
