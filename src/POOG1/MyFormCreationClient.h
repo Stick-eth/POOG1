@@ -43,7 +43,7 @@ namespace POOG1 {
 	private: System::Windows::Forms::DateTimePicker^ dateTimePickerNaissance;
 
 	private: System::Windows::Forms::Label^ label5;
-	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::Button^ ButtonAdd;
 
 	private:
 		/// <summary>
@@ -65,7 +65,7 @@ namespace POOG1 {
 			this->TextBaxPrenom = (gcnew System::Windows::Forms::TextBox());
 			this->dateTimePickerNaissance = (gcnew System::Windows::Forms::DateTimePicker());
 			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->ButtonAdd = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// LabelNom
@@ -125,22 +125,22 @@ namespace POOG1 {
 			this->label5->TabIndex = 7;
 			this->label5->Text = L"Réponse";
 			// 
-			// button1
+			// ButtonAdd
 			// 
-			this->button1->Location = System::Drawing::Point(541, 126);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(167, 87);
-			this->button1->TabIndex = 8;
-			this->button1->Text = L"Soumettre";
-			this->button1->UseVisualStyleBackColor = true;
-			this->button1->Click += gcnew System::EventHandler(this, &MyFormCreationClient::button1_Click);
+			this->ButtonAdd->Location = System::Drawing::Point(541, 126);
+			this->ButtonAdd->Name = L"ButtonAdd";
+			this->ButtonAdd->Size = System::Drawing::Size(167, 87);
+			this->ButtonAdd->TabIndex = 8;
+			this->ButtonAdd->Text = L"Soumettre";
+			this->ButtonAdd->UseVisualStyleBackColor = true;
+			this->ButtonAdd->Click += gcnew System::EventHandler(this, &MyFormCreationClient::ButtonAdd_Click);
 			// 
 			// MyFormCreationClient
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1267, 584);
-			this->Controls->Add(this->button1);
+			this->Controls->Add(this->ButtonAdd);
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->dateTimePickerNaissance);
 			this->Controls->Add(this->TextBaxPrenom);
@@ -159,7 +159,7 @@ namespace POOG1 {
 	
 	private: System::Void MyFormCreationClient_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+private: System::Void ButtonAdd_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->label5->Text = this->TextBaxNom->Text + " " + this->TextBaxPrenom->Text + " née le " + this->dateTimePickerNaissance->Value;
 }
 };
