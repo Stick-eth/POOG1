@@ -1,7 +1,13 @@
-/*#pragma once
+#pragma once
+
 ref class CLstats
 {
 private:
-	id_
-};*/
+	int id_personne;
+	System::String nom;
+	System::String prenom;
+public:
+
+};
+
 

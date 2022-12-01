@@ -124,9 +124,11 @@
     <ClCompile Include="CLmaps.cpp" />
     <ClCompile Include="CLpersonne.cpp" />
     <ClCompile Include="CLpersonnel.cpp" />
+    <ClCompile Include="CLremise.cpp" />
     <ClCompile Include="CLservice.cpp" />
     <ClCompile Include="CLstats.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Remise.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLadresse.h" />
@@ -135,6 +137,7 @@
     <ClInclude Include="CLmaps.h" />
     <ClInclude Include="CLpersonne.h" />
     <ClInclude Include="CLpersonnel.h" />
+    <ClInclude Include="CLremise.h" />
     <ClInclude Include="CLservice.h" />
     <ClInclude Include="CLstats.h" />
     <ClInclude Include="MyForm.h">

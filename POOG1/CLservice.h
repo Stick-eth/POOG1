@@ -1,9 +1,5 @@
 #pragma once
-#include "CLpersonnel.h"
-#include "CLclient.h"
-#include "CLadresse.h"
-//#include "CLarticle.h"
-//#include "CLcommande.h"
+
 using namespace Comp_Mappage;
 
 namespace Comp_Services
@@ -15,7 +11,7 @@ namespace Comp_Services
 		Comp_Mappage::CLpersonnel^ personnel;
 		Comp_Mappage::CLclient^ client;
 		Comp_Mappage::CLadresse^ adresse;
-		// Comp_Mappage::CLarticle^ article;
+		Comp_Mappage::CLarticle^ article;
 		// Comp_Mappage::CLcommande^ commande;
 		// Comp_Mappage::CLStats^ stats;
 	};

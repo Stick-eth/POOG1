@@ -7,12 +7,12 @@ namespace Comp_Mappage
 		this->id_article = newid;
 	}
 
-	void CLarticle::setreference(System::String newref)
+	void CLarticle::setreference(System::String^ newref)
 	{
 		this->reference = newref;
 	}
 
-	void CLarticle::setdesignation(System::String newdeg)
+	void CLarticle::setdesignation(System::String^ newdeg)
 	{
 		this->designation = newdeg;
 	}
@@ -22,7 +22,7 @@ namespace Comp_Mappage
 		this->prix = newprix;
 	}
 
-	void CLarticle::setquantite_stock(float newq)
+	void CLarticle::setquantite(float newq)
 	{
 		this->quantite_stock = newq;
 	}
@@ -39,7 +39,7 @@ namespace Comp_Mappage
 	}
 	*/
 
-	void CLarticle::setunite(System::String newuni)
+	void CLarticle::setunite(System::String^ newuni)
 	{
 		this->unite = newuni;
 	}
@@ -49,8 +49,53 @@ namespace Comp_Mappage
 		this->couleur = newc;
 	}
 
-	void CLarticle::setnature(System::String newnat)
+	void CLarticle::setnature(System::String^ newnat)
 	{
 		this->nature = newnat;
+	}
+
+	int CLarticle::getid_article(void)
+	{
+		return this->id_article;
+	}
+
+	System::String^ CLarticle::getreference(void)
+	{
+		return this->reference;
+	}
+
+	System::String^ CLarticle::getdesignation(void)
+	{
+		return this->designation;
+	}
+
+	float CLarticle::getprix(void)
+	{
+		return this->prix;
+	}
+
+	float CLarticle::getquantite(void)
+	{
+		return this->quantite_stock;
+	}
+
+	int CLarticle::getseuil(void)
+	{
+		return this->seuil;
+	}
+
+	System::String^ CLarticle::getunite(void)
+	{
+		return this->unite;
+	}
+
+	char CLarticle::getcouleur(void)
+	{
+		return this->couleur;
+	}
+
+	System::String^ CLarticle::getnature(void)
+	{
+		return this->nature;
 	}
 }
