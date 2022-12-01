@@ -11,7 +11,6 @@ NS_Comp_Data::CLcad::CLcad(void)
 	this->oCnx = gcnew System::Data::SqlClient::SqlConnection(this->sCnx);
 	this->oCmd = gcnew System::Data::SqlClient::SqlCommand(this->sSql, this->oCnx);
 	this->oDA = gcnew System::Data::SqlClient::SqlDataAdapter();
-	this->oDR = gcnew System::Data::SqlClient::SqlDataReader();
 	this->oDs = gcnew System::Data::DataSet();
 
 	this->oCmd->CommandType = System::Data::CommandType::Text;
@@ -37,20 +36,6 @@ void NS_Comp_Data::CLcad::actionRows(System::String^ sSql)
 	this->oCnx->Close();
 }
 
-System::String^ NS_Comp_Data::CLcad::prendreInfoTable(System::String^ sSql)
-{
-	System::String^ returning;
-	this->sSql = sSql;
-	this->oCmd->CommandText = this->sSql;
-	
-	this->oCnx->Open();
-	this->oDR->
-	this->oDR = this->oCmd->ExecuteReader();
-	while (this->oDR->Read())
-	{
-		returning = returning + this->oDR->ToString();
-	}
-	this->oCnx->Close();
-	return returning;
-}
+
+
 

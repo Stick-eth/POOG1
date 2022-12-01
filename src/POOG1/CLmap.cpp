@@ -24,13 +24,15 @@ System::String^ NS_Comp_Mappage::CLmap::SelectLogin(void)
 }
 System::String^ NS_Comp_Mappage::CLmap::InsertLogin()
 {
-	//this->returning = "";
-	//this->returning = ;
 	return "INSERT INTO [bdd_projet].[dbo].[users] (login, mdp, departement) VALUES('" + this->login + "','" + this->mdp + "', 12) ";
 }
 System::String^ NS_Comp_Mappage::CLmap::Selectconnection()
 {
 	return "SELECT [departement] FROM [bdd_projet].[dbo].[users] WHERE [login]='"+this->login+"' AND [mdp]='"+this->mdp+"'";
+}
+System::String^ NS_Comp_Mappage::CLmap::NombreLigne(void)
+{
+	return "SELECT COUNT(*) FROM [bdd_projet].[dbo].[users]";
 }
 void NS_Comp_Mappage::CLmap::setId(int Id)
 {

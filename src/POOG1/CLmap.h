@@ -18,6 +18,7 @@ namespace NS_Comp_Mappage
 		System::String^ SelectLogin(void);
 		System::String^ InsertLogin();
 		System::String^ Selectconnection();
+		System::String^ NombreLigne(void);
 
 		void setId(int);
 		void setNom(System::String^);
