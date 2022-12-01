@@ -1,6 +1,6 @@
 #pragma once
 
-namespace POOG1 {
+namespace ConsoleApplication2 {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -15,7 +15,6 @@ namespace POOG1 {
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
 	public:
-
 		MyForm(void)
 		{
 			InitializeComponent();
@@ -49,11 +48,17 @@ namespace POOG1 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"MyForm";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->SuspendLayout();
+			// 
+			// MyForm
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(1637, 750);
+			this->Name = L"MyForm";
+			this->Text = L"MyForm";
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
 	};
