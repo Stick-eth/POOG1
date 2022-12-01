@@ -13,3 +13,12 @@ void Main(array<String^>^ args) {
     POOG1::MyForm form;
     Application::Run(% form);
 }
+
+void POOG1::MyForm::AjouterTexteCombobox()
+{
+    this->comboBox1->BeginUpdate();
+    for (int i = 0; i < 20; i++) {
+
+    }
+    this->comboBox1->EndUpdate();
+}

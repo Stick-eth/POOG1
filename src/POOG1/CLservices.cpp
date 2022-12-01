@@ -54,3 +54,11 @@ System::Data::DataSet^ NS_Comp_Svc::CLservices::seConnecter(System::String^ logi
 	sql = this->oMapp->Selectconnection();
 	return this->oCad->getRows(sql, "Rsl");
 }
+
+System::String^ NS_Comp_Svc::CLservices::lireTable()
+{
+	System::String^ returning = this->oCad->prendreInfoTable(this->oMapp->Select());
+	return returning;
+}
+
+

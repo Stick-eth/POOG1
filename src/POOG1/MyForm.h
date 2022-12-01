@@ -36,6 +36,10 @@ namespace POOG1 {
 				delete components;
 			}
 		}
+	public:
+		void AjouterTexteCombobox();
+
+
 	private: System::Windows::Forms::Button^ OnOffLabel;
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::Label^ label2;
@@ -48,6 +52,9 @@ namespace POOG1 {
 
 	private: NS_Comp_Svc::CLservices^ oSvc;
 	private: System::Data::DataSet^ oDs;
+	private: System::Windows::Forms::ComboBox^ comboBox1;
+	private: System::Windows::Forms::Button^ button1;
+
 
 
 	private:
@@ -72,6 +79,8 @@ namespace POOG1 {
 			this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
 			this->ButtonAdd = (gcnew System::Windows::Forms::Button());
 			this->ButtonConnexionAuLogiciel = (gcnew System::Windows::Forms::Button());
+			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -97,7 +106,7 @@ namespace POOG1 {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(149, 473);
+			this->label2->Location = System::Drawing::Point(192, 451);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(34, 16);
 			this->label2->TabIndex = 8;
@@ -157,11 +166,31 @@ namespace POOG1 {
 			this->ButtonConnexionAuLogiciel->UseVisualStyleBackColor = true;
 			this->ButtonConnexionAuLogiciel->Click += gcnew System::EventHandler(this, &MyForm::ButtonConnexionAuLogiciel_Click);
 			// 
+			// comboBox1
+			// 
+			this->comboBox1->FormattingEnabled = true;
+			this->comboBox1->Location = System::Drawing::Point(583, 402);
+			this->comboBox1->Name = L"comboBox1";
+			this->comboBox1->Size = System::Drawing::Size(335, 24);
+			this->comboBox1->TabIndex = 14;
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(583, 466);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(75, 23);
+			this->button1->TabIndex = 15;
+			this->button1->Text = L"button1";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1046, 593);
+			this->Controls->Add(this->button1);
+			this->Controls->Add(this->comboBox1);
 			this->Controls->Add(this->ButtonConnexionAuLogiciel);
 			this->Controls->Add(this->ButtonAdd);
 			this->Controls->Add(this->dataGridView1);
@@ -204,14 +233,16 @@ private: System::Void ButtonAdd_Click(System::Object^ sender, System::EventArgs^
 		this->dataGridView1->Refresh();
 		this->oDs = this->oSvc->seConnecter(this->textBoxLogin->Text, this->textBoxMdp->Text);
 	
-	
-	this->dataGridView1->DataSource = this->oDs;
-	this->dataGridView1->DataMember = "Rsl";
-	this->label1->Text = this->dataGridView1->Rows[0]->Cells[0]->Value->ToString();
-	this->textBoxLogin->Text = "";
-	this->textBoxMdp->Text = "";
+		this->dataGridView1->DataSource = this->oDs;
+		this->dataGridView1->DataMember = "Rsl";
+		this->label1->Text = this->dataGridView1->Rows[0]->Cells[0]->Value->ToString();
+		this->textBoxLogin->Text = "";
+		this->textBoxMdp->Text = "";
 }
 
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->label2->Text = this->oSvc->lireTable();
+}
 };
 
 };

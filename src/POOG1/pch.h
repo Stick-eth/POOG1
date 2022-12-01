@@ -2,6 +2,9 @@
 
 #include <iostream>
 #include"MyFormCreationClient.h"
-#include "MyFormv2.h"
+#include "MyFormMajClient.h"
+#include "MyFormSupprimeClient.h"
+#include "MyFormAfficheClient.h"
 #include "CLservices.h"
 #include <string>
+#include "MyFormv2.h"

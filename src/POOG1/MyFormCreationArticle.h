@@ -153,10 +153,13 @@ namespace POOG1 {
 			this->Controls->Add(this->LabelReference);
 			this->Name = L"MyFormCreationArticle";
 			this->Text = L"MyFormCreationArticle";
+			this->Load += gcnew System::EventHandler(this, &MyFormCreationArticle::MyFormCreationArticle_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
+private: System::Void MyFormCreationArticle_Load(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }

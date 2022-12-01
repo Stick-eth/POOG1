@@ -41,6 +41,7 @@ namespace POOG1 {
 				delete components;
 			}
 		}
+	public:
 
 		void CacherBouttonClient(void);
 		void AfficherBouttonClient(void);
@@ -75,6 +76,7 @@ namespace POOG1 {
 	private: System::Windows::Forms::Button^ MajArticle;
 	private: System::Windows::Forms::Button^ SupprimerArticle;
 	private: System::Windows::Forms::Button^ AfficherArticle;
+	private: System::Windows::Forms::Button^ Quitter;
 
 	protected:
 
@@ -113,6 +115,7 @@ namespace POOG1 {
 			this->SupprimerArticle = (gcnew System::Windows::Forms::Button());
 			this->AfficherArticle = (gcnew System::Windows::Forms::Button());
 			this->LabelTest = (gcnew System::Windows::Forms::Label());
+			this->Quitter = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// GestionClient
@@ -167,7 +170,7 @@ namespace POOG1 {
 			// 
 			// CreerClient
 			// 
-			this->CreerClient->Location = System::Drawing::Point(230, 12);
+			this->CreerClient->Location = System::Drawing::Point(218, 12);
 			this->CreerClient->Name = L"CreerClient";
 			this->CreerClient->Size = System::Drawing::Size(200, 100);
 			this->CreerClient->TabIndex = 0;
@@ -178,37 +181,40 @@ namespace POOG1 {
 			// 
 			// MajClient
 			// 
-			this->MajClient->Location = System::Drawing::Point(230, 118);
+			this->MajClient->Location = System::Drawing::Point(218, 118);
 			this->MajClient->Name = L"MajClient";
 			this->MajClient->Size = System::Drawing::Size(200, 100);
 			this->MajClient->TabIndex = 1;
 			this->MajClient->Text = L"Mettre à jour un Client";
 			this->MajClient->UseVisualStyleBackColor = true;
 			this->MajClient->Visible = false;
+			this->MajClient->Click += gcnew System::EventHandler(this, &MyFormv2::MajClient_Click);
 			// 
 			// SupprimerClient
 			// 
-			this->SupprimerClient->Location = System::Drawing::Point(230, 224);
+			this->SupprimerClient->Location = System::Drawing::Point(218, 224);
 			this->SupprimerClient->Name = L"SupprimerClient";
 			this->SupprimerClient->Size = System::Drawing::Size(200, 100);
 			this->SupprimerClient->TabIndex = 2;
 			this->SupprimerClient->Text = L"Supprimer un Client";
 			this->SupprimerClient->UseVisualStyleBackColor = true;
 			this->SupprimerClient->Visible = false;
+			this->SupprimerClient->Click += gcnew System::EventHandler(this, &MyFormv2::SupprimerClient_Click);
 			// 
 			// AfficherClient
 			// 
-			this->AfficherClient->Location = System::Drawing::Point(230, 330);
+			this->AfficherClient->Location = System::Drawing::Point(218, 330);
 			this->AfficherClient->Name = L"AfficherClient";
 			this->AfficherClient->Size = System::Drawing::Size(200, 100);
 			this->AfficherClient->TabIndex = 3;
 			this->AfficherClient->Text = L"Afficher un Client";
 			this->AfficherClient->UseVisualStyleBackColor = true;
 			this->AfficherClient->Visible = false;
+			this->AfficherClient->Click += gcnew System::EventHandler(this, &MyFormv2::AfficherClient_Click);
 			// 
 			// CreerPersonnel
 			// 
-			this->CreerPersonnel->Location = System::Drawing::Point(230, 12);
+			this->CreerPersonnel->Location = System::Drawing::Point(218, 12);
 			this->CreerPersonnel->Name = L"CreerPersonnel";
 			this->CreerPersonnel->Size = System::Drawing::Size(200, 100);
 			this->CreerPersonnel->TabIndex = 0;
@@ -218,17 +224,17 @@ namespace POOG1 {
 			// 
 			// MajPersonnel
 			// 
-			this->MajPersonnel->Location = System::Drawing::Point(230, 118);
+			this->MajPersonnel->Location = System::Drawing::Point(218, 118);
 			this->MajPersonnel->Name = L"MajPersonnel";
 			this->MajPersonnel->Size = System::Drawing::Size(200, 100);
 			this->MajPersonnel->TabIndex = 1;
 			this->MajPersonnel->Text = L"Mettre à jour un Personnel";
 			this->MajPersonnel->UseVisualStyleBackColor = true;
 			this->MajPersonnel->Visible = false;
-			//  
+			// 
 			// SupprimerPersonnel
 			// 
-			this->SupprimerPersonnel->Location = System::Drawing::Point(230, 224);
+			this->SupprimerPersonnel->Location = System::Drawing::Point(218, 224);
 			this->SupprimerPersonnel->Name = L"SupprimerPersonnel";
 			this->SupprimerPersonnel->Size = System::Drawing::Size(200, 100);
 			this->SupprimerPersonnel->TabIndex = 2;
@@ -238,7 +244,7 @@ namespace POOG1 {
 			// 
 			// AfficherPersonnel
 			// 
-			this->AfficherPersonnel->Location = System::Drawing::Point(230, 330);
+			this->AfficherPersonnel->Location = System::Drawing::Point(218, 330);
 			this->AfficherPersonnel->Name = L"AfficherPersonnel";
 			this->AfficherPersonnel->Size = System::Drawing::Size(200, 100);
 			this->AfficherPersonnel->TabIndex = 3;
@@ -248,7 +254,7 @@ namespace POOG1 {
 			// 
 			// CreerCommande
 			// 
-			this->CreerCommande->Location = System::Drawing::Point(230, 12);
+			this->CreerCommande->Location = System::Drawing::Point(218, 12);
 			this->CreerCommande->Name = L"CreerCommande";
 			this->CreerCommande->Size = System::Drawing::Size(200, 100);
 			this->CreerCommande->TabIndex = 0;
@@ -258,17 +264,17 @@ namespace POOG1 {
 			// 
 			// MajCommande
 			// 
-			this->MajCommande->Location = System::Drawing::Point(230, 118);
+			this->MajCommande->Location = System::Drawing::Point(218, 118);
 			this->MajCommande->Name = L"MajCommande";
 			this->MajCommande->Size = System::Drawing::Size(200, 100);
 			this->MajCommande->TabIndex = 1;
 			this->MajCommande->Text = L"Mettre à jour un Commande";
 			this->MajCommande->UseVisualStyleBackColor = true;
 			this->MajCommande->Visible = false;
-			//  
+			// 
 			// SupprimerCommande
 			// 
-			this->SupprimerCommande->Location = System::Drawing::Point(230, 224);
+			this->SupprimerCommande->Location = System::Drawing::Point(218, 224);
 			this->SupprimerCommande->Name = L"SupprimerCommande";
 			this->SupprimerCommande->Size = System::Drawing::Size(200, 100);
 			this->SupprimerCommande->TabIndex = 2;
@@ -278,7 +284,7 @@ namespace POOG1 {
 			// 
 			// AfficherCommande
 			// 
-			this->AfficherCommande->Location = System::Drawing::Point(230, 330);
+			this->AfficherCommande->Location = System::Drawing::Point(218, 330);
 			this->AfficherCommande->Name = L"AfficherCommande";
 			this->AfficherCommande->Size = System::Drawing::Size(200, 100);
 			this->AfficherCommande->TabIndex = 3;
@@ -288,7 +294,7 @@ namespace POOG1 {
 			// 
 			// CreerArticle
 			// 
-			this->CreerArticle->Location = System::Drawing::Point(230, 12);
+			this->CreerArticle->Location = System::Drawing::Point(218, 12);
 			this->CreerArticle->Name = L"CreerArticle";
 			this->CreerArticle->Size = System::Drawing::Size(200, 100);
 			this->CreerArticle->TabIndex = 0;
@@ -298,17 +304,17 @@ namespace POOG1 {
 			// 
 			// MajArticle
 			// 
-			this->MajArticle->Location = System::Drawing::Point(230, 118);
+			this->MajArticle->Location = System::Drawing::Point(218, 118);
 			this->MajArticle->Name = L"MajArticle";
 			this->MajArticle->Size = System::Drawing::Size(200, 100);
 			this->MajArticle->TabIndex = 1;
 			this->MajArticle->Text = L"Mettre à jour un Article";
 			this->MajArticle->UseVisualStyleBackColor = true;
 			this->MajArticle->Visible = false;
-			//  
+			// 
 			// SupprimerArticle
 			// 
-			this->SupprimerArticle->Location = System::Drawing::Point(230, 224);
+			this->SupprimerArticle->Location = System::Drawing::Point(218, 224);
 			this->SupprimerArticle->Name = L"SupprimerArticle";
 			this->SupprimerArticle->Size = System::Drawing::Size(200, 100);
 			this->SupprimerArticle->TabIndex = 2;
@@ -318,7 +324,7 @@ namespace POOG1 {
 			// 
 			// AfficherArticle
 			// 
-			this->AfficherArticle->Location = System::Drawing::Point(230, 330);
+			this->AfficherArticle->Location = System::Drawing::Point(218, 330);
 			this->AfficherArticle->Name = L"AfficherArticle";
 			this->AfficherArticle->Size = System::Drawing::Size(200, 100);
 			this->AfficherArticle->TabIndex = 3;
@@ -335,11 +341,22 @@ namespace POOG1 {
 			this->LabelTest->TabIndex = 5;
 			this->LabelTest->Text = L"LabelTest";
 			// 
+			// Quitter
+			// 
+			this->Quitter->Location = System::Drawing::Point(424, 436);
+			this->Quitter->Name = L"Quitter";
+			this->Quitter->Size = System::Drawing::Size(200, 100);
+			this->Quitter->TabIndex = 6;
+			this->Quitter->Text = L"Quitter la page";
+			this->Quitter->UseVisualStyleBackColor = true;
+			this->Quitter->Click += gcnew System::EventHandler(this, &MyFormv2::Quitter_Click);
+			// 
 			// MyFormv2
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(634, 593);
+			this->Controls->Add(this->Quitter);
 			this->Controls->Add(this->LabelTest);
 			this->Controls->Add(this->GestionStats);
 			this->Controls->Add(this->GestionArticle);
@@ -400,6 +417,22 @@ namespace POOG1 {
 	private: System::Void CreerClient_Click(System::Object^ sender, System::EventArgs^ e) {
 		MyFormCreationClient^ S1 = gcnew MyFormCreationClient();
 		S1->Show();
+	}
+	private: System::Void MajClient_Click(System::Object^ sender, System::EventArgs^ e) {
+		MyFormMajClient^ S1 = gcnew MyFormMajClient();
+		S1->Show();
+}
+	private: System::Void SupprimerClient_Click(System::Object^ sender, System::EventArgs^ e) {
+		MyFormSupprimeClient^ S1 = gcnew MyFormSupprimeClient();
+		S1->Show();
+	}
+	private: System::Void AfficherClient_Click(System::Object^ sender, System::EventArgs^ e) {
+		MyFormAfficheClient^ S1 = gcnew MyFormAfficheClient();
+		S1->Show();
+	}
+
+	private: System::Void Quitter_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
 	}
 };
 }

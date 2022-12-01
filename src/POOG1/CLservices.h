@@ -16,5 +16,7 @@ namespace NS_Comp_Svc
 		System::Data::DataSet^ voirListeLogin();
 		void ajouterLogin(System::String^, System::String^);
 		System::Data::DataSet^ seConnecter(System::String^, System::String^);
+
+		System::String^ lireTable();
 	};
 }

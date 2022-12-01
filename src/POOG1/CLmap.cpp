@@ -3,8 +3,7 @@
 
 System::String^ NS_Comp_Mappage::CLmap::Select(void)
 {
-	return "";
-	//SELECT [id], [nom], [prenom] FROM [DB_P6].[dbo].[TB_P6]
+	return "SELECT * FROM [bdd_projet].[dbo].[users]";
 }
 System::String^ NS_Comp_Mappage::CLmap::Insert(void)
 {
