@@ -1,3 +1,4 @@
+
 #include "MyForm.h"
 
 // Je fais juste un test pour voir le pull request
@@ -19,8 +20,12 @@ void POOG1::MyForm::AjouterTexteCombobox()
     this->oDs = this->oSvc->voirListeLogin();
     this->comboBox1->BeginUpdate();
     for (int i = 0; i < this->oDs->Tables["Rsl"]->Rows->Count; i++) {
-        this->comboBox1->Items->Add(this->oDs->Tables["Rsl"]->Rows[i]->ItemArray[0]);
-        //pas fini on met que 1 info dans la combobox il faudrai en mettre plusieur
+        System::String^ tmp = "";
+        for (int j = 0; j < this->oDs->Tables["Rsl"]->Columns->Count; j++)
+            tmp = tmp + this->oDs->Tables["Rsl"]->Rows[i]->ItemArray[j]->ToString();
+
+        this->comboBox1->Items->Add(tmp);
+        //fonctionne mais c'est un format de naze
     }
     this->comboBox1->EndUpdate();
 }
