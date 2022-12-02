@@ -120,6 +120,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CLadresse.cpp" />
+    <ClCompile Include="CLarticle.cpp" />
+    <ClCompile Include="CLclient.cpp" />
+    <ClCompile Include="CLmaps.cpp" />
+    <ClCompile Include="CLpersonne.cpp" />
+    <ClCompile Include="CLpersonnel.cpp" />
+    <ClCompile Include="CLremise.cpp" />
+    <ClCompile Include="CLservice.cpp" />
+    <ClCompile Include="CLserviceClient.cpp" />
+    <ClCompile Include="CLservicePersonnel.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Remise.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLadresse.h" />
+    <ClInclude Include="CLarticle.h" />
+    <ClInclude Include="CLclient.h" />
+    <ClInclude Include="CLmaps.h" />
+    <ClInclude Include="CLpersonne.h" />
+    <ClInclude Include="CLpersonnel.h" />
+    <ClInclude Include="CLremise.h" />
+    <ClInclude Include="CLservice.h" />
+    <ClInclude Include="CLserviceClient.h" />
+    <ClInclude Include="CLservicePersonnel.h" />
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
     <ClCompile Include="CLcad.cpp" />
     <ClCompile Include="CLmap.cpp" />
     <ClCompile Include="CLservices.cpp" />

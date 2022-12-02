@@ -1,5 +1,11 @@
 #pragma once
-
+#include "CLadresse.h"
+#include "CLarticle.h"
+#include "CLclient.h"
+#include "CLmaps.h"
+#include "CLpersonne.h"
+#include "CLpersonnel.h"
+#include "CLremise.h"
 #include <iostream>
 #include"MyFormCreationClient.h"
 #include "MyFormMajClient.h"
