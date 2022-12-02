@@ -6,15 +6,15 @@ namespace Comp_Mappage
 	{
 	protected:
 		int id_personne;
-		System::String nom;
-		System::String prenom;
+		System::String^ nom;
+		System::String^ prenom;
 	public:
 		void setid_personne(int newid);
-		void setnom(System::String newnom);
-		void setprenom(System::String newprenom);
+		void setnom(System::String^ newnom);
+		void setprenom(System::String^ newprenom);
 		int getid_personne(void);
-		System::String getnom(void);
-		System::String getprenom(void);
+		System::String^ getnom(void);
+		System::String^ getprenom(void);
 	};
 }
 

@@ -126,7 +126,8 @@
     <ClCompile Include="CLpersonnel.cpp" />
     <ClCompile Include="CLremise.cpp" />
     <ClCompile Include="CLservice.cpp" />
-    <ClCompile Include="CLstats.cpp" />
+    <ClCompile Include="CLserviceClient.cpp" />
+    <ClCompile Include="CLservicePersonnel.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Remise.cpp" />
   </ItemGroup>
@@ -139,10 +140,12 @@
     <ClInclude Include="CLpersonnel.h" />
     <ClInclude Include="CLremise.h" />
     <ClInclude Include="CLservice.h" />
-    <ClInclude Include="CLstats.h" />
+    <ClInclude Include="CLserviceClient.h" />
+    <ClInclude Include="CLservicePersonnel.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
