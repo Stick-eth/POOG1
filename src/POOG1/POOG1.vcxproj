@@ -127,7 +127,9 @@
     <ClCompile Include="MyFormAfficheClient.cpp" />
     <ClCompile Include="MyFormCreationArticle.cpp" />
     <ClCompile Include="MyFormCreationClient.cpp" />
+    <ClCompile Include="MyFormCreationPersonnel.cpp" />
     <ClCompile Include="MyFormMajClient.cpp" />
+    <ClCompile Include="MyFormMajPersonnel.cpp" />
     <ClCompile Include="MyFormSupprimeClient.cpp" />
     <ClCompile Include="MyFormv2.cpp" />
   </ItemGroup>
@@ -147,7 +149,13 @@
     <ClInclude Include="MyFormCreationClient.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="MyFormCreationPersonnel.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="MyFormMajClient.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyFormMajPersonnel.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyFormSupprimeClient.h">
@@ -168,8 +176,14 @@
     <EmbeddedResource Include="MyFormCreationClient.resx">
       <DependentUpon>MyFormCreationClient.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MyFormCreationPersonnel.resx">
+      <DependentUpon>MyFormCreationPersonnel.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyFormMajClient.resx">
       <DependentUpon>MyFormMajClient.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyFormMajPersonnel.resx">
+      <DependentUpon>MyFormMajPersonnel.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyFormv2.resx">
       <DependentUpon>MyFormv2.h</DependentUpon>

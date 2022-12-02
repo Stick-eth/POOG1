@@ -221,6 +221,7 @@ namespace POOG1 {
 			this->CreerPersonnel->Text = L"Creer un Personnel";
 			this->CreerPersonnel->UseVisualStyleBackColor = true;
 			this->CreerPersonnel->Visible = false;
+			this->CreerPersonnel->Click += gcnew System::EventHandler(this, &MyFormv2::CreerPersonnel_Click);
 			// 
 			// MajPersonnel
 			// 
@@ -301,6 +302,7 @@ namespace POOG1 {
 			this->CreerArticle->Text = L"Creer un Article";
 			this->CreerArticle->UseVisualStyleBackColor = true;
 			this->CreerArticle->Visible = false;
+			this->CreerArticle->Click += gcnew System::EventHandler(this, &MyFormv2::CreerArticle_Click);
 			// 
 			// MajArticle
 			// 
@@ -417,19 +419,34 @@ namespace POOG1 {
 	private: System::Void CreerClient_Click(System::Object^ sender, System::EventArgs^ e) {
 		MyFormCreationClient^ S1 = gcnew MyFormCreationClient();
 		S1->Show();
+		CacherTousBoutton();
 	}
 	private: System::Void MajClient_Click(System::Object^ sender, System::EventArgs^ e) {
+		CacherTousBoutton();
 		MyFormMajClient^ S1 = gcnew MyFormMajClient();
 		S1->Show();
 }
 	private: System::Void SupprimerClient_Click(System::Object^ sender, System::EventArgs^ e) {
+		CacherTousBoutton();
 		MyFormSupprimeClient^ S1 = gcnew MyFormSupprimeClient();
 		S1->Show();
 	}
 	private: System::Void AfficherClient_Click(System::Object^ sender, System::EventArgs^ e) {
+		CacherTousBoutton();
 		MyFormAfficheClient^ S1 = gcnew MyFormAfficheClient();
 		S1->Show();
 	}
+	private: System::Void CreerPersonnel_Click(System::Object^ sender, System::EventArgs^ e) {
+		CacherTousBoutton();
+		MyFormCreationPersonnel^ S1 = gcnew MyFormCreationPersonnel();
+		S1->Show();
+	}
+	private: System::Void CreerArticle_Click(System::Object^ sender, System::EventArgs^ e) {
+		CacherTousBoutton();
+		MyFormCreationArticle^ S1 = gcnew MyFormCreationArticle();
+		S1->Show();
+	}
+
 
 	private: System::Void Quitter_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();

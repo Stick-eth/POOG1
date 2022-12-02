@@ -3,7 +3,7 @@
 
 System::String^ NS_Comp_Mappage::CLmap::Select(void)
 {
-	return "SELECT * FROM [bdd_projet].[dbo].[users]";
+	return "SELECT * FROM [poog1].[dbo].[users]";
 }
 System::String^ NS_Comp_Mappage::CLmap::Insert(void)
 {
@@ -20,19 +20,19 @@ System::String^ NS_Comp_Mappage::CLmap::Update(void)
 }
 System::String^ NS_Comp_Mappage::CLmap::SelectLogin(void)
 {
-	return "SELECT [login],[mdp],[departement] FROM [bdd_projet].[dbo].[users]";
+	return "SELECT [login],[mdp],[departement] FROM [poog1].[dbo].[users]";
 }
 System::String^ NS_Comp_Mappage::CLmap::InsertLogin()
 {
-	return "INSERT INTO [bdd_projet].[dbo].[users] (login, mdp, departement) VALUES('" + this->login + "','" + this->mdp + "', 12) ";
+	return "INSERT INTO [poog1].[dbo].[users] (login, mdp, departement) VALUES('" + this->login + "','" + this->mdp + "', 12) ";
 }
 System::String^ NS_Comp_Mappage::CLmap::Selectconnection()
 {
-	return "SELECT [departement] FROM [bdd_projet].[dbo].[users] WHERE [login]='"+this->login+"' AND [mdp]='"+this->mdp+"'";
+	return "SELECT [departement] FROM [poog1].[dbo].[users] WHERE [login]='"+this->login+"' AND [mdp]='"+this->mdp+"'";
 }
 System::String^ NS_Comp_Mappage::CLmap::NombreLigne(void)
 {
-	return "SELECT COUNT(*) FROM [bdd_projet].[dbo].[users]";
+	return "SELECT COUNT(*) FROM [poog1].[dbo].[users]";
 }
 void NS_Comp_Mappage::CLmap::setId(int Id)
 {
