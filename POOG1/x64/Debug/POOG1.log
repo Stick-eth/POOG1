@@ -1,5 +1,494 @@
-﻿  MyForm.cpp
-  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+﻿  CLadresse.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(9,27): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(10,26): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(11,29): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(13,23): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(18,35): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(19,34): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(20,37): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(22,31): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(26,36): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(27,35): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(28,38): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(30,32): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(4,6): error C2653: 'CLadresse' : n'est pas un nom de classe ni d'espace de noms
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(6,2): error C2355: 'this' : ne peut être référencé qu'à l'intérieur de fonctions membres non static ou d'initialiseurs de membres de données non static
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(9,6): error C2653: 'CLadresse' : n'est pas un nom de classe ni d'espace de noms
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(11,2): error C2355: 'this' : ne peut être référencé qu'à l'intérieur de fonctions membres non static ou d'initialiseurs de membres de données non static
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(14,6): error C2653: 'CLadresse' : n'est pas un nom de classe ni d'espace de noms
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(14,52): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(16,2): error C2355: 'this' : ne peut être référencé qu'à l'intérieur de fonctions membres non static ou d'initialiseurs de membres de données non static
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(19,6): error C2653: 'CLadresse' : n'est pas un nom de classe ni d'espace de noms
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(19,50): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(21,2): error C2355: 'this' : ne peut être référencé qu'à l'intérieur de fonctions membres non static ou d'initialiseurs de membres de données non static
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(24,6): error C2653: 'CLadresse' : n'est pas un nom de classe ni d'espace de noms
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(24,54): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(24,79): error C2550: 'setcode_postal' : les listes d'initialiseurs de constructeur ne sont autorisées que dans la définition d'un constructeur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(26,6): error C2653: 'CLadresse' : n'est pas un nom de classe ni d'espace de noms
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(28,2): error C2355: 'this' : ne peut être référencé qu'à l'intérieur de fonctions membres non static ou d'initialiseurs de membres de données non static
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(31,6): error C2653: 'CLadresse' : n'est pas un nom de classe ni d'espace de noms
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(31,49): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.cpp(33,2): error C2355: 'this' : ne peut être référencé qu'à l'intérieur de fonctions membres non static ou d'initialiseurs de membres de données non static
+  CLarticle.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7,40): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+  CLclient.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7,40): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(20,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(21,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(22,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,26): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,26): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(10,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(10,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.cpp(6,1): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.cpp(11,1): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.cpp(16,1): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.cpp(21,1): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+  CLmaps.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7,40): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+  CLpersonne.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7,40): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+  CLpersonnel.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(9,27): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(10,26): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(11,29): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(13,23): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(18,35): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(19,34): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(20,37): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(22,31): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(26,36): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(27,35): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(28,38): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(30,32): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7,40): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(20,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(21,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(22,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,26): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,26): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(10,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(10,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(16,46): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(19,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(18,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Delete' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(18,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.cpp(6,31): error C2511: 'System::String ^Comp_Mappage::CLpersonnel::Select(void)' : impossible de trouver la fonction membre surchargée dans 'Comp_Mappage::CLpersonnel'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6): message : voir la déclaration de 'Comp_Mappage::CLpersonnel'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.cpp(12,2): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.cpp(13,3): error C2561: 'Comp_Mappage::CLpersonnel::Insert' : la fonction doit retourner une valeur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.cpp(11): message : voir la déclaration de 'Comp_Mappage::CLpersonnel::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.cpp(23,3): error C2561: 'Comp_Mappage::CLpersonnel::Update' : la fonction doit retourner une valeur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.cpp(21): message : voir la déclaration de 'Comp_Mappage::CLpersonnel::Update'
+  CLremise.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7,40): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+  CLservice.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(9,27): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(10,26): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(11,29): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(13,23): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(18,35): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(19,34): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(20,37): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(22,31): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(26,36): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(27,35): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(28,38): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(30,32): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7,40): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(20,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(21,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(22,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,26): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,26): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(10,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(10,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(16,46): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(19,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(18,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Delete' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(18,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(18): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(19): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(20): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(21): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLserviceClient.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(9,27): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(10,26): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(11,29): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(13,23): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(18,35): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(19,34): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(20,37): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(22,31): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(26,36): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(27,35): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(28,38): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(30,32): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7,40): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(20,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(21,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(22,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,26): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,26): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(10,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(10,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(16,46): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(19,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(18,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Delete' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(18,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(18): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(19): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(20): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(21): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(21): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLservicePersonnel.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(9,27): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(10,26): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(11,29): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(13,23): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(18,35): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(19,34): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(20,37): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(22,31): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(26,36): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(27,35): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(28,38): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(30,32): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7,40): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10,41): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(4,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(5,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(20,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(21,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(22,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,26): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(19,26): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(10,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(10,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(16,46): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(19,47): error C3149: 'System::String' : impossible d'utiliser ce type ici sans '^' de niveau supérieur
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(18,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Delete' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(18,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(7): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(8): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(18): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(19): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(20): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(7,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(21): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,27): error C2553: 'System::String ^Comp_Services::CLservicePersonnel::Modifier(void)' : le type de retour de la fonction virtuelle de substitution diffère de 'void Comp_Services::CLservice::Modifier(void)'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(19): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(16,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(16,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(18): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(19): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(20): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(21): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.cpp(14,3): error C2059: erreur de syntaxe : '='
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.cpp(17,38): error C2511: 'System::String ^Comp_Services::CLservicePersonnel::Modifier(int,System::String ^,System::String ^,int,int,int)' : impossible de trouver la fonction membre surchargée dans 'Comp_Services::CLservicePersonnel'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8): message : voir la déclaration de 'Comp_Services::CLservicePersonnel'
+  MyForm.cpp
+  Remise.cpp
+E:\CESI\GitHub\POOG1\POOG1\Remise.cpp(1,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'Remise.h' : No such file or directory
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Génération de code en cours...
-  MyForm.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
-  POOG1.vcxproj -> C:\Users\Aniss\source\repos\POOG1\x64\Debug\POOG1.exe

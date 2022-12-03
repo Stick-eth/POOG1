@@ -1,0 +1,6 @@
+[PROCÉDURES STOCKÉES]
+
+CREATE PROCEDURE InsPersonnel (@id_personne int, @nom char(30), @prenom char(30), @id_personnel int, @id_adresse int, @id_superieur int)
+AS BEGIN
+INSERT INTO personnel VALUES (@id_personne,@nom,@prenom,@id_personnel,@id_adresse,@id_superieur)
+END
