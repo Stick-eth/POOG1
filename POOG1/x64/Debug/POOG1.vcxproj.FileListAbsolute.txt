@@ -16,3 +16,11 @@ C:\Users\Eudier Axel\Desktop\POOG1\POOG1\x64\Debug\POOG1.MyFormv2.resources
 C:\Users\Eudier Axel\Desktop\POOG1\POOG1\x64\Debug\POOG1.vcxproj.GenerateResource.cache
 C:\Users\Eudier Axel\Desktop\POOG1\POOG1\x64\Debug\POOG1.MyFormCreationMajPersonnel.resources
 C:\Users\Eudier Axel\Desktop\POOG1\POOG1\x64\Debug\POOG1.MyFormCreationMajArticle.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.vcxproj.AssemblyReference.cache
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyForm.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormCreationMajArticle.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormCreationMajClient.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormCreationMajPersonnel.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormv2.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.vcxproj.GenerateResource.cache

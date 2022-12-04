@@ -1,9 +1,7 @@
   POOG1.MyForm.resources - Embedded, ContainedInManifestFile, 
-  POOG1.MyFormCreationArticle.resources - Embedded, ContainedInManifestFile, 
-  POOG1.MyFormCreationClient.resources - Embedded, ContainedInManifestFile, 
-  POOG1.MyFormCreationPersonnel.resources - Embedded, ContainedInManifestFile, 
-  POOG1.MyFormMajClient.resources - Embedded, ContainedInManifestFile, 
-  POOG1.MyFormMajPersonnel.resources - Embedded, ContainedInManifestFile, 
+  POOG1.MyFormCreationMajArticle.resources - Embedded, ContainedInManifestFile, 
+  POOG1.MyFormCreationMajClient.resources - Embedded, ContainedInManifestFile, 
+  POOG1.MyFormCreationMajPersonnel.resources - Embedded, ContainedInManifestFile, 
   POOG1.MyFormv2.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly POOG1, Version=0.0.*, Culture=Langue indifférente (Pays indifférent): 
@@ -20,24 +18,15 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
-Class POOG1.MyFormCreationClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class POOG1.MyFormCreationMajClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class POOG1.MyFormMajClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class POOG1.MyFormCreationMajPersonnel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class POOG1.MyFormSupprimeClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class POOG1.MyFormCreationMajArticle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class POOG1.MyFormAfficheClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class POOG1.MyFormCreationPersonnel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class POOG1.MyFormCreationArticle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class POOG1.MyFormv2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -56,6 +45,3 @@ Class POOG1.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
     AjouterTexteCombobox(): PrivateScope, Public, HideBySig
-Class POOG1.MyFormMajPersonnel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

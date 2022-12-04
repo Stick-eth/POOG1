@@ -276,7 +276,7 @@ namespace POOG1 {
 			// 
 			// ButtonMaj
 			// 
-			this->ButtonMaj->Location = System::Drawing::Point(647, 328);
+			this->ButtonMaj->Location = System::Drawing::Point(647, 331);
 			this->ButtonMaj->Name = L"ButtonMaj";
 			this->ButtonMaj->Size = System::Drawing::Size(250, 143);
 			this->ButtonMaj->TabIndex = 12;
