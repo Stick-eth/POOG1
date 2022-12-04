@@ -18,13 +18,7 @@
     <ClCompile Include="MyForm.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="MyFormCreationClient.cpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClCompile>
     <ClCompile Include="MyFormv2.cpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClCompile>
-    <ClCompile Include="MyFormCreationArticle.cpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClCompile>
     <ClCompile Include="CLcad.cpp">
@@ -36,19 +30,13 @@
     <ClCompile Include="CLservices.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="MyFormMajClient.cpp">
+    <ClCompile Include="MyFormCreationMajClient.cpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClCompile>
-    <ClCompile Include="MyFormAfficheClient.cpp">
+    <ClCompile Include="MyFormCreationMajPersonnel.cpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClCompile>
-    <ClCompile Include="MyFormSupprimeClient.cpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClCompile>
-    <ClCompile Include="MyFormCreationPersonnel.cpp">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClCompile>
-    <ClCompile Include="MyFormMajPersonnel.cpp">
+    <ClCompile Include="MyFormCreationMajArticle.cpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,16 +44,10 @@
     <ClInclude Include="MyForm.h">
       <Filter>Fichiers sources</Filter>
     </ClInclude>
-    <ClInclude Include="MyFormCreationClient.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="MyFormv2.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MyFormCreationArticle.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="CLcad.h">
@@ -77,19 +59,13 @@
     <ClInclude Include="CLservices.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="MyFormMajClient.h">
+    <ClInclude Include="MyFormCreationMajClient.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="MyFormAfficheClient.h">
+    <ClInclude Include="MyFormCreationMajPersonnel.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="MyFormSupprimeClient.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MyFormCreationPersonnel.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="MyFormMajPersonnel.h">
+    <ClInclude Include="MyFormCreationMajArticle.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

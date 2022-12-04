@@ -124,13 +124,9 @@
     <ClCompile Include="CLmap.cpp" />
     <ClCompile Include="CLservices.cpp" />
     <ClCompile Include="MyForm.cpp" />
-    <ClCompile Include="MyFormAfficheClient.cpp" />
-    <ClCompile Include="MyFormCreationArticle.cpp" />
-    <ClCompile Include="MyFormCreationClient.cpp" />
-    <ClCompile Include="MyFormCreationPersonnel.cpp" />
-    <ClCompile Include="MyFormMajClient.cpp" />
-    <ClCompile Include="MyFormMajPersonnel.cpp" />
-    <ClCompile Include="MyFormSupprimeClient.cpp" />
+    <ClCompile Include="MyFormCreationMajArticle.cpp" />
+    <ClCompile Include="MyFormCreationMajClient.cpp" />
+    <ClCompile Include="MyFormCreationMajPersonnel.cpp" />
     <ClCompile Include="MyFormv2.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -140,25 +136,13 @@
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="MyFormAfficheClient.h">
+    <ClInclude Include="MyFormCreationMajArticle.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="MyFormCreationArticle.h">
+    <ClInclude Include="MyFormCreationMajClient.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="MyFormCreationClient.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="MyFormCreationPersonnel.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="MyFormMajClient.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="MyFormMajPersonnel.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="MyFormSupprimeClient.h">
+    <ClInclude Include="MyFormCreationMajPersonnel.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyFormv2.h">
@@ -170,20 +154,14 @@
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MyFormCreationArticle.resx">
-      <DependentUpon>MyFormCreationArticle.h</DependentUpon>
+    <EmbeddedResource Include="MyFormCreationMajArticle.resx">
+      <DependentUpon>MyFormCreationMajArticle.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MyFormCreationClient.resx">
-      <DependentUpon>MyFormCreationClient.h</DependentUpon>
+    <EmbeddedResource Include="MyFormCreationMajClient.resx">
+      <DependentUpon>MyFormCreationMajClient.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MyFormCreationPersonnel.resx">
-      <DependentUpon>MyFormCreationPersonnel.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyFormMajClient.resx">
-      <DependentUpon>MyFormMajClient.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyFormMajPersonnel.resx">
-      <DependentUpon>MyFormMajPersonnel.h</DependentUpon>
+    <EmbeddedResource Include="MyFormCreationMajPersonnel.resx">
+      <DependentUpon>MyFormCreationMajPersonnel.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyFormv2.resx">
       <DependentUpon>MyFormv2.h</DependentUpon>

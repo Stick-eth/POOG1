@@ -1,14 +1,11 @@
 #pragma once
 
 #include <iostream>
-#include"MyFormCreationClient.h"
-#include "MyFormMajClient.h"
-#include "MyFormSupprimeClient.h"
-#include "MyFormAfficheClient.h"
+#include"MyFormCreationMajClient.h"
 
-#include "MyFormCreationPersonnel.h"
+#include "MyFormCreationMajPersonnel.h"
 
-#include "MyFormCreationArticle.h"
+#include "MyFormCreationMajArticle.h"
 
 #include "CLservices.h"
 #include <string>

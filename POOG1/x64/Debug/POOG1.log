@@ -1,3 +1,9 @@
-﻿  MyForm.cpp
+﻿  CLcad.cpp
+  CLmap.cpp
+  CLservices.cpp
+  MyForm.cpp
+  MyFormCreationMajArticle.cpp
+  MyFormv2.cpp
+  Génération de code en cours...
   CLcad.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
-  POOG1.vcxproj -> C:\Users\Eudier Axel\Documents\GitHub\POOG1\x64\Debug\POOG1.exe
+  POOG1.vcxproj -> C:\Users\Eudier Axel\Desktop\POOG1\x64\Debug\POOG1.exe

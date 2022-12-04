@@ -232,6 +232,7 @@ namespace POOG1 {
 			this->MajPersonnel->Text = L"Mettre à jour un Personnel";
 			this->MajPersonnel->UseVisualStyleBackColor = true;
 			this->MajPersonnel->Visible = false;
+			this->MajPersonnel->Click += gcnew System::EventHandler(this, &MyFormv2::MajPersonnel_Click);
 			// 
 			// SupprimerPersonnel
 			// 
@@ -313,6 +314,7 @@ namespace POOG1 {
 			this->MajArticle->Text = L"Mettre à jour un Article";
 			this->MajArticle->UseVisualStyleBackColor = true;
 			this->MajArticle->Visible = false;
+			this->MajArticle->Click += gcnew System::EventHandler(this, &MyFormv2::MajArticle_Click);
 			// 
 			// SupprimerArticle
 			// 
@@ -417,39 +419,46 @@ namespace POOG1 {
 	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void CreerClient_Click(System::Object^ sender, System::EventArgs^ e) {
-		MyFormCreationClient^ S1 = gcnew MyFormCreationClient();
-		S1->Show();
 		CacherTousBoutton();
+		MyFormCreationMajClient^ S1 = gcnew MyFormCreationMajClient(true);
+		S1->Show();
 	}
 	private: System::Void MajClient_Click(System::Object^ sender, System::EventArgs^ e) {
 		CacherTousBoutton();
-		MyFormMajClient^ S1 = gcnew MyFormMajClient();
+		MyFormCreationMajClient^ S1 = gcnew MyFormCreationMajClient(false);
 		S1->Show();
 }
 	private: System::Void SupprimerClient_Click(System::Object^ sender, System::EventArgs^ e) {
 		CacherTousBoutton();
-		MyFormSupprimeClient^ S1 = gcnew MyFormSupprimeClient();
-		S1->Show();
 	}
 	private: System::Void AfficherClient_Click(System::Object^ sender, System::EventArgs^ e) {
 		CacherTousBoutton();
-		MyFormAfficheClient^ S1 = gcnew MyFormAfficheClient();
-		S1->Show();
 	}
 	private: System::Void CreerPersonnel_Click(System::Object^ sender, System::EventArgs^ e) {
 		CacherTousBoutton();
-		MyFormCreationPersonnel^ S1 = gcnew MyFormCreationPersonnel();
+		MyFormCreationMajPersonnel^ S1 = gcnew MyFormCreationMajPersonnel(true);
+		S1->Show();
+	}
+	private: System::Void MajPersonnel_Click(System::Object^ sender, System::EventArgs^ e) {
+		CacherTousBoutton();
+		MyFormCreationMajPersonnel^ S1 = gcnew MyFormCreationMajPersonnel(false);
 		S1->Show();
 	}
 	private: System::Void CreerArticle_Click(System::Object^ sender, System::EventArgs^ e) {
 		CacherTousBoutton();
-		MyFormCreationArticle^ S1 = gcnew MyFormCreationArticle();
+		MyFormCreationMajArticle^ S1 = gcnew MyFormCreationMajArticle(true);
 		S1->Show();
+	}
+private: System::Void MajArticle_Click(System::Object^ sender, System::EventArgs^ e) {
+	CacherTousBoutton();
+	MyFormCreationMajArticle^ S1 = gcnew MyFormCreationMajArticle(false);
+	S1->Show();
 	}
 
 
 	private: System::Void Quitter_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Close();
 	}
+
 };
 }
