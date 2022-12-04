@@ -1,5 +1,5 @@
 #pragma once
-#include "CLservice.h"
+#include "pch.h"
 
 using namespace Comp_Mappage;
 
@@ -10,9 +10,11 @@ namespace Comp_Services
 	private:
 		Comp_Mappage::CLclient^ personnel;
 	public:
+		/*
 		virtual void Creer() override;
 		virtual void Modifier() override;
 		virtual void Supprimer() override;
-		virtual void Afficher(int) override;
+		virtual void Afficher() override;
+		*/
 	};
 }

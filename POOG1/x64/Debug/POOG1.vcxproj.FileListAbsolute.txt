@@ -1,1 +1,3 @@
 C:\Users\Aniss\source\repos\POOG1\POOG1\x64\Debug\POOG1.vcxproj.AssemblyReference.cache
+E:\CESI\GitHub\POOG1\POOG1\x64\Debug\POOG1.vcxproj.AssemblyReference.cache
+E:\CESI\GitHub\POOG1\POOG1\x64\Debug\POOG1.vcxproj.SuggestedBindingRedirects.cache

@@ -1,6 +1,12 @@
 [PROCÉDURES STOCKÉES]
 
-CREATE PROCEDURE InsPersonnel (@id_personne int, @nom char(30), @prenom char(30), @id_personnel int, @id_adresse int, @id_superieur int)
+CREATE PROCEDURE InsPersonnel (@id_personne, @nom char(30), @prenom char(30), @id_personnel int, @id_adresse int, @id_superieur int)
 AS BEGIN
 INSERT INTO personnel VALUES (@id_personne,@nom,@prenom,@id_personnel,@id_adresse,@id_superieur)
 END
+
+CREATE PROCEDURE UpdPersonnel (@id_personnel int, @nom char(30), @prenom char(30), @id_adresse int, @id_superieur int)
+AS BEGIN
+UPDATE personnel
+SET nom = @nom, prenom = @prenom, id_adresse = @id_adresse, id_superieur = @id_superieur
+WHERE id_personnel = @id_personnel

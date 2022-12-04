@@ -90,6 +90,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <EntryPointSymbol>
+      </EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -129,6 +131,7 @@
     <ClCompile Include="CLservice.cpp" />
     <ClCompile Include="CLserviceClient.cpp" />
     <ClCompile Include="CLservicePersonnel.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="Remise.cpp" />
   </ItemGroup>

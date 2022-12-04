@@ -12,4 +12,6 @@
 #include "CLservice.h"
 #include "CLservicePersonnel.h"
 #include "CLserviceClient.h"
-#include <string>
+//INCLUDE DE BIBLIOTHEQUES AUTRES
+#include <string.h>
+#include <iostream>

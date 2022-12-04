@@ -12,9 +12,9 @@ namespace Comp_Mappage
 		int id_adresse;
 	public:
 		//Virtualisation et Constructeur
-		virtual System::String^ Select(int) override;
+		virtual System::String^ Select(void) override;
 		virtual System::String^ Insert(void) override;
-		virtual System::String^ Delete(int) override;
+		virtual System::String^ Delete(void) override;
 		virtual System::String^ Update(void) override;
 		CLpersonnel(int, System::String^, System::String^, int, int, int);
 
@@ -26,7 +26,7 @@ namespace Comp_Mappage
 
 		//déclaration getters
 		int getid_personnel(void);
-		int getdate_embauche(void);
+		//int getdate_embauche(void);
 		int getid_superieur(void);
 		int getid_adresse(void);
 	};

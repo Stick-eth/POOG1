@@ -1,25 +1,31 @@
-#include "CLclient.h"
+#include "pch.h"
+
 using namespace Comp_Mappage;
+
 //Définition des setters
 
-System::String CLclient::Select(void)
+System::String^ CLclient::Select(void)
 {
 	// PROCEDURE STOCKEE
+	return "";
 }
 
-System::String CLclient::Insert(void)
+System::String^ CLclient::Insert(void)
 {
 	// PROCEDURE STOCKEE
+	return "";
 }
 
-System::String CLclient::Update(void)
+System::String^ CLclient::Update(void)
 {
 	// PROCEDURE STOCKEE
+	return "";
 }
 
-System::String CLclient::Delete(void)
+System::String^ CLclient::Delete(void)
 {
 	// PROCEDURE STOCKEE
+	return "";
 }
 
 void CLclient::setid_client(int newid)

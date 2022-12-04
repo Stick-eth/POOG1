@@ -3,7 +3,7 @@
 
 namespace Comp_Mappage
 {
-	ref class CLarticle :public CLmaps
+	ref class CLarticle:public CLmaps
 	{
 	private:
 		int id_article;

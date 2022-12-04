@@ -1,4 +1,6 @@
 #pragma once
+#include "pch.h"
+
 namespace Comp_Mappage
 {
 	ref class CLmaps
@@ -10,11 +12,3 @@ namespace Comp_Mappage
 		virtual System::String^ Update(void) = 0;
 	};
 }
-
-/* SELECT * FROM CLIENT WHERE CUSTOMER_ID = @hgk (le nom c'est SALUT)
-
-execute SALUT @hgk 25;
-
-
-
-*/

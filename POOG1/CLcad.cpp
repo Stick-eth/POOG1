@@ -4,7 +4,8 @@ namespace Comp_Mappage
 {
 	CLcad::CLcad(void)
 	{
-		this->sCnx = "Data Source=34.155.91.73;Initial Catalog=poog1;Persist Security Info=True;User ID=sqlserver;Password=***";
+		this->sCnx = "Data Source=LAPTOP-AAKF7SNO\\MSSQLSERVER02;Persist Security Info=True;User ID=ClydeBarrull;Password=SQLClyde";
+		//"Data Source=34.155.91.73;Initial Catalog=poog1;Persist Security Info=True;User ID=sqlserver;Password=***"
 		//Data Source=LAPTOP-MIE2PNL6\\MSSQL_AXEL;Persist Security Info=True;User ID=CNX_PROJET;Password=***
 		this->sSql = "Rien";
 
@@ -17,7 +18,7 @@ namespace Comp_Mappage
 	}
 	System::Data::DataSet^ CLcad::getRows(System::String^ sSql, System::String^ sDataTableName)
 	{
-		std::cout << "on est bien dans la partie( NS_Comp_Data::CLcad::getRows )" << std::endl;
+		//std::cout << "on est bien dans la partie( NS_Comp_Data::CLcad::getRows )" << std::endl;
 		this->oDs->Clear();
 		this->sSql = sSql;
 		this->oCmd->CommandText = this->sSql;

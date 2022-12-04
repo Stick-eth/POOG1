@@ -1,9 +1,10 @@
 #include "pch.h"
+
 using namespace Comp_Mappage;
 
 namespace Comp_Services
 {
-	System::String^ CLservicePersonnel::Creer(System::String^ b, System::String^ c, int d, int e, int f)
+	void CLservicePersonnel::Creer(System::String^ b, System::String^ c, int d, int e, int f)
 	{
 		// OPTI : System::String^ sql;
 		this->personnel->setnom(b);
@@ -15,27 +16,29 @@ namespace Comp_Services
 		this->oCad->actionRows(this->personnel->Insert());
 	}
 
-	System::String^ CLservicePersonnel::Modifier(int a, System::String^ b, System::String^ c, int d, int e, int f)
+	void CLservicePersonnel::Modifier(System::String^ b, System::String^ c, int d, int e, int f)
 	{
-		personnel->setid_personne(a);
-		personnel->setnom(b);
-		personnel->setprenom(c);
-		personnel->setid_personnel(d);
-		personnel->setid_adresse(e);
-		personnel->setid_superieur(f);
-		// action raw update etc
+		this->personnel->setnom(b);
+		this->personnel->setprenom(c);
+		this->personnel->setid_personnel(d);
+		this->personnel->setid_adresse(e);
+		this->personnel->setid_superieur(f);
+		this->oCad->actionRows(this->personnel->Update());
 	}
 
-	System::String^ CLservicePersonnel::Supprimer(int a)
+	void CLservicePersonnel::Supprimer(int a)
 	{
-		
+		this->personnel->setid_personnel(a);
+		this->oCad->actionRows(this->personnel->Delete());
 	}
 
-	System::String^ CLservicePersonnel::Afficher(int a)
-	{
-		System::String^ sql;
-		sql = this->oMappTB
-		CLcad::getRows(CLpersonnel::Select^ "Yes");
-	}
+	/*
+	!!! JE SAIS PAS CA DOIT RETURN UN STRING OU UN DATASET !!!
 
+	System::String^ CLservicePersonnel::Afficher(int id)
+	{
+		this->oCad->getRows(this->personnel->Select(), "CePersonnel");
+
+	}
+	*/
 }
