@@ -17,6 +17,11 @@ namespace Comp_Mappage
 		this->prenom = newsurname;
 	}
 
+	void CLpersonne::setemail(System::String^ newemail)
+	{
+		this->email = newemail;
+	}
+
 	int CLpersonne::getid_personne(void)
 	{
 		return this->id_personne;
@@ -30,5 +35,9 @@ namespace Comp_Mappage
 	System::String^ CLpersonne::getprenom(void)
 	{
 		return this->prenom;
+	}
+	System::String^ CLpersonne::getemail(void)
+	{
+		return this->email;
 	}
 }

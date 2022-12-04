@@ -12,7 +12,7 @@ namespace Comp_Mappage
 		// year_month day date_naissance;
 		int id_adressef;
 		int id_adressel;
-		int personne;
+		System::String^ daten;
 	public:
 		virtual System::String^ Select(void) override;
 		virtual System::String^ Insert(void) override;
@@ -23,11 +23,13 @@ namespace Comp_Mappage
 		//void setdate_naissance(year_month_day);
 		void setid_adressef(int);
 		void setid_adressel(int);
+		void setdaten(System::String^);
 		//getters
 		int getid_client(void);
 		// year_month_day getdate_naissance(void);
 		int getid_adressef(void);
 		int getid_adressel(void);
+		System::String^ getdaten(void);
 	};
 }
 

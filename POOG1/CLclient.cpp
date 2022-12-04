@@ -2,31 +2,29 @@
 
 using namespace Comp_Mappage;
 
-//Définition des setters
+//Défintion des appels de procédures stockées
 
 System::String^ CLclient::Select(void)
 {
-	// PROCEDURE STOCKEE
-	return "";
+	return "EXECUTE SelClient @id_personne " + this->getid_personne();
 }
 
 System::String^ CLclient::Insert(void)
 {
-	// PROCEDURE STOCKEE
-	return "";
+	return "EXECUTE InsClient @nom " + this->getnom() + " @prenom " + this->getprenom() + " @date_naissance " + this->getdaten() + " @id_adresse " + this->getid_adressef() + " @id_adresse_1 " + this->getid_adressel() + " @email " + this->getemail();
 }
 
 System::String^ CLclient::Update(void)
 {
-	// PROCEDURE STOCKEE
-	return "";
+	return "EXECUTE UpdClient @id_personne " + this->getid_personne() + " @date " + this->getdaten() + " @id_adresse " + this->getid_adressef() + " @id_adresse_1 " + this->getid_adressel() + " @prenom " + this->getprenom() + " @nom " + this->getnom() + " @email " + this->getemail();
 }
 
 System::String^ CLclient::Delete(void)
 {
-	// PROCEDURE STOCKEE
-	return "";
+	return "EXECUTE SupprClient @par1" + this->getid_client();
 }
+
+//Définition des setters
 
 void CLclient::setid_client(int newid)
 {
@@ -41,6 +39,11 @@ void CLclient::setid_adressef(int newadressef)
 void CLclient::setid_adressel(int newadressel)
 {
 	this->id_adressel = newadressel;
+}
+
+void Comp_Mappage::CLclient::setdaten(System::String^ newdate)
+{
+	this->daten = newdate;
 }
 
 //Définition des getters
@@ -58,4 +61,9 @@ int CLclient::getid_adressef(void)
 int CLclient::getid_adressel(void)
 {
 	return this->id_adressel;
+}
+
+System::String^ Comp_Mappage::CLclient::getdaten(void)
+{
+	return this->daten;
 }

@@ -4,8 +4,9 @@ namespace Comp_Mappage
 {
 	CLcad::CLcad(void)
 	{
-		this->sCnx = "Data Source=LAPTOP-AAKF7SNO\\MSSQLSERVER02;Persist Security Info=True;User ID=ClydeBarrull;Password=SQLClyde";
+		this->sCnx = "Data Source=34.155.91.73;Initial Catalog=poog1;Persist Security Info=True;User ID=sqlserver;Password=1234";
 		//"Data Source=34.155.91.73;Initial Catalog=poog1;Persist Security Info=True;User ID=sqlserver;Password=***"
+		//"Data Source=LAPTOP-AAKF7SNO\\MSSQLSERVER02;Persist Security Info=True;User ID=ClydeBarrull;Password=SQLClyde"
 		//Data Source=LAPTOP-MIE2PNL6\\MSSQL_AXEL;Persist Security Info=True;User ID=CNX_PROJET;Password=***
 		this->sSql = "Rien";
 

@@ -23,7 +23,7 @@ namespace Comp_Mappage
 
 	System::String^ CLpersonnel::Insert(void)
 	{
-		return "EXECUTE InsPersonnel @nom " + this->getnom() + " @prenom " + this->getprenom() + " @id_personnel " + this->getid_personnel() + " @id_adresse " + this->getid_adresse() + " @id_superieur" + this->getid_superieur();
+		return "EXECUTE InsPersonnel @nom " + this->getnom() + " @prenom " + this->getprenom() + " @id_personnel " + this->getid_personnel() + " @id_adresse " + this->getid_adresse() + " @id_superieur" + this->getid_superieur() + " @mdp " + this->getmdp() + " @Id_role " + this->getid_role();
 	}
 
 	System::String^ CLpersonnel::Delete(void)
@@ -48,6 +48,16 @@ namespace Comp_Mappage
 		this->id_superieur = newid;
 	}
 
+	void CLpersonnel::setmdp(System::String^ newmdp)
+	{
+		this->mdp = newmdp;
+	}
+
+	void CLpersonnel::setid_role(int newid)
+	{
+		this->id_role = newid;
+	}
+
 	void CLpersonnel::setid_adresse(int newid)
 	{
 		this->id_adresse = newid;
@@ -63,6 +73,16 @@ namespace Comp_Mappage
 	int CLpersonnel::getid_superieur()
 	{
 		return this->id_superieur;
+	}
+
+	System::String^ CLpersonnel::getmdp(void)
+	{
+		return this->mdp;
+	}
+
+	int CLpersonnel::getid_role(void)
+	{
+		return this->id_role;
 	}
 
 	int CLpersonnel::getid_adresse()

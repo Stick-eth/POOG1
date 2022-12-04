@@ -10,7 +10,7 @@ namespace Comp_Services
 	private:
 		Comp_Mappage::CLpersonnel^ personnel;
 	public:
-		virtual void Creer(System::String^, System::String^, int, int, int) override;
+		virtual void Creer(System::String^ b, System::String^ c, int e, int f, int h, System::String^ g) override;
 		virtual void Modifier(System::String^ b, System::String^ c, int d, int e, int f) override;
 		virtual void Supprimer(int) override;
 		// virtual void Afficher(int) override;

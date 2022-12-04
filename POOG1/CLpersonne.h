@@ -9,13 +9,18 @@ namespace Comp_Mappage
 		int id_personne;
 		System::String^ nom;
 		System::String^ prenom;
+		System::String^ email;
 	public:
+		//Déclaration setters
 		void setid_personne(int newid);
 		void setnom(System::String^ newnom);
 		void setprenom(System::String^ newprenom);
+		void setemail(System::String^ newemail);
+		//Déclaration getters
 		int getid_personne(void);
 		System::String^ getnom(void);
 		System::String^ getprenom(void);
+		System::String^ getemail(void);
 	};
 }
 
