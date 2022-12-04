@@ -33,9 +33,9 @@ namespace Comp_Services
 		this->oCad->actionRows(this->client->Delete());
 	}
 
-	void CLserviceClient::Afficher(int id)
+	System::Data::DataSet^ CLserviceClient::Afficher(int id)
 	{
 		this->client->setid_personne(id);
-		this->oCad->actionRows(this->client->Select());
+		return this->oCad->getRows(this->client->Select(),"CeClient");
 	}
 }

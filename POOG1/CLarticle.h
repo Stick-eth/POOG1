@@ -12,11 +12,17 @@ namespace Comp_Mappage
 		float prix;
 		float quantite_stock;
 		int seuil;
-		// PAS SUR ENCORE int reduc_nombre;
-		System::String^ unite;
-		char couleur;
-		System::String^ nature;
+		int reduc_nombre;
+		int id_unite;
+		int id_couleur;
+		int id_nature;
 	public:
+		//Déclaration des procédures SQL
+		virtual System::String^ Insert() override;
+		virtual System::String^ Select() override;
+		virtual System::String^ Delete() override;
+		virtual System::String^ Update() override;
+
 		// Déclaration des setters
 		void setid_article(int);
 		void setreference(System::String^);
@@ -24,10 +30,10 @@ namespace Comp_Mappage
 		void setprix(float);
 		void setquantite(float);
 		void setseuil(int);
-		// PAS SUR ENCORE void setreduc(int);
-		void setunite(System::String^);
-		void setcouleur(char);
-		void setnature(System::String^);
+		void setreduc(int);
+		void setunite(int);
+		void setcouleur(int);
+		void setnature(int);
 
 		//Déclaration des getters
 		int getid_article(void);
@@ -36,8 +42,9 @@ namespace Comp_Mappage
 		float getprix(void);
 		float getquantite(void);
 		int getseuil(void);
-		System::String^ getunite(void);
-		char getcouleur(void);
-		System::String^ getnature(void);
+		int getreduc(void);
+		int getunite(void);
+		int getcouleur(void);
+		int getnature(void);
 	};
 }

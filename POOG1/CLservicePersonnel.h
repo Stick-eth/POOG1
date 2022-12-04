@@ -13,7 +13,7 @@ namespace Comp_Services
 		virtual void Creer(System::String^ b, System::String^ c, int e, int f, int h, System::String^ g) override;
 		virtual void Modifier(System::String^ b, System::String^ c, int d, int e, int f) override;
 		virtual void Supprimer(int) override;
-		// virtual void Afficher(int) override;
+		virtual System::Data::DataSet^ Afficher(int) override;
 	};
 }
 

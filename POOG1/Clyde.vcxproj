@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{0E8F53B2-03AD-4FBB-ACBC-F4805AB39049}</ProjectGuid>
+    <ProjectGuid>{7B181394-9128-4EDF-B018-93E0C63FF110}</ProjectGuid>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
     <RootNamespace>POOG1</RootNamespace>
@@ -129,10 +129,14 @@
     <ClCompile Include="CLpersonnel.cpp" />
     <ClCompile Include="CLremise.cpp" />
     <ClCompile Include="CLservice.cpp" />
+    <ClCompile Include="CLserviceAdresse.cpp" />
+    <ClCompile Include="CLserviceArticle.cpp" />
     <ClCompile Include="CLserviceClient.cpp" />
     <ClCompile Include="CLservicePersonnel.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="MyFormAfficheClient.cpp" />
+    <ClCompile Include="MyFormSupprimeClient.cpp" />
     <ClCompile Include="Remise.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -145,11 +149,15 @@
     <ClInclude Include="CLpersonnel.h" />
     <ClInclude Include="CLremise.h" />
     <ClInclude Include="CLservice.h" />
+    <ClInclude Include="CLserviceAdresse.h" />
+    <ClInclude Include="CLserviceArticle.h" />
     <ClInclude Include="CLserviceClient.h" />
     <ClInclude Include="CLservicePersonnel.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="MyFormAfficheClient.h" />
+    <ClInclude Include="MyFormSupprimeClient.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

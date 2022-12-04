@@ -33,13 +33,11 @@ namespace Comp_Services
 		this->oCad->actionRows(this->personnel->Delete());
 	}
 
-	/*
-	!!! JE SAIS PAS CA DOIT RETURN UN STRING OU UN DATASET !!!
-
-	System::String^ CLservicePersonnel::Afficher(int id)
+	
+	System::Data::DataSet^ CLservicePersonnel::Afficher(int id)
 	{
-		this->oCad->getRows(this->personnel->Select(), "CePersonnel");
-
+		this->personnel->setid_personnel(id);
+		return this->oCad->getRows(this->personnel->Select(), "CePersonnel");
 	}
-	*/
+	
 }

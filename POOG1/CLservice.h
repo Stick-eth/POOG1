@@ -14,7 +14,7 @@ namespace Comp_Services
 		virtual void Creer() = 0;
 		virtual void Modifier() = 0;
 		virtual void Supprimer() = 0;
-		virtual void Afficher() = 0;
+		virtual System::Data::DataSet^ Afficher() = 0;
 	};
 
 }
