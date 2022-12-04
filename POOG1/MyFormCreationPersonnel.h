@@ -10,12 +10,12 @@ namespace POOG1 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Description résumée de MyFormCreationPersonnel
+	/// Description résumée de MyFormCreationClient
 	/// </summary>
-	public ref class MyFormCreationPersonnel : public System::Windows::Forms::Form
+	public ref class MyFormCreationClient : public System::Windows::Forms::Form
 	{
 	public:
-		MyFormCreationPersonnel(void)
+		MyFormCreationClient(void)
 		{
 			InitializeComponent();
 			//
@@ -27,7 +27,7 @@ namespace POOG1 {
 		/// <summary>
 		/// Nettoyage des ressources utilisées.
 		/// </summary>
-		~MyFormCreationPersonnel()
+		~MyFormCreationClient()
 		{
 			if (components)
 			{
@@ -35,52 +35,41 @@ namespace POOG1 {
 			}
 		}
 
-	protected:
+	private: System::Windows::Forms::Label^ LabelNom;
+	private: System::Windows::Forms::Label^ LabelPrenom;
+	private: System::Windows::Forms::Label^ LabelEmail;
+
+	private: System::Windows::Forms::TextBox^ TexteboxNom;
+	private: System::Windows::Forms::TextBox^ TexteboxPrenom;
+	private: System::Windows::Forms::TextBox^ TexteboxEmail;
+	private: System::Windows::Forms::Label^ LabelMotDePasse;
 
 
 
 
 
 
+	private: System::Windows::Forms::Label^ LabelAdresse;
 
 
+	private: System::Windows::Forms::Label^ LabelNumero;
+	private: System::Windows::Forms::Label^ LabelTypeVoie;
+	private: System::Windows::Forms::Label^ LabelNomVoie;
+	private: System::Windows::Forms::Label^ LabelVille;
+	private: System::Windows::Forms::Label^ LabelCodePostal;
 
-	private: System::Windows::Forms::TextBox^ textBox7;
-	private: System::Windows::Forms::Label^ label10;
-	private: System::Windows::Forms::Label^ label12;
-	private: System::Windows::Forms::TextBox^ textBox9;
-	private: System::Windows::Forms::TextBox^ textBox4;
-	private: System::Windows::Forms::TextBox^ textBox5;
-	private: System::Windows::Forms::Label^ label7;
-	private: System::Windows::Forms::Label^ label8;
-	private: System::Windows::Forms::Label^ label9;
-	private: System::Windows::Forms::TextBox^ textBox6;
-	private: System::Windows::Forms::TextBox^ textBox3;
-	private: System::Windows::Forms::TextBox^ textBox2;
-	private: System::Windows::Forms::Label^ label6;
-	private: System::Windows::Forms::Label^ label2;
-	private: System::Windows::Forms::Label^ label1;
-	private: System::Windows::Forms::TextBox^ textBox1;
-	private: System::Windows::Forms::Label^ label4;
-
-	private: System::Windows::Forms::Button^ ButtonAdd;
-
-	private: System::Windows::Forms::Label^ LabelDate;
-	private: System::Windows::Forms::TextBox^ textBox8;
-	private: System::Windows::Forms::Label^ label3;
-	private: System::Windows::Forms::ComboBox^ comboBox1;
-
-	protected:
-
-
-
-
-
-
-
-
-
-
+	private: System::Windows::Forms::TextBox^ TexteboxAdresseNumero;
+	private: System::Windows::Forms::TextBox^ TexteboxAdresseTypeVoie;
+	private: System::Windows::Forms::TextBox^ TexteboxAdresseNomVoie;
+	private: System::Windows::Forms::TextBox^ TexteboxAdresseCodePostal;
+	private: System::Windows::Forms::TextBox^ TexteboxAdresseVille;
+	private: System::Windows::Forms::Button^ ButtonCreerPersonnel;
+	private: System::Windows::Forms::TextBox^ TexteboxMotDePasse;
+	private: System::Windows::Forms::Label^ LabelSuperieur;
+	private: System::Windows::Forms::ComboBox^ ComboboxSuperieur;
+	private: System::Windows::Forms::Label^ LabelSelectionPersonnel;
+	private: System::Windows::Forms::ComboBox^ ComboboxSelectionPersonnel;
+	private: System::Windows::Forms::Button^ ButtonModifierPersonnel;
 
 
 
@@ -89,7 +78,7 @@ namespace POOG1 {
 		/// <summary>
 		/// Variable nécessaire au concepteur.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -98,245 +87,278 @@ namespace POOG1 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
-			this->label10 = (gcnew System::Windows::Forms::Label());
-			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->textBox9 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
-			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->label8 = (gcnew System::Windows::Forms::Label());
-			this->label9 = (gcnew System::Windows::Forms::Label());
-			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
-			this->label6 = (gcnew System::Windows::Forms::Label());
-			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
-			this->label4 = (gcnew System::Windows::Forms::Label());
-			this->ButtonAdd = (gcnew System::Windows::Forms::Button());
-			this->LabelDate = (gcnew System::Windows::Forms::Label());
-			this->textBox8 = (gcnew System::Windows::Forms::TextBox());
-			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
+			this->LabelMotDePasse = (gcnew System::Windows::Forms::Label());
+			this->ButtonCreerPersonnel = (gcnew System::Windows::Forms::Button());
+			this->LabelAdresse = (gcnew System::Windows::Forms::Label());
+			this->TexteboxPrenom = (gcnew System::Windows::Forms::TextBox());
+			this->LabelNom = (gcnew System::Windows::Forms::Label());
+			this->LabelEmail = (gcnew System::Windows::Forms::Label());
+			this->LabelPrenom = (gcnew System::Windows::Forms::Label());
+			this->TexteboxEmail = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxNom = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxAdresseNumero = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxAdresseNomVoie = (gcnew System::Windows::Forms::TextBox());
+			this->LabelTypeVoie = (gcnew System::Windows::Forms::Label());
+			this->LabelNomVoie = (gcnew System::Windows::Forms::Label());
+			this->LabelNumero = (gcnew System::Windows::Forms::Label());
+			this->TexteboxAdresseTypeVoie = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxAdresseVille = (gcnew System::Windows::Forms::TextBox());
+			this->LabelCodePostal = (gcnew System::Windows::Forms::Label());
+			this->LabelVille = (gcnew System::Windows::Forms::Label());
+			this->TexteboxAdresseCodePostal = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxMotDePasse = (gcnew System::Windows::Forms::TextBox());
+			this->LabelSuperieur = (gcnew System::Windows::Forms::Label());
+			this->ComboboxSuperieur = (gcnew System::Windows::Forms::ComboBox());
+			this->LabelSelectionPersonnel = (gcnew System::Windows::Forms::Label());
+			this->ComboboxSelectionPersonnel = (gcnew System::Windows::Forms::ComboBox());
+			this->ButtonModifierPersonnel = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
-			// textBox7
+			// LabelMotDePasse
 			// 
-			this->textBox7->Location = System::Drawing::Point(244, 344);
-			this->textBox7->Name = L"textBox7";
-			this->textBox7->Size = System::Drawing::Size(265, 22);
-			this->textBox7->TabIndex = 68;
+			this->LabelMotDePasse->AutoSize = true;
+			this->LabelMotDePasse->Location = System::Drawing::Point(68, 182);
+			this->LabelMotDePasse->Name = L"LabelMotDePasse";
+			this->LabelMotDePasse->Size = System::Drawing::Size(89, 16);
+			this->LabelMotDePasse->TabIndex = 2;
+			this->LabelMotDePasse->Text = L"Mot de passe";
 			// 
-			// label10
+			// ButtonCreerPersonnel
 			// 
-			this->label10->AutoSize = true;
-			this->label10->Location = System::Drawing::Point(136, 377);
-			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(81, 16);
-			this->label10->TabIndex = 67;
-			this->label10->Text = L"Code Postal";
+			this->ButtonCreerPersonnel->Location = System::Drawing::Point(263, 474);
+			this->ButtonCreerPersonnel->Name = L"ButtonCreerPersonnel";
+			this->ButtonCreerPersonnel->Size = System::Drawing::Size(167, 87);
+			this->ButtonCreerPersonnel->TabIndex = 15;
+			this->ButtonCreerPersonnel->Text = L"Créer le personnel";
+			this->ButtonCreerPersonnel->UseVisualStyleBackColor = true;
 			// 
-			// label12
+			// LabelAdresse
 			// 
-			this->label12->AutoSize = true;
-			this->label12->Location = System::Drawing::Point(136, 347);
-			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(33, 16);
-			this->label12->TabIndex = 66;
-			this->label12->Text = L"Ville";
+			this->LabelAdresse->AutoSize = true;
+			this->LabelAdresse->Location = System::Drawing::Point(300, 266);
+			this->LabelAdresse->Name = L"LabelAdresse";
+			this->LabelAdresse->Size = System::Drawing::Size(58, 16);
+			this->LabelAdresse->TabIndex = 18;
+			this->LabelAdresse->Text = L"Adresse";
 			// 
-			// textBox9
+			// TexteboxPrenom
 			// 
-			this->textBox9->Location = System::Drawing::Point(244, 374);
-			this->textBox9->Name = L"textBox9";
-			this->textBox9->Size = System::Drawing::Size(265, 22);
-			this->textBox9->TabIndex = 65;
+			this->TexteboxPrenom->Location = System::Drawing::Point(211, 113);
+			this->TexteboxPrenom->Name = L"TexteboxPrenom";
+			this->TexteboxPrenom->Size = System::Drawing::Size(265, 22);
+			this->TexteboxPrenom->TabIndex = 2;
 			// 
-			// textBox4
+			// LabelNom
 			// 
-			this->textBox4->Location = System::Drawing::Point(244, 257);
-			this->textBox4->Name = L"textBox4";
-			this->textBox4->Size = System::Drawing::Size(265, 22);
-			this->textBox4->TabIndex = 64;
+			this->LabelNom->AutoSize = true;
+			this->LabelNom->Location = System::Drawing::Point(121, 83);
+			this->LabelNom->Name = L"LabelNom";
+			this->LabelNom->Size = System::Drawing::Size(36, 16);
+			this->LabelNom->TabIndex = 4;
+			this->LabelNom->Text = L"Nom";
 			// 
-			// textBox5
+			// LabelEmail
 			// 
-			this->textBox5->Location = System::Drawing::Point(244, 316);
-			this->textBox5->Name = L"textBox5";
-			this->textBox5->Size = System::Drawing::Size(265, 22);
-			this->textBox5->TabIndex = 63;
+			this->LabelEmail->AutoSize = true;
+			this->LabelEmail->Location = System::Drawing::Point(116, 145);
+			this->LabelEmail->Name = L"LabelEmail";
+			this->LabelEmail->Size = System::Drawing::Size(41, 16);
+			this->LabelEmail->TabIndex = 22;
+			this->LabelEmail->Text = L"Email";
 			// 
-			// label7
+			// LabelPrenom
 			// 
-			this->label7->AutoSize = true;
-			this->label7->Location = System::Drawing::Point(136, 290);
-			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(68, 16);
-			this->label7->TabIndex = 62;
-			this->label7->Text = L"Type voie";
+			this->LabelPrenom->AutoSize = true;
+			this->LabelPrenom->Location = System::Drawing::Point(103, 116);
+			this->LabelPrenom->Name = L"LabelPrenom";
+			this->LabelPrenom->Size = System::Drawing::Size(54, 16);
+			this->LabelPrenom->TabIndex = 23;
+			this->LabelPrenom->Text = L"Prénom";
 			// 
-			// label8
+			// TexteboxEmail
 			// 
-			this->label8->AutoSize = true;
-			this->label8->Location = System::Drawing::Point(127, 316);
-			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(65, 16);
-			this->label8->TabIndex = 61;
-			this->label8->Text = L"Nom voie";
+			this->TexteboxEmail->Location = System::Drawing::Point(211, 142);
+			this->TexteboxEmail->Name = L"TexteboxEmail";
+			this->TexteboxEmail->Size = System::Drawing::Size(265, 22);
+			this->TexteboxEmail->TabIndex = 3;
 			// 
-			// label9
+			// TexteboxNom
 			// 
-			this->label9->AutoSize = true;
-			this->label9->Location = System::Drawing::Point(136, 260);
-			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(55, 16);
-			this->label9->TabIndex = 60;
-			this->label9->Text = L"Numéro";
+			this->TexteboxNom->Location = System::Drawing::Point(211, 83);
+			this->TexteboxNom->Name = L"TexteboxNom";
+			this->TexteboxNom->Size = System::Drawing::Size(265, 22);
+			this->TexteboxNom->TabIndex = 25;
 			// 
-			// textBox6
+			// TexteboxAdresseNumero
 			// 
-			this->textBox6->Location = System::Drawing::Point(244, 287);
-			this->textBox6->Name = L"textBox6";
-			this->textBox6->Size = System::Drawing::Size(265, 22);
-			this->textBox6->TabIndex = 59;
+			this->TexteboxAdresseNumero->Location = System::Drawing::Point(211, 299);
+			this->TexteboxAdresseNumero->Name = L"TexteboxAdresseNumero";
+			this->TexteboxAdresseNumero->Size = System::Drawing::Size(265, 22);
+			this->TexteboxAdresseNumero->TabIndex = 31;
 			// 
-			// textBox3
+			// TexteboxAdresseNomVoie
 			// 
-			this->textBox3->Location = System::Drawing::Point(235, 39);
-			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(265, 22);
-			this->textBox3->TabIndex = 58;
+			this->TexteboxAdresseNomVoie->Location = System::Drawing::Point(211, 358);
+			this->TexteboxAdresseNomVoie->Name = L"TexteboxAdresseNomVoie";
+			this->TexteboxAdresseNomVoie->Size = System::Drawing::Size(265, 22);
+			this->TexteboxAdresseNomVoie->TabIndex = 30;
 			// 
-			// textBox2
+			// LabelTypeVoie
 			// 
-			this->textBox2->Location = System::Drawing::Point(235, 98);
-			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(265, 22);
-			this->textBox2->TabIndex = 57;
+			this->LabelTypeVoie->AutoSize = true;
+			this->LabelTypeVoie->Location = System::Drawing::Point(79, 332);
+			this->LabelTypeVoie->Name = L"LabelTypeVoie";
+			this->LabelTypeVoie->Size = System::Drawing::Size(68, 16);
+			this->LabelTypeVoie->TabIndex = 29;
+			this->LabelTypeVoie->Text = L"Type voie";
 			// 
-			// label6
+			// LabelNomVoie
 			// 
-			this->label6->AutoSize = true;
-			this->label6->Location = System::Drawing::Point(127, 72);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(54, 16);
-			this->label6->TabIndex = 56;
-			this->label6->Text = L"Prénom";
+			this->LabelNomVoie->AutoSize = true;
+			this->LabelNomVoie->Location = System::Drawing::Point(82, 364);
+			this->LabelNomVoie->Name = L"LabelNomVoie";
+			this->LabelNomVoie->Size = System::Drawing::Size(65, 16);
+			this->LabelNomVoie->TabIndex = 28;
+			this->LabelNomVoie->Text = L"Nom voie";
 			// 
-			// label2
+			// LabelNumero
 			// 
-			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(118, 98);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(41, 16);
-			this->label2->TabIndex = 55;
-			this->label2->Text = L"Email";
+			this->LabelNumero->AutoSize = true;
+			this->LabelNumero->Location = System::Drawing::Point(82, 302);
+			this->LabelNumero->Name = L"LabelNumero";
+			this->LabelNumero->Size = System::Drawing::Size(55, 16);
+			this->LabelNumero->TabIndex = 27;
+			this->LabelNumero->Text = L"Numéro";
 			// 
-			// label1
+			// TexteboxAdresseTypeVoie
 			// 
-			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(127, 42);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(36, 16);
-			this->label1->TabIndex = 54;
-			this->label1->Text = L"Nom";
+			this->TexteboxAdresseTypeVoie->Location = System::Drawing::Point(211, 329);
+			this->TexteboxAdresseTypeVoie->Name = L"TexteboxAdresseTypeVoie";
+			this->TexteboxAdresseTypeVoie->Size = System::Drawing::Size(265, 22);
+			this->TexteboxAdresseTypeVoie->TabIndex = 26;
 			// 
-			// textBox1
+			// TexteboxAdresseVille
 			// 
-			this->textBox1->Location = System::Drawing::Point(235, 69);
-			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(265, 22);
-			this->textBox1->TabIndex = 53;
+			this->TexteboxAdresseVille->Location = System::Drawing::Point(211, 388);
+			this->TexteboxAdresseVille->Name = L"TexteboxAdresseVille";
+			this->TexteboxAdresseVille->Size = System::Drawing::Size(265, 22);
+			this->TexteboxAdresseVille->TabIndex = 37;
 			// 
-			// label4
+			// LabelCodePostal
 			// 
-			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(342, 222);
-			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(58, 16);
-			this->label4->TabIndex = 52;
-			this->label4->Text = L"Adresse";
+			this->LabelCodePostal->AutoSize = true;
+			this->LabelCodePostal->Location = System::Drawing::Point(70, 421);
+			this->LabelCodePostal->Name = L"LabelCodePostal";
+			this->LabelCodePostal->Size = System::Drawing::Size(81, 16);
+			this->LabelCodePostal->TabIndex = 35;
+			this->LabelCodePostal->Text = L"Code Postal";
 			// 
-			// ButtonAdd
+			// LabelVille
 			// 
-			this->ButtonAdd->Location = System::Drawing::Point(284, 440);
-			this->ButtonAdd->Name = L"ButtonAdd";
-			this->ButtonAdd->Size = System::Drawing::Size(167, 87);
-			this->ButtonAdd->TabIndex = 50;
-			this->ButtonAdd->Text = L"Créer le personnel";
-			this->ButtonAdd->UseVisualStyleBackColor = true;
+			this->LabelVille->AutoSize = true;
+			this->LabelVille->Location = System::Drawing::Point(93, 391);
+			this->LabelVille->Name = L"LabelVille";
+			this->LabelVille->Size = System::Drawing::Size(33, 16);
+			this->LabelVille->TabIndex = 33;
+			this->LabelVille->Text = L"Ville";
 			// 
-			// LabelDate
+			// TexteboxAdresseCodePostal
 			// 
-			this->LabelDate->AutoSize = true;
-			this->LabelDate->Location = System::Drawing::Point(97, 141);
-			this->LabelDate->Name = L"LabelDate";
-			this->LabelDate->Size = System::Drawing::Size(89, 16);
-			this->LabelDate->TabIndex = 48;
-			this->LabelDate->Text = L"Mot de passe";
+			this->TexteboxAdresseCodePostal->Location = System::Drawing::Point(211, 418);
+			this->TexteboxAdresseCodePostal->Name = L"TexteboxAdresseCodePostal";
+			this->TexteboxAdresseCodePostal->Size = System::Drawing::Size(265, 22);
+			this->TexteboxAdresseCodePostal->TabIndex = 32;
 			// 
-			// textBox8
+			// TexteboxMotDePasse
 			// 
-			this->textBox8->Location = System::Drawing::Point(235, 141);
-			this->textBox8->Name = L"textBox8";
-			this->textBox8->Size = System::Drawing::Size(265, 22);
-			this->textBox8->TabIndex = 69;
+			this->TexteboxMotDePasse->Location = System::Drawing::Point(211, 182);
+			this->TexteboxMotDePasse->Name = L"TexteboxMotDePasse";
+			this->TexteboxMotDePasse->Size = System::Drawing::Size(265, 22);
+			this->TexteboxMotDePasse->TabIndex = 38;
 			// 
-			// label3
+			// LabelSuperieur
 			// 
-			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(104, 172);
-			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(65, 16);
-			this->label3->TabIndex = 70;
-			this->label3->Text = L"Supérieur";
+			this->LabelSuperieur->AutoSize = true;
+			this->LabelSuperieur->Location = System::Drawing::Point(28, 222);
+			this->LabelSuperieur->Name = L"LabelSuperieur";
+			this->LabelSuperieur->Size = System::Drawing::Size(145, 16);
+			this->LabelSuperieur->TabIndex = 39;
+			this->LabelSuperieur->Text = L"Choissisez le supérieur";
 			// 
-			// comboBox1
+			// ComboboxSuperieur
 			// 
-			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Location = System::Drawing::Point(235, 169);
-			this->comboBox1->Name = L"comboBox1";
-			this->comboBox1->Size = System::Drawing::Size(245, 24);
-			this->comboBox1->TabIndex = 71;
+			this->ComboboxSuperieur->FormattingEnabled = true;
+			this->ComboboxSuperieur->Location = System::Drawing::Point(211, 222);
+			this->ComboboxSuperieur->Name = L"ComboboxSuperieur";
+			this->ComboboxSuperieur->Size = System::Drawing::Size(265, 24);
+			this->ComboboxSuperieur->TabIndex = 40;
 			// 
-			// MyFormCreationPersonnel
+			// LabelSelectionPersonnel
+			// 
+			this->LabelSelectionPersonnel->AutoSize = true;
+			this->LabelSelectionPersonnel->Location = System::Drawing::Point(231, 9);
+			this->LabelSelectionPersonnel->Name = L"LabelSelectionPersonnel";
+			this->LabelSelectionPersonnel->Size = System::Drawing::Size(218, 16);
+			this->LabelSelectionPersonnel->TabIndex = 41;
+			this->LabelSelectionPersonnel->Text = L"Selectionner la personne a modifier";
+			// 
+			// ComboboxSelectionPersonnel
+			// 
+			this->ComboboxSelectionPersonnel->FormattingEnabled = true;
+			this->ComboboxSelectionPersonnel->Location = System::Drawing::Point(222, 28);
+			this->ComboboxSelectionPersonnel->Name = L"ComboboxSelectionPersonnel";
+			this->ComboboxSelectionPersonnel->Size = System::Drawing::Size(246, 24);
+			this->ComboboxSelectionPersonnel->TabIndex = 42;
+			// 
+			// ButtonModifierPersonnel
+			// 
+			this->ButtonModifierPersonnel->Location = System::Drawing::Point(457, 474);
+			this->ButtonModifierPersonnel->Name = L"ButtonModifierPersonnel";
+			this->ButtonModifierPersonnel->Size = System::Drawing::Size(167, 87);
+			this->ButtonModifierPersonnel->TabIndex = 43;
+			this->ButtonModifierPersonnel->Text = L"Modifier le personnel";
+			this->ButtonModifierPersonnel->UseVisualStyleBackColor = true;
+			// 
+			// MyFormCreationClient
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1067, 569);
-			this->Controls->Add(this->comboBox1);
-			this->Controls->Add(this->label3);
-			this->Controls->Add(this->textBox8);
-			this->Controls->Add(this->textBox7);
-			this->Controls->Add(this->label10);
-			this->Controls->Add(this->label12);
-			this->Controls->Add(this->textBox9);
-			this->Controls->Add(this->textBox4);
-			this->Controls->Add(this->textBox5);
-			this->Controls->Add(this->label7);
-			this->Controls->Add(this->label8);
-			this->Controls->Add(this->label9);
-			this->Controls->Add(this->textBox6);
-			this->Controls->Add(this->textBox3);
-			this->Controls->Add(this->textBox2);
-			this->Controls->Add(this->label6);
-			this->Controls->Add(this->label2);
-			this->Controls->Add(this->label1);
-			this->Controls->Add(this->textBox1);
-			this->Controls->Add(this->label4);
-			this->Controls->Add(this->ButtonAdd);
-			this->Controls->Add(this->LabelDate);
-			this->Name = L"MyFormCreationPersonnel";
+			this->ClientSize = System::Drawing::Size(1267, 584);
+			this->Controls->Add(this->ButtonModifierPersonnel);
+			this->Controls->Add(this->ComboboxSelectionPersonnel);
+			this->Controls->Add(this->LabelSelectionPersonnel);
+			this->Controls->Add(this->ComboboxSuperieur);
+			this->Controls->Add(this->LabelSuperieur);
+			this->Controls->Add(this->TexteboxMotDePasse);
+			this->Controls->Add(this->TexteboxAdresseVille);
+			this->Controls->Add(this->LabelCodePostal);
+			this->Controls->Add(this->LabelVille);
+			this->Controls->Add(this->TexteboxAdresseCodePostal);
+			this->Controls->Add(this->TexteboxAdresseNumero);
+			this->Controls->Add(this->TexteboxAdresseNomVoie);
+			this->Controls->Add(this->LabelTypeVoie);
+			this->Controls->Add(this->LabelNomVoie);
+			this->Controls->Add(this->LabelNumero);
+			this->Controls->Add(this->TexteboxAdresseTypeVoie);
+			this->Controls->Add(this->TexteboxNom);
+			this->Controls->Add(this->TexteboxEmail);
+			this->Controls->Add(this->LabelPrenom);
+			this->Controls->Add(this->LabelEmail);
+			this->Controls->Add(this->LabelNom);
+			this->Controls->Add(this->TexteboxPrenom);
+			this->Controls->Add(this->LabelAdresse);
+			this->Controls->Add(this->ButtonCreerPersonnel);
+			this->Controls->Add(this->LabelMotDePasse);
+			this->Name = L"MyFormCreationClient";
 			this->Text = L"MyFormCreationPersonnel";
-			this->Load += gcnew System::EventHandler(this, &MyFormCreationPersonnel::MyFormCreationPersonnel_Load);
+			this->Load += gcnew System::EventHandler(this, &MyFormCreationClient::MyFormCreationClient_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
-	private: System::Void MyFormCreationPersonnel_Load(System::Object^ sender, System::EventArgs^ e) {
+
+	private: System::Void MyFormCreationClient_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
-};
+	};
 }

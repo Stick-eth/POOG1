@@ -39,21 +39,28 @@ namespace POOG1 {
 	private: System::Windows::Forms::Label^ LabelQuantiteEnStock;
 	private: System::Windows::Forms::Label^ LabelSeuilReaprovisionement;
 	private: System::Windows::Forms::Label^ LabelReductionGrandVolumes;
-
 	private: System::Windows::Forms::Label^ LabelPrixHT;
 	private: System::Windows::Forms::Label^ LabelUniteMesure;
-	private: System::Windows::Forms::Label^ label1;
-	private: System::Windows::Forms::CheckedListBox^ checkedListBox1;
-	private: System::Windows::Forms::Label^ label2;
-	private: System::Windows::Forms::TextBox^ textBox1;
-	private: System::Windows::Forms::TextBox^ textBox2;
-	private: System::Windows::Forms::TextBox^ textBox3;
-	private: System::Windows::Forms::TextBox^ textBox4;
-	private: System::Windows::Forms::TextBox^ textBox5;
-	private: System::Windows::Forms::TextBox^ textBox6;
-	private: System::Windows::Forms::TextBox^ textBox7;
-	private: System::Windows::Forms::TextBox^ textBox8;
-	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::Label^ LabelCouleur;
+	private: System::Windows::Forms::Label^ LabelNature;
+	private: System::Windows::Forms::CheckedListBox^ CheckedlistboxNature;
+
+
+
+	private: System::Windows::Forms::TextBox^ TexteboxReference;
+	private: System::Windows::Forms::TextBox^ TexteboxDesignation;
+	private: System::Windows::Forms::TextBox^ TexteboxQuantiteEnStock;
+	private: System::Windows::Forms::TextBox^ TexteboxSeuilReaprovisionement;
+	private: System::Windows::Forms::TextBox^ TexteboxPrixHT;
+	private: System::Windows::Forms::TextBox^ TexteboxUniteMesure;
+	private: System::Windows::Forms::TextBox^ TexteboxCouleur;
+	private: System::Windows::Forms::Button^ ButtonCreerArticle;
+
+
+
+
+
+
 
 	private:
 		/// <summary>
@@ -75,18 +82,17 @@ namespace POOG1 {
 			this->LabelReductionGrandVolumes = (gcnew System::Windows::Forms::Label());
 			this->LabelPrixHT = (gcnew System::Windows::Forms::Label());
 			this->LabelUniteMesure = (gcnew System::Windows::Forms::Label());
-			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->checkedListBox1 = (gcnew System::Windows::Forms::CheckedListBox());
-			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox8 = (gcnew System::Windows::Forms::TextBox());
-			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->LabelCouleur = (gcnew System::Windows::Forms::Label());
+			this->CheckedlistboxNature = (gcnew System::Windows::Forms::CheckedListBox());
+			this->LabelNature = (gcnew System::Windows::Forms::Label());
+			this->TexteboxReference = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxDesignation = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxQuantiteEnStock = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxSeuilReaprovisionement = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxPrixHT = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxUniteMesure = (gcnew System::Windows::Forms::TextBox());
+			this->TexteboxCouleur = (gcnew System::Windows::Forms::TextBox());
+			this->ButtonCreerArticle = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// LabelReference
@@ -151,116 +157,107 @@ namespace POOG1 {
 			this->LabelUniteMesure->Size = System::Drawing::Size(92, 16);
 			this->LabelUniteMesure->TabIndex = 7;
 			this->LabelUniteMesure->Text = L"Unité mesure :";
-			this->LabelUniteMesure->Click += gcnew System::EventHandler(this, &MyFormCreationArticle::LabelUniteMesure_Click);
 			// 
-			// label1
+			// LabelCouleur
 			// 
-			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(188, 278);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(59, 16);
-			this->label1->TabIndex = 8;
-			this->label1->Text = L"Couleur :";
+			this->LabelCouleur->AutoSize = true;
+			this->LabelCouleur->Location = System::Drawing::Point(188, 278);
+			this->LabelCouleur->Name = L"LabelCouleur";
+			this->LabelCouleur->Size = System::Drawing::Size(59, 16);
+			this->LabelCouleur->TabIndex = 8;
+			this->LabelCouleur->Text = L"Couleur :";
 			// 
-			// checkedListBox1
+			// CheckedlistboxNature
 			// 
-			this->checkedListBox1->FormattingEnabled = true;
-			this->checkedListBox1->Location = System::Drawing::Point(265, 323);
-			this->checkedListBox1->Name = L"checkedListBox1";
-			this->checkedListBox1->Size = System::Drawing::Size(236, 140);
-			this->checkedListBox1->TabIndex = 9;
+			this->CheckedlistboxNature->FormattingEnabled = true;
+			this->CheckedlistboxNature->Location = System::Drawing::Point(265, 323);
+			this->CheckedlistboxNature->Name = L"CheckedlistboxNature";
+			this->CheckedlistboxNature->Size = System::Drawing::Size(236, 140);
+			this->CheckedlistboxNature->TabIndex = 9;
 			// 
-			// label2
+			// LabelNature
 			// 
-			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(194, 323);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(53, 16);
-			this->label2->TabIndex = 10;
-			this->label2->Text = L"Nature :";
+			this->LabelNature->AutoSize = true;
+			this->LabelNature->Location = System::Drawing::Point(194, 323);
+			this->LabelNature->Name = L"LabelNature";
+			this->LabelNature->Size = System::Drawing::Size(53, 16);
+			this->LabelNature->TabIndex = 10;
+			this->LabelNature->Text = L"Nature :";
 			// 
-			// textBox1
+			// TexteboxReference
 			// 
-			this->textBox1->Location = System::Drawing::Point(265, 40);
-			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(258, 22);
-			this->textBox1->TabIndex = 11;
+			this->TexteboxReference->Location = System::Drawing::Point(265, 40);
+			this->TexteboxReference->Name = L"TexteboxReference";
+			this->TexteboxReference->Size = System::Drawing::Size(258, 22);
+			this->TexteboxReference->TabIndex = 11;
 			// 
-			// textBox2
+			// TexteboxDesignation
 			// 
-			this->textBox2->Location = System::Drawing::Point(265, 75);
-			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(258, 22);
-			this->textBox2->TabIndex = 12;
+			this->TexteboxDesignation->Location = System::Drawing::Point(265, 75);
+			this->TexteboxDesignation->Name = L"TexteboxDesignation";
+			this->TexteboxDesignation->Size = System::Drawing::Size(258, 22);
+			this->TexteboxDesignation->TabIndex = 12;
 			// 
-			// textBox3
+			// TexteboxQuantiteEnStock
 			// 
-			this->textBox3->Location = System::Drawing::Point(265, 133);
-			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(258, 22);
-			this->textBox3->TabIndex = 14;
+			this->TexteboxQuantiteEnStock->Location = System::Drawing::Point(265, 136);
+			this->TexteboxQuantiteEnStock->Name = L"TexteboxQuantiteEnStock";
+			this->TexteboxQuantiteEnStock->Size = System::Drawing::Size(258, 22);
+			this->TexteboxQuantiteEnStock->TabIndex = 14;
 			// 
-			// textBox4
+			// TexteboxSeuilReaprovisionement
 			// 
-			this->textBox4->Location = System::Drawing::Point(265, 104);
-			this->textBox4->Name = L"textBox4";
-			this->textBox4->Size = System::Drawing::Size(258, 22);
-			this->textBox4->TabIndex = 13;
+			this->TexteboxSeuilReaprovisionement->Location = System::Drawing::Point(265, 168);
+			this->TexteboxSeuilReaprovisionement->Name = L"TexteboxSeuilReaprovisionement";
+			this->TexteboxSeuilReaprovisionement->Size = System::Drawing::Size(258, 22);
+			this->TexteboxSeuilReaprovisionement->TabIndex = 13;
 			// 
-			// textBox5
+			// TexteboxPrixHT
 			// 
-			this->textBox5->Location = System::Drawing::Point(265, 272);
-			this->textBox5->Name = L"textBox5";
-			this->textBox5->Size = System::Drawing::Size(258, 22);
-			this->textBox5->TabIndex = 18;
+			this->TexteboxPrixHT->Location = System::Drawing::Point(265, 103);
+			this->TexteboxPrixHT->Name = L"TexteboxPrixHT";
+			this->TexteboxPrixHT->Size = System::Drawing::Size(258, 22);
+			this->TexteboxPrixHT->TabIndex = 18;
 			// 
-			// textBox6
+			// TexteboxUniteMesure
 			// 
-			this->textBox6->Location = System::Drawing::Point(265, 240);
-			this->textBox6->Name = L"textBox6";
-			this->textBox6->Size = System::Drawing::Size(258, 22);
-			this->textBox6->TabIndex = 17;
+			this->TexteboxUniteMesure->Location = System::Drawing::Point(265, 240);
+			this->TexteboxUniteMesure->Name = L"TexteboxUniteMesure";
+			this->TexteboxUniteMesure->Size = System::Drawing::Size(258, 22);
+			this->TexteboxUniteMesure->TabIndex = 17;
 			// 
-			// textBox7
+			// TexteboxCouleur
 			// 
-			this->textBox7->Location = System::Drawing::Point(265, 202);
-			this->textBox7->Name = L"textBox7";
-			this->textBox7->Size = System::Drawing::Size(258, 22);
-			this->textBox7->TabIndex = 16;
+			this->TexteboxCouleur->Location = System::Drawing::Point(265, 278);
+			this->TexteboxCouleur->Name = L"TexteboxCouleur";
+			this->TexteboxCouleur->Size = System::Drawing::Size(258, 22);
+			this->TexteboxCouleur->TabIndex = 15;
 			// 
-			// textBox8
+			// ButtonCreerArticle
 			// 
-			this->textBox8->Location = System::Drawing::Point(265, 166);
-			this->textBox8->Name = L"textBox8";
-			this->textBox8->Size = System::Drawing::Size(258, 22);
-			this->textBox8->TabIndex = 15;
-			// 
-			// button1
-			// 
-			this->button1->Location = System::Drawing::Point(630, 323);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(250, 143);
-			this->button1->TabIndex = 19;
-			this->button1->Text = L"Créer Article";
-			this->button1->UseVisualStyleBackColor = true;
+			this->ButtonCreerArticle->Location = System::Drawing::Point(630, 323);
+			this->ButtonCreerArticle->Name = L"ButtonCreerArticle";
+			this->ButtonCreerArticle->Size = System::Drawing::Size(250, 143);
+			this->ButtonCreerArticle->TabIndex = 19;
+			this->ButtonCreerArticle->Text = L"Créer Article";
+			this->ButtonCreerArticle->UseVisualStyleBackColor = true;
 			// 
 			// MyFormCreationArticle
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(982, 553);
-			this->Controls->Add(this->button1);
-			this->Controls->Add(this->textBox5);
-			this->Controls->Add(this->textBox6);
-			this->Controls->Add(this->textBox7);
-			this->Controls->Add(this->textBox8);
-			this->Controls->Add(this->textBox3);
-			this->Controls->Add(this->textBox4);
-			this->Controls->Add(this->textBox2);
-			this->Controls->Add(this->textBox1);
-			this->Controls->Add(this->label2);
-			this->Controls->Add(this->checkedListBox1);
-			this->Controls->Add(this->label1);
+			this->Controls->Add(this->ButtonCreerArticle);
+			this->Controls->Add(this->TexteboxPrixHT);
+			this->Controls->Add(this->TexteboxUniteMesure);
+			this->Controls->Add(this->TexteboxCouleur);
+			this->Controls->Add(this->TexteboxQuantiteEnStock);
+			this->Controls->Add(this->TexteboxSeuilReaprovisionement);
+			this->Controls->Add(this->TexteboxDesignation);
+			this->Controls->Add(this->TexteboxReference);
+			this->Controls->Add(this->LabelNature);
+			this->Controls->Add(this->CheckedlistboxNature);
+			this->Controls->Add(this->LabelCouleur);
 			this->Controls->Add(this->LabelUniteMesure);
 			this->Controls->Add(this->LabelPrixHT);
 			this->Controls->Add(this->LabelReductionGrandVolumes);
@@ -275,10 +272,8 @@ namespace POOG1 {
 			this->PerformLayout();
 
 		}
-#pragma endregion
-private: System::Void MyFormCreationArticle_Load(System::Object^ sender, System::EventArgs^ e) {
-}
-private: System::Void LabelUniteMesure_Click(System::Object^ sender, System::EventArgs^ e) {
-}
+		#pragma endregion
+		private: System::Void MyFormCreationArticle_Load(System::Object^ sender, System::EventArgs^ e) {
+		}
 };
 }

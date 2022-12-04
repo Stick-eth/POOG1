@@ -23,7 +23,7 @@ namespace POOG1 {
 			//
 			//TODO: ajoutez ici le code du constructeur
 			//
-			AjouterTexteCombobox();
+			//AjouterTexteCombobox();
 		}
 
 	protected:
@@ -71,7 +71,7 @@ namespace POOG1 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->oSvc = gcnew NS_Comp_Svc::CLservices();
+		//	this->oSvc = gcnew NS_Comp_Svc::CLservices();
 			this->OnOffLabel = (gcnew System::Windows::Forms::Button());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
@@ -228,6 +228,8 @@ namespace POOG1 {
 		this->label1->Text = this->dataGridView1->Rows[0]->Cells[0]->Value->ToString();
 		this->textBoxLogin->Text = "";
 		this->textBoxMdp->Text = "";
+	}
+	private: System::Void MyForm_Load_1(System::Object^ sender, System::EventArgs^ e) {
 	}
 	};
 }

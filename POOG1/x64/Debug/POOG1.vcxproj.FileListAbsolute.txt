@@ -8,3 +8,13 @@ C:\Users\Eudier Axel\Documents\GitHub\POOG1\src\POOG1\x64\Debug\POOG1.MyFormCrea
 C:\Users\Eudier Axel\Documents\GitHub\POOG1\src\POOG1\x64\Debug\POOG1.MyFormMajClient.resources
 C:\Users\Eudier Axel\Documents\GitHub\POOG1\src\POOG1\x64\Debug\POOG1.MyFormCreationPersonnel.resources
 C:\Users\Eudier Axel\Documents\GitHub\POOG1\src\POOG1\x64\Debug\POOG1.MyFormMajPersonnel.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.vcxproj.AssemblyReference.cache
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyForm.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormCreationArticle.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormCreationClient.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormCreationPersonnel.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormMajClient.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormMajPersonnel.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormv2.resources
+C:\Users\Eudier Axel\Documents\GitHub\POOG1\POOG1\x64\Debug\POOG1.vcxproj.GenerateResource.cache
