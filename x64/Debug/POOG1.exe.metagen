@@ -4,6 +4,7 @@
   POOG1.MyFormCreationPersonnel.resources - Embedded, ContainedInManifestFile, 
   POOG1.MyFormMajClient.resources - Embedded, ContainedInManifestFile, 
   POOG1.MyFormMajPersonnel.resources - Embedded, ContainedInManifestFile, 
+  POOG1.MyFormSupprimeClient.resources - Embedded, ContainedInManifestFile, 
   POOG1.MyFormv2.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly POOG1, Version=0.0.*, Culture=Langue indifférente (Pays indifférent): 
