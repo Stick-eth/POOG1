@@ -2,6 +2,14 @@
 
 using namespace Comp_Mappage;
 
+CLclient::CLclient() :CLpersonne::CLpersonne()
+{
+	setdaten("test");
+	setid_adressef(0);
+	setid_adressel(0);
+}
+
+
 //Défintion des appels de procédures stockées
 
 System::String^ CLclient::Select(void)
@@ -11,7 +19,7 @@ System::String^ CLclient::Select(void)
 
 System::String^ CLclient::Insert(void)
 {
-	return "EXECUTE InsClient @nom " + this->getnom() + " @prenom " + this->getprenom() + " @date_naissance " + this->getdaten() + " @id_adresse " + this->getid_adressef() + " @id_adresse_1 " + this->getid_adressel() + " @email " + this->getemail();
+	return "EXECUTE dbo.InsClient @nom = " + this->getnom() + ", @prenom =" + this->getprenom() + ", @date_naissance =" + this->getdaten() + ", @id_adresse =" + this->getid_adressef() + ", @id_adresse_1 =" + this->getid_adressel() + ", @email =" + this->getemail();
 }
 
 System::String^ CLclient::Update(void)

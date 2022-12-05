@@ -5,6 +5,12 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clyde", "POOG1\Clyde.vcxproj", "{7B181394-9128-4EDF-B018-93E0C63FF110}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{C6EDDAA0-3444-48C5-8FA5-BB94AB08D254}"
+	ProjectSection(SolutionItems) = preProject
+		POOG1\MyFormCreationMajClient.cpp = POOG1\MyFormCreationMajClient.cpp
+		POOG1\MyFormCreationMajClient.h = POOG1\MyFormCreationMajClient.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

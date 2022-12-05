@@ -1,15 +1,22 @@
 #include "pch.h"
+#include "CLserviceClient.h"
 
 using namespace Comp_Mappage;
 
 namespace Comp_Services
 {
-	void CLserviceClient::Creer(System::String^ a,System::String^ b,System::String^ c,System::String^ d,int e, int f)
+	CLserviceClient::CLserviceClient()
 	{
-		this->client->setnom(a);
-		this->client->setprenom(b);
-		this->client->setemail(c);
-		this->client->setdaten(d);
+		this->client = gcnew CLclient();
+		this->oCad = gcnew CLcad();
+	}
+
+	void CLserviceClient::CreerYeah(System::String^ a,System::String^ b,System::String^ c,System::String^ d,int e, int f)
+	{
+		this->client->setnom(System::Convert::ToString(a));
+		this->client->setprenom(System::Convert::ToString(b));
+		this->client->setemail(System::Convert::ToString(c));
+		this->client->setdaten(System::Convert::ToString(d));
 		this->client->setid_adressef(e);
 		this->client->setid_adressel(f);
 		this->oCad->actionRows(this->client->Insert());

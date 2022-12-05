@@ -5,7 +5,7 @@ namespace Comp_Mappage
 {
 	// using namespace std::chrono;
 
-	ref class CLclient :public CLpersonne
+	ref class CLclient : CLpersonne
 	{
 	private:
 		int id_client;
@@ -14,6 +14,7 @@ namespace Comp_Mappage
 		int id_adressel;
 		System::String^ daten;
 	public:
+		CLclient();
 		virtual System::String^ Select(void) override;
 		virtual System::String^ Insert(void) override;
 		virtual System::String^ Delete(void) override;

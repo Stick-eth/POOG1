@@ -1,7 +1,34 @@
 #include "pch.h"
+#include "CLpersonne.h"
 
 namespace Comp_Mappage
 {
+	System::String^ CLpersonne::Select(void)
+	{
+		return "Rien";
+	}
+
+	System::String^ CLpersonne::Update(void)
+	{
+		return "Rien";
+	}
+
+	System::String^ CLpersonne::Delete(void)
+	{
+		return "Rien";
+	}
+
+	System::String^ CLpersonne::Insert(void)
+	{
+		return "Rien";
+	}
+
+	CLpersonne::CLpersonne()
+	{
+		setnom("test");
+		setprenom("test");
+		setemail("test");
+	}
 	void CLpersonne::setid_personne(int newid)
 	{
 		this->id_personne = newid;

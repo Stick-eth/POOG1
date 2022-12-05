@@ -15,7 +15,7 @@ namespace Comp_Mappage
 		this->oDA = gcnew System::Data::SqlClient::SqlDataAdapter();
 		this->oDs = gcnew System::Data::DataSet();
 
-		this->oCmd->CommandType = System::Data::CommandType::Text;
+		this->oCmd->CommandType = System::Data::CommandType::StoredProcedure;
 	}
 	System::Data::DataSet^ CLcad::getRows(System::String^ sSql, System::String^ sDataTableName)
 	{

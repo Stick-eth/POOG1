@@ -11,6 +11,11 @@ namespace Comp_Mappage
 		System::String^ prenom;
 		System::String^ email;
 	public:
+		virtual System::String^ Select(void) override;
+		virtual System::String^ Insert(void) override;
+		virtual System::String^ Delete(void) override;
+		virtual System::String^ Update(void) override;
+		CLpersonne::CLpersonne();
 		//Déclaration setters
 		void setid_personne(int newid);
 		void setnom(System::String^ newnom);
