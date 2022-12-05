@@ -11,7 +11,7 @@ namespace Comp_Services
 		this->oCad = gcnew CLcad();
 	}
 
-	void CLserviceClient::CreerYeah(System::String^ a,System::String^ b,System::String^ c,System::String^ d,int e, int f)
+	void CLserviceClient::CreerClient(System::String^ a,System::String^ b,System::String^ c,System::String^ d,int e, int f)
 	{
 		this->client->setnom(System::Convert::ToString(a));
 		this->client->setprenom(System::Convert::ToString(b));
@@ -22,7 +22,7 @@ namespace Comp_Services
 		this->oCad->actionRows(this->client->Insert());
 	}
 
-	void CLserviceClient::Modifier(System::String^ a, System::String^ b, System::String^ c, System::String^ d, int e, int f, int g)
+	void CLserviceClient::ModifierClient(System::String^ a, System::String^ b, System::String^ c, System::String^ d, int e, int f, int g)
 	{
 		this->client->setnom(a);
 		this->client->setprenom(b);
@@ -34,13 +34,13 @@ namespace Comp_Services
 		this->oCad->actionRows(this->client->Update());
 	}
 
-	void CLserviceClient::Supprimer(int id)
+	void CLserviceClient::SupprimerClient(int id)
 	{
-		this->client->setid_personne(id);
+		this->client->setid_client(id);
 		this->oCad->actionRows(this->client->Delete());
 	}
 
-	System::Data::DataSet^ CLserviceClient::Afficher(int id)
+	System::Data::DataSet^ CLserviceClient::AfficherClient(int id)
 	{
 		this->client->setid_personne(id);
 		return this->oCad->getRows(this->client->Select(),"CeClient");

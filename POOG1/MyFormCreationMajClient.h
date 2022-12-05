@@ -480,7 +480,7 @@ namespace POOG1 {
 	private: System::Void ButtonCreerClient_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 		CLserviceClient^ ServiceOn = gcnew CLserviceClient();
-		ServiceOn->CreerYeah("Barrull", "Clyde", "clydebarrull@gmail.com", "2003-12-31", 1, 2);
+		//ServiceOn->SupprimerClient(13);
 	}
 	private: System::Void ButtonMajClient_Click(System::Object^ sender, System::EventArgs^ e) {
 	}

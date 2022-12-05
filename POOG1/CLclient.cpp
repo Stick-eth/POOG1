@@ -1,5 +1,6 @@
 #include "pch.h"
-
+#include <iostream>
+using namespace std;
 using namespace Comp_Mappage;
 
 CLclient::CLclient() :CLpersonne::CLpersonne()
@@ -14,22 +15,22 @@ CLclient::CLclient() :CLpersonne::CLpersonne()
 
 System::String^ CLclient::Select(void)
 {
-	return "EXECUTE SelClient @id_personne " + this->getid_personne();
+	return "EXECUTE SelClient @id_personne =" + this->getid_personne();
 }
 
 System::String^ CLclient::Insert(void)
 {
-	return "EXECUTE dbo.InsClient @nom = " + this->getnom() + ", @prenom =" + this->getprenom() + ", @date_naissance =" + this->getdaten() + ", @id_adresse =" + this->getid_adressef() + ", @id_adresse_1 =" + this->getid_adressel() + ", @email =" + this->getemail();
+	return "EXECUTE InsClient @nom = " + this->getnom() + ", @prenom =" + this->getprenom() + ", @date_naissance ='" + this->getdaten() + "', @id_adresse =" + this->getid_adressef() + ", @id_adresse_1 =" + this->getid_adressel() + ", @email ='" + this->getemail() + "'";
 }
 
 System::String^ CLclient::Update(void)
 {
-	return "EXECUTE UpdClient @id_personne " + this->getid_personne() + " @date " + this->getdaten() + " @id_adresse " + this->getid_adressef() + " @id_adresse_1 " + this->getid_adressel() + " @prenom " + this->getprenom() + " @nom " + this->getnom() + " @email " + this->getemail();
+	return "EXECUTE UpdClient @id_personne =" + this->getid_personne() + ", @date ='" + this->getdaten() + "', @id_adresse =" + this->getid_adressef() + ", @id_adresse_1 =" + this->getid_adressel() + ", @prenom =" + this->getprenom() + ", @nom =" + this->getnom() + ", @email ='" + this->getemail() + "'";
 }
 
 System::String^ CLclient::Delete(void)
 {
-	return "EXECUTE SupprClient @par1" + this->getid_client();
+	return "EXECUTE SupprClient @par1 = " + this->getid_client();
 }
 
 //Définition des setters
