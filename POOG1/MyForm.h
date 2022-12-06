@@ -3488,6 +3488,12 @@ private: System::Windows::Forms::Label^ label75;
 			
 	}
 	private: System::Void AfficherPersonnelButton_Click(System::Object^ sender, System::EventArgs^ e) {
+		CLservicePersonnel^ servicePersonnel = gcnew CLservicePersonnel();
+		CLcad^ ComboCad = gcnew CLcad();
+		this->AfficherPersonnelDataGridView->Refresh();
+		int index = System::Convert::ToInt16(ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->AfficherPersonnelCombobox->SelectedIndex]->ItemArray[0]->ToString());
+		this->AfficherPersonnelDataGridView->DataSource = servicePersonnel->AfficherPersonnel(index);
+		this->AfficherPersonnelDataGridView->DataMember = "CePersonnel";
 	}
 	private: System::Void CreationCommandeButton_Click(System::Object^ sender, System::EventArgs^ e) {
 	}

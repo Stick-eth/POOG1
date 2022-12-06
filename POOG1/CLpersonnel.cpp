@@ -17,7 +17,7 @@ namespace Comp_Mappage
 
 	System::String^ CLpersonnel::Select(void)
 	{
-		return "EXECUTE SelPersonnel @par1 " + this->getid_personnel();
+		return "EXECUTE AffPersonnel @id_personnel =" + this->getid_personnel();
 	}
 
 	System::String^ CLpersonnel::Insert(void)
