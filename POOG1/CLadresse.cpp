@@ -1,8 +1,26 @@
-#include "pch.h"
+#include "CLadresse.h"
 
-// CA FONCTIONNE PAS
 namespace Comp_Mappage
 {
+	//Définition des appels de procédure SQL
+
+	System::String^ CLadresse::Insert()
+	{
+		return "EXECUTE InsAdresse @numero = " + this->getnumero() + ", @type_voie ='" + this->gettype_voie() + "', @nom_voie ='" + this->getnom_voie() + "', @code_postal = '" + this->getcode_postal() + "', @nomville = '" + this->getville() + "'";
+	}
+
+	System::String^ CLadresse::Select()
+	{
+		return "EXECUTE AffAdresse @id_adresse =" + this->getid_adresse();
+	}
+
+	System::String^ CLadresse::Update()
+	{
+		return "EXECUTE UpdAdresse @numero =" + this->getnumero() + ", @type_voie =" + this->gettype_voie() + ", @nom_voie =" + this->getnom_voie() + ", @code_postal = " + this->getcode_postal() + ", @id_liste_ville = " + this->getid_liste_ville();
+	}
+
+	//Définition des setters
+
 	void CLadresse::setid_adresse(int newadr)
 	{
 		this->id_adresse = newadr;
@@ -27,7 +45,6 @@ namespace Comp_Mappage
 	{
 		this->code_postal = newcode;
 	}
-
 	void CLadresse::setid_liste_ville(int newidlist)
 	{
 		this->id_liste_ville = newidlist;
@@ -38,29 +55,9 @@ namespace Comp_Mappage
 		this->ville = newville;
 	}
 
-	int CLadresse::getid_adresse(void)
+	System::String^ CLadresse::getville(void)
 	{
-		return this->id_adresse;
-	}
-
-	int CLadresse::getnumero(void)
-	{
-		return this->numero;
-	}
-
-	System::String^ CLadresse::gettype_voie(void)
-	{
-		return this->type_voie;
-	}
-
-	System::String^ CLadresse::getnom_voie(void)
-	{
-		return this->nom_voie;
-	}
-
-	System::String^ CLadresse::getcode_postal(void)
-	{
-		return this->code_postal;
+		return this->ville;
 	}
 
 	int CLadresse::getid_liste_ville(void)
@@ -68,9 +65,24 @@ namespace Comp_Mappage
 		return this->id_liste_ville;
 	}
 
-	System::String^ CLadresse::getville(void)
+	System::String^ CLadresse::getcode_postal(void)
 	{
-		return this->ville;
+		return this->code_postal;
 	}
-
+	System::String^ CLadresse::getnom_voie(void)
+	{
+		return this->nom_voie;
+	}
+	System::String^ CLadresse::gettype_voie(void)
+	{
+		return this->type_voie;
+	}
+	int CLadresse::getnumero(void)
+	{
+		return this->numero;
+	}
+	int CLadresse::getid_adresse(void)
+	{
+		return this->id_adresse;
+	}
 }

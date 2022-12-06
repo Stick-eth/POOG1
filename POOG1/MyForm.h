@@ -3456,36 +3456,28 @@ private: System::Windows::Forms::Label^ label75;
 		this->label49->Text = this->CreationPersonnelDateTimePicker->Text;
 		CLcad^ ComboCad = gcnew CLcad();
 		CLservicePersonnel^ servicePersonnel = gcnew CLservicePersonnel();
-
-		//if rh = true
-		//servicePersonnel->CreerPersonnel(....,3,....);
-
-		//this->CreationPersonnelTextboxEmail->Text;
-		//this->CreationPersonnelTextboxNom->Text;
-		//this->CreationPersonnelTextboxPrenom->Text;
-		//mettre id l'adresse
-		//mettre id superieur
-		//ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->CreationPersonnelComboboxSuperieur->SelectedIndex]->ItemArray;
-		
-		//mettre id role
+		CLserviceAdresse^ serviceAdresse = gcnew CLserviceAdresse();
 
 		if (this->CreationPersonnelRadiobuttonAdmin->Checked)
 		{
 			int index = System::Convert::ToInt16(ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->CreationPersonnelComboboxSuperieur->SelectedIndex]->ItemArray[0]->ToString());
 			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 1, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
 			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index , 1, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
+			serviceAdresse->CreerAdresse(System::Convert::ToInt16(this->CreationPersonnelTextboxAdresseNumero->Text), this->CreationPersonnelTextboxAdresseType->Text, this->CreationPersonnelTextboxAdresseNom->Text, this->CreationPersonnelTextboxAdresseCodePostal->Text, this->CreationPersonnelTextboxAdresseVille->Text);
 		}
 		else if (this->CreationPersonnelRadiobuttonRH->Checked)
 		{
 			int index = System::Convert::ToInt16(ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->CreationPersonnelComboboxSuperieur->SelectedIndex]->ItemArray[0]->ToString());
 			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 2, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
 			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index , 2, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
+			serviceAdresse->CreerAdresse(System::Convert::ToInt16(this->CreationPersonnelTextboxAdresseNumero->Text), this->CreationPersonnelTextboxAdresseType->Text, this->CreationPersonnelTextboxAdresseNom->Text, this->CreationPersonnelTextboxAdresseCodePostal->Text, this->CreationPersonnelTextboxAdresseVille->Text);
 		}
 		else if (this->CreationPersonnelRadiobuttonEmploye->Checked)
 		{
 			int index = System::Convert::ToInt16(ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->CreationPersonnelComboboxSuperieur->SelectedIndex]->ItemArray[0]->ToString());
 			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 3, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
 			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 3, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
+			serviceAdresse->CreerAdresse(System::Convert::ToInt16(this->CreationPersonnelTextboxAdresseNumero->Text), this->CreationPersonnelTextboxAdresseType->Text, this->CreationPersonnelTextboxAdresseNom->Text, this->CreationPersonnelTextboxAdresseCodePostal->Text, this->CreationPersonnelTextboxAdresseVille->Text);
 		}
 
 
@@ -3567,18 +3559,23 @@ private: System::Windows::Forms::Label^ label75;
 
 		this->oDs = servicePersonnel->SelPourModifPersonnel();
 		int index = this->ModificationPersonnelComboBoxPersonnel->SelectedIndex;
-			
-		this->label52->Text = System::Convert::ToString(this->ModificationPersonnelComboBoxPersonnel->SelectedIndex);
-		this->label57->Text = System::Convert::ToString(this->oDs->Tables["SelPersonneUpd"]->Rows->Count);
+
+		int indexsup;
+
+		for (int i = 0; i < this->oDs->Tables["SelPersonneUpd"]->Rows->Count - 1; i++)
+		{
+			if (this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[2]->ToString() == this->oDs->Tables["SelPersonneUpd"]->Rows[i]->ItemArray[2]->ToString())
+			{
+				indexsup = i;
+			}
+		}
 
 		this->ModificationPersonnelTexteboxNom->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[8]->ToString();
 		this->ModificationPersonnelTexteboxPrenom->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[10]->ToString();
 		this->ModificationPersonnelTexteboxEmail->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[9]->ToString();
 		this->ModificationPersonnelTexteboxMotDePasse->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[3]->ToString();
-		this->ModificationPersonnelComboBoxSuperieur->SelectedIndex = System::Convert::ToInt16(this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[2]->ToString());
+		this->ModificationPersonnelComboBoxSuperieur->SelectedIndex = indexsup;
 		this->ModificationPersonnelDatetimepicker->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[1]->ToString();
-		
-		
 	}
 };
 }
