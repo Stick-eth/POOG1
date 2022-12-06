@@ -2,6 +2,7 @@
 #include "CLmaps.h"
 #include "CLservice.h"
 #include "MyFormCreationMajClient.h"
+#include "MyFormLogin.h"
 
 using namespace std;
 using namespace Comp_Mappage;
@@ -15,7 +16,7 @@ int Main() {
     Application::EnableVisualStyles();
     Application::SetCompatibleTextRenderingDefault(false);
     //WinformCDemo is your project name
-    POOG1::MyFormCreationMajClient form;
+    IHMPROJETPOO::MyFormLogin form;
     Application::Run(% form);
     return 0;
 }

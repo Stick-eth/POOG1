@@ -4,14 +4,13 @@ namespace Comp_Mappage
 {
 	//Définition du constructeur
 
-	CLpersonnel::CLpersonnel(int a, System::String^ b, System::String^ c, int d, int e, int f)
+	CLpersonnel::CLpersonnel() : CLpersonne::CLpersonne()
 	{
-		setid_personne(a);
-		setnom(b);
-		setprenom(c);
-		setid_personnel(d);
-		setid_adresse(e);
-		setid_superieur(f);
+		setdateemb("0000-00-00");
+		setid_superieur(0);
+		setmdp("1234");
+		setid_role(0);
+		setid_adresse(0);
 	}
 
 	//Définition des appels de procédure stockées
@@ -23,7 +22,7 @@ namespace Comp_Mappage
 
 	System::String^ CLpersonnel::Insert(void)
 	{
-		return "EXECUTE InsPersonnel @nom " + this->getnom() + " @prenom " + this->getprenom() + " @id_personnel " + this->getid_personnel() + " @id_adresse " + this->getid_adresse() + " @id_superieur" + this->getid_superieur() + " @mdp " + this->getmdp() + " @Id_role " + this->getid_role();
+		return "EXECUTE InsPersonnel @date_embauche ='" + this->getdateemb() + "', @id_superieur = " + this->getid_superieur() + ", @mot_de_passe =" + this->getmdp() + ", @Id_role =" + this->getid_role() + ", @id_adresse =" + this->getid_adresse() + ", @email ='" + this->getemail() + "', @nom = " + this->getnom() + ",@prenom = " + this->getprenom();
 	}
 
 	System::String^ CLpersonnel::Delete(void)
@@ -36,11 +35,21 @@ namespace Comp_Mappage
 		return "EXECUTE UpdPersonnel @id_personnel " + this->getid_personnel() + " @nom " + this->getnom() + " @prenom " + this->getprenom() + " @id_adresse " + this->getid_adresse() + " @id_superieur" + this->getid_superieur();
 	}
 
+	System::String^ CLpersonnel::LoginProc()
+	{
+		return "EXECUTE LoginPersonnel @email ='" + this->getemail() + "', @password ='" + this->getmdp()+"'";
+	}
+
 	//Définition des setters
 
 	void CLpersonnel::setid_personnel(int newid)
 	{
 		this->id_personnel = newid;
+	}
+
+	void CLpersonnel::setdateemb(System::String^ newdate)
+	{
+		this->dateemb = newdate;
 	}
 
 	void CLpersonnel::setid_superieur(int newid)
@@ -88,5 +97,10 @@ namespace Comp_Mappage
 	int CLpersonnel::getid_adresse()
 	{
 		return this->id_adresse;
+	}
+
+	System::String^ CLpersonnel::getdateemb()
+	{
+		return this->dateemb;
 	}
 }

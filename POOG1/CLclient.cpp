@@ -5,7 +5,7 @@ using namespace Comp_Mappage;
 
 CLclient::CLclient() :CLpersonne::CLpersonne()
 {
-	setdaten("test");
+	setdaten("0000-00-00");
 	setid_adressef(0);
 	setid_adressel(0);
 }
