@@ -56,5 +56,10 @@ namespace Comp_Services
 	{
 		return this->oCad->getRows("EXECUTE SelIDN", "listeCombobox");
 	}
+
+	System::Data::DataSet^ CLservicePersonnel::SelPourModifPersonnel()
+	{
+		return this->oCad->getRows("EXECUTE SelPersonnelUpd", "SelPersonneUpd");
+	}
 	
 }

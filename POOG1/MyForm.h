@@ -34,6 +34,16 @@ namespace IHMPROJETPOO {
 			//TODO: ajoutez ici le code du constructeur
 			//
 			CacherTab();
+			if (role == 1) {
+			}
+			if (role == 2) {
+				this->ButtonGestionCommande->Visible = false;
+				this->ButtonGestionArticle->Visible = false;
+			}
+			if (role == 3) {
+				this->ButtonGestionClient->Visible = false;
+				this->ButtonGestionPersonnel->Visible = false;
+			}
 		}
 
 	protected:
@@ -256,10 +266,11 @@ namespace IHMPROJETPOO {
 	private: System::Windows::Forms::Label^ label34;
 	private: System::Windows::Forms::ComboBox^ ModificationPersonnelComboBoxSuperieur;
 	private: System::Windows::Forms::Label^ label35;
-private: System::Windows::Forms::TextBox^ ModificationPersonnelTexteboxMotdepasse;
+private: System::Windows::Forms::TextBox^ ModificationPersonnelTexteboxMotDePasse;
+
 
 	private: System::Windows::Forms::Label^ label36;
-	private: System::Windows::Forms::Button^ ModifierPersonnelButtonModifier;
+	private: System::Windows::Forms::Button^ ModificationPersonnelButtonModifier;
 
 	private: System::Windows::Forms::TextBox^ textBox3;
 	private: System::Windows::Forms::Label^ label37;
@@ -271,14 +282,18 @@ private: System::Windows::Forms::TextBox^ ModificationPersonnelTexteboxMotdepass
 	private: System::Windows::Forms::Label^ label53;
 	private: System::Windows::Forms::Label^ label54;
 	private: System::Windows::Forms::TextBox^ textBox15;
-	private: System::Windows::Forms::TextBox^ textBox16;
-	private: System::Windows::Forms::TextBox^ textBox17;
+private: System::Windows::Forms::TextBox^ ModificationPersonnelTexteboxNom;
+private: System::Windows::Forms::TextBox^ ModificationPersonnelTexteboxEmail;
+
+
+
 	private: System::Windows::Forms::Label^ label55;
 	private: System::Windows::Forms::Label^ label56;
 	private: System::Windows::Forms::Label^ label57;
-	private: System::Windows::Forms::TextBox^ textBox18;
+private: System::Windows::Forms::TextBox^ ModificationPersonnelTexteboxPrenom;
+
 	private: System::Windows::Forms::Label^ label58;
-	private: System::Windows::Forms::DateTimePicker^ ModifierPersonnelDatetimepicker;
+	private: System::Windows::Forms::DateTimePicker^ ModificationPersonnelDatetimepicker;
 
 	private: System::Windows::Forms::Label^ label59;
 	private: System::Windows::Forms::Button^ AfficherClientButton;
@@ -591,9 +606,9 @@ private: System::Windows::Forms::Label^ label75;
 			this->TabpageModificationPersonnel = (gcnew System::Windows::Forms::TabPage());
 			this->ModificationPersonnelComboBoxSuperieur = (gcnew System::Windows::Forms::ComboBox());
 			this->label35 = (gcnew System::Windows::Forms::Label());
-			this->ModificationPersonnelTexteboxMotdepasse = (gcnew System::Windows::Forms::TextBox());
+			this->ModificationPersonnelTexteboxMotDePasse = (gcnew System::Windows::Forms::TextBox());
 			this->label36 = (gcnew System::Windows::Forms::Label());
-			this->ModifierPersonnelButtonModifier = (gcnew System::Windows::Forms::Button());
+			this->ModificationPersonnelButtonModifier = (gcnew System::Windows::Forms::Button());
 			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
 			this->label37 = (gcnew System::Windows::Forms::Label());
 			this->label38 = (gcnew System::Windows::Forms::Label());
@@ -604,14 +619,14 @@ private: System::Windows::Forms::Label^ label75;
 			this->label53 = (gcnew System::Windows::Forms::Label());
 			this->label54 = (gcnew System::Windows::Forms::Label());
 			this->textBox15 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox16 = (gcnew System::Windows::Forms::TextBox());
-			this->textBox17 = (gcnew System::Windows::Forms::TextBox());
+			this->ModificationPersonnelTexteboxNom = (gcnew System::Windows::Forms::TextBox());
+			this->ModificationPersonnelTexteboxEmail = (gcnew System::Windows::Forms::TextBox());
 			this->label55 = (gcnew System::Windows::Forms::Label());
 			this->label56 = (gcnew System::Windows::Forms::Label());
 			this->label57 = (gcnew System::Windows::Forms::Label());
-			this->textBox18 = (gcnew System::Windows::Forms::TextBox());
+			this->ModificationPersonnelTexteboxPrenom = (gcnew System::Windows::Forms::TextBox());
 			this->label58 = (gcnew System::Windows::Forms::Label());
-			this->ModifierPersonnelDatetimepicker = (gcnew System::Windows::Forms::DateTimePicker());
+			this->ModificationPersonnelDatetimepicker = (gcnew System::Windows::Forms::DateTimePicker());
 			this->label59 = (gcnew System::Windows::Forms::Label());
 			this->ModificationPersonnelComboBoxPersonnel = (gcnew System::Windows::Forms::ComboBox());
 			this->label52 = (gcnew System::Windows::Forms::Label());
@@ -1936,9 +1951,9 @@ private: System::Windows::Forms::Label^ label75;
 			// 
 			this->TabpageModificationPersonnel->Controls->Add(this->ModificationPersonnelComboBoxSuperieur);
 			this->TabpageModificationPersonnel->Controls->Add(this->label35);
-			this->TabpageModificationPersonnel->Controls->Add(this->ModificationPersonnelTexteboxMotdepasse);
+			this->TabpageModificationPersonnel->Controls->Add(this->ModificationPersonnelTexteboxMotDePasse);
 			this->TabpageModificationPersonnel->Controls->Add(this->label36);
-			this->TabpageModificationPersonnel->Controls->Add(this->ModifierPersonnelButtonModifier);
+			this->TabpageModificationPersonnel->Controls->Add(this->ModificationPersonnelButtonModifier);
 			this->TabpageModificationPersonnel->Controls->Add(this->textBox3);
 			this->TabpageModificationPersonnel->Controls->Add(this->label37);
 			this->TabpageModificationPersonnel->Controls->Add(this->label38);
@@ -1949,14 +1964,14 @@ private: System::Windows::Forms::Label^ label75;
 			this->TabpageModificationPersonnel->Controls->Add(this->label53);
 			this->TabpageModificationPersonnel->Controls->Add(this->label54);
 			this->TabpageModificationPersonnel->Controls->Add(this->textBox15);
-			this->TabpageModificationPersonnel->Controls->Add(this->textBox16);
-			this->TabpageModificationPersonnel->Controls->Add(this->textBox17);
+			this->TabpageModificationPersonnel->Controls->Add(this->ModificationPersonnelTexteboxNom);
+			this->TabpageModificationPersonnel->Controls->Add(this->ModificationPersonnelTexteboxEmail);
 			this->TabpageModificationPersonnel->Controls->Add(this->label55);
 			this->TabpageModificationPersonnel->Controls->Add(this->label56);
 			this->TabpageModificationPersonnel->Controls->Add(this->label57);
-			this->TabpageModificationPersonnel->Controls->Add(this->textBox18);
+			this->TabpageModificationPersonnel->Controls->Add(this->ModificationPersonnelTexteboxPrenom);
 			this->TabpageModificationPersonnel->Controls->Add(this->label58);
-			this->TabpageModificationPersonnel->Controls->Add(this->ModifierPersonnelDatetimepicker);
+			this->TabpageModificationPersonnel->Controls->Add(this->ModificationPersonnelDatetimepicker);
 			this->TabpageModificationPersonnel->Controls->Add(this->label59);
 			this->TabpageModificationPersonnel->Controls->Add(this->ModificationPersonnelComboBoxPersonnel);
 			this->TabpageModificationPersonnel->Controls->Add(this->label52);
@@ -1988,13 +2003,13 @@ private: System::Windows::Forms::Label^ label75;
 			this->label35->TabIndex = 239;
 			this->label35->Text = L"Selection du supérieur";
 			// 
-			// ModificationPersonnelTexteboxMotdepasse
+			// ModificationPersonnelTexteboxMotDePasse
 			// 
-			this->ModificationPersonnelTexteboxMotdepasse->Location = System::Drawing::Point(201, 132);
-			this->ModificationPersonnelTexteboxMotdepasse->Margin = System::Windows::Forms::Padding(2);
-			this->ModificationPersonnelTexteboxMotdepasse->Name = L"ModificationPersonnelTexteboxMotdepasse";
-			this->ModificationPersonnelTexteboxMotdepasse->Size = System::Drawing::Size(200, 20);
-			this->ModificationPersonnelTexteboxMotdepasse->TabIndex = 237;
+			this->ModificationPersonnelTexteboxMotDePasse->Location = System::Drawing::Point(201, 132);
+			this->ModificationPersonnelTexteboxMotDePasse->Margin = System::Windows::Forms::Padding(2);
+			this->ModificationPersonnelTexteboxMotDePasse->Name = L"ModificationPersonnelTexteboxMotDePasse";
+			this->ModificationPersonnelTexteboxMotDePasse->Size = System::Drawing::Size(200, 20);
+			this->ModificationPersonnelTexteboxMotDePasse->TabIndex = 237;
 			// 
 			// label36
 			// 
@@ -2006,16 +2021,16 @@ private: System::Windows::Forms::Label^ label75;
 			this->label36->TabIndex = 236;
 			this->label36->Text = L"Mot de passe";
 			// 
-			// ModifierPersonnelButtonModifier
+			// ModificationPersonnelButtonModifier
 			// 
-			this->ModifierPersonnelButtonModifier->Location = System::Drawing::Point(230, 410);
-			this->ModifierPersonnelButtonModifier->Margin = System::Windows::Forms::Padding(2);
-			this->ModifierPersonnelButtonModifier->Name = L"ModifierPersonnelButtonModifier";
-			this->ModifierPersonnelButtonModifier->Size = System::Drawing::Size(125, 71);
-			this->ModifierPersonnelButtonModifier->TabIndex = 225;
-			this->ModifierPersonnelButtonModifier->Text = L"Modifier le client";
-			this->ModifierPersonnelButtonModifier->UseVisualStyleBackColor = true;
-			this->ModifierPersonnelButtonModifier->Click += gcnew System::EventHandler(this, &MyForm::ModifierPersonnelButtonModifier_Click);
+			this->ModificationPersonnelButtonModifier->Location = System::Drawing::Point(230, 410);
+			this->ModificationPersonnelButtonModifier->Margin = System::Windows::Forms::Padding(2);
+			this->ModificationPersonnelButtonModifier->Name = L"ModificationPersonnelButtonModifier";
+			this->ModificationPersonnelButtonModifier->Size = System::Drawing::Size(125, 71);
+			this->ModificationPersonnelButtonModifier->TabIndex = 225;
+			this->ModificationPersonnelButtonModifier->Text = L"Modifier le client";
+			this->ModificationPersonnelButtonModifier->UseVisualStyleBackColor = true;
+			this->ModificationPersonnelButtonModifier->Click += gcnew System::EventHandler(this, &MyForm::ModificationPersonnelButtonModifier_Click);
 			// 
 			// textBox3
 			// 
@@ -2107,21 +2122,21 @@ private: System::Windows::Forms::Label^ label75;
 			this->textBox15->Size = System::Drawing::Size(200, 20);
 			this->textBox15->TabIndex = 221;
 			// 
-			// textBox16
+			// ModificationPersonnelTexteboxNom
 			// 
-			this->textBox16->Location = System::Drawing::Point(201, 63);
-			this->textBox16->Margin = System::Windows::Forms::Padding(2);
-			this->textBox16->Name = L"textBox16";
-			this->textBox16->Size = System::Drawing::Size(200, 20);
-			this->textBox16->TabIndex = 216;
+			this->ModificationPersonnelTexteboxNom->Location = System::Drawing::Point(201, 63);
+			this->ModificationPersonnelTexteboxNom->Margin = System::Windows::Forms::Padding(2);
+			this->ModificationPersonnelTexteboxNom->Name = L"ModificationPersonnelTexteboxNom";
+			this->ModificationPersonnelTexteboxNom->Size = System::Drawing::Size(200, 20);
+			this->ModificationPersonnelTexteboxNom->TabIndex = 216;
 			// 
-			// textBox17
+			// ModificationPersonnelTexteboxEmail
 			// 
-			this->textBox17->Location = System::Drawing::Point(201, 110);
-			this->textBox17->Margin = System::Windows::Forms::Padding(2);
-			this->textBox17->Name = L"textBox17";
-			this->textBox17->Size = System::Drawing::Size(200, 20);
-			this->textBox17->TabIndex = 218;
+			this->ModificationPersonnelTexteboxEmail->Location = System::Drawing::Point(201, 110);
+			this->ModificationPersonnelTexteboxEmail->Margin = System::Windows::Forms::Padding(2);
+			this->ModificationPersonnelTexteboxEmail->Name = L"ModificationPersonnelTexteboxEmail";
+			this->ModificationPersonnelTexteboxEmail->Size = System::Drawing::Size(200, 20);
+			this->ModificationPersonnelTexteboxEmail->TabIndex = 218;
 			// 
 			// label55
 			// 
@@ -2153,13 +2168,13 @@ private: System::Windows::Forms::Label^ label75;
 			this->label57->TabIndex = 228;
 			this->label57->Text = L"Nom";
 			// 
-			// textBox18
+			// ModificationPersonnelTexteboxPrenom
 			// 
-			this->textBox18->Location = System::Drawing::Point(201, 87);
-			this->textBox18->Margin = System::Windows::Forms::Padding(2);
-			this->textBox18->Name = L"textBox18";
-			this->textBox18->Size = System::Drawing::Size(200, 20);
-			this->textBox18->TabIndex = 217;
+			this->ModificationPersonnelTexteboxPrenom->Location = System::Drawing::Point(201, 87);
+			this->ModificationPersonnelTexteboxPrenom->Margin = System::Windows::Forms::Padding(2);
+			this->ModificationPersonnelTexteboxPrenom->Name = L"ModificationPersonnelTexteboxPrenom";
+			this->ModificationPersonnelTexteboxPrenom->Size = System::Drawing::Size(200, 20);
+			this->ModificationPersonnelTexteboxPrenom->TabIndex = 217;
 			// 
 			// label58
 			// 
@@ -2171,15 +2186,15 @@ private: System::Windows::Forms::Label^ label75;
 			this->label58->TabIndex = 227;
 			this->label58->Text = L"Adresse";
 			// 
-			// ModifierPersonnelDatetimepicker
+			// ModificationPersonnelDatetimepicker
 			// 
-			this->ModifierPersonnelDatetimepicker->CustomFormat = L"yyyy\'-\'MM\'-\'dd";
-			this->ModifierPersonnelDatetimepicker->Format = System::Windows::Forms::DateTimePickerFormat::Custom;
-			this->ModifierPersonnelDatetimepicker->Location = System::Drawing::Point(201, 184);
-			this->ModifierPersonnelDatetimepicker->Margin = System::Windows::Forms::Padding(2);
-			this->ModifierPersonnelDatetimepicker->Name = L"ModifierPersonnelDatetimepicker";
-			this->ModifierPersonnelDatetimepicker->Size = System::Drawing::Size(174, 20);
-			this->ModifierPersonnelDatetimepicker->TabIndex = 219;
+			this->ModificationPersonnelDatetimepicker->CustomFormat = L"yyyy\'-\'MM\'-\'dd";
+			this->ModificationPersonnelDatetimepicker->Format = System::Windows::Forms::DateTimePickerFormat::Custom;
+			this->ModificationPersonnelDatetimepicker->Location = System::Drawing::Point(201, 184);
+			this->ModificationPersonnelDatetimepicker->Margin = System::Windows::Forms::Padding(2);
+			this->ModificationPersonnelDatetimepicker->Name = L"ModificationPersonnelDatetimepicker";
+			this->ModificationPersonnelDatetimepicker->Size = System::Drawing::Size(174, 20);
+			this->ModificationPersonnelDatetimepicker->TabIndex = 219;
 			// 
 			// label59
 			// 
@@ -2199,6 +2214,7 @@ private: System::Windows::Forms::Label^ label75;
 			this->ModificationPersonnelComboBoxPersonnel->Name = L"ModificationPersonnelComboBoxPersonnel";
 			this->ModificationPersonnelComboBoxPersonnel->Size = System::Drawing::Size(241, 21);
 			this->ModificationPersonnelComboBoxPersonnel->TabIndex = 215;
+			this->ModificationPersonnelComboBoxPersonnel->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::ModificationPersonnelComboBoxPersonnel_SelectedIndexChanged);
 			// 
 			// label52
 			// 
@@ -3459,26 +3475,23 @@ private: System::Windows::Forms::Label^ label75;
 			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 1, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
 			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index , 1, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
 		}
-		else if (this->CreationPersonnelRadiobuttonAdmin->Checked)
+		else if (this->CreationPersonnelRadiobuttonRH->Checked)
 		{
 			int index = System::Convert::ToInt16(ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->CreationPersonnelComboboxSuperieur->SelectedIndex]->ItemArray[0]->ToString());
-			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 1, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
-			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index , 1, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
+			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 2, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
+			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index , 2, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
 		}
-		else if (this->CreationPersonnelRadiobuttonAdmin->Checked)
+		else if (this->CreationPersonnelRadiobuttonEmploye->Checked)
 		{
 			int index = System::Convert::ToInt16(ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->CreationPersonnelComboboxSuperieur->SelectedIndex]->ItemArray[0]->ToString());
-			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 1, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
-			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 1, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
+			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 3, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
+			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 3, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
 		}
 
 
-		//
-		//this->CreationPersonnelTextboxMotdepasse->Text;
-		//this->CreationPersonnelDateTimePicker->Text;
 	}
 
-	private: System::Void ModifierPersonnelButtonModifier_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void ModificationPersonnelButtonModifier_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void SupprimerPersonnelButton_Click(System::Object^ sender, System::EventArgs^ e) {
 		CLservicePersonnel^ servicePersonnel = gcnew CLservicePersonnel();
@@ -3549,5 +3562,23 @@ private: System::Windows::Forms::Label^ label75;
 	}
 	private: System::Void SupprimerPersonnelCheckbox_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+	private: System::Void ModificationPersonnelComboBoxPersonnel_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+		CLservicePersonnel^ servicePersonnel = gcnew CLservicePersonnel();
+
+		this->oDs = servicePersonnel->SelPourModifPersonnel();
+		int index = this->ModificationPersonnelComboBoxPersonnel->SelectedIndex;
+			
+		this->label52->Text = System::Convert::ToString(this->ModificationPersonnelComboBoxPersonnel->SelectedIndex);
+		this->label57->Text = System::Convert::ToString(this->oDs->Tables["SelPersonneUpd"]->Rows->Count);
+
+		this->ModificationPersonnelTexteboxNom->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[8]->ToString();
+		this->ModificationPersonnelTexteboxPrenom->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[10]->ToString();
+		this->ModificationPersonnelTexteboxEmail->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[9]->ToString();
+		this->ModificationPersonnelTexteboxMotDePasse->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[3]->ToString();
+		this->ModificationPersonnelComboBoxSuperieur->SelectedIndex = System::Convert::ToInt16(this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[2]->ToString());
+		this->ModificationPersonnelDatetimepicker->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[1]->ToString();
+		
+		
+	}
+};
 }

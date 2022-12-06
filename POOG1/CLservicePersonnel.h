@@ -15,6 +15,8 @@ namespace Comp_Services
 		System::Data::DataSet^ AfficherPersonnel(int);
 		System::Data::DataSet^ LoginPersonnel(System::String^ temail, System::String^ tpassword);
 		System::Data::DataSet^ ComboboxPersonnel();
+		System::Data::DataSet^ SelPourModifPersonnel();
+
 
 	private:
 		CLcad^ oCad;
