@@ -3459,6 +3459,19 @@ private: System::Windows::Forms::Label^ label75;
 			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 1, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
 			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index , 1, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
 		}
+		else if (this->CreationPersonnelRadiobuttonAdmin->Checked)
+		{
+			int index = System::Convert::ToInt16(ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->CreationPersonnelComboboxSuperieur->SelectedIndex]->ItemArray[0]->ToString());
+			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 1, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
+			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index , 1, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
+		}
+		else if (this->CreationPersonnelRadiobuttonAdmin->Checked)
+		{
+			int index = System::Convert::ToInt16(ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->CreationPersonnelComboboxSuperieur->SelectedIndex]->ItemArray[0]->ToString());
+			//servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 1, this->CreationPersonnelTextboxMotdepasse->Text, "2022-12-02");
+			servicePersonnel->CreerPersonnel(this->CreationPersonnelTextboxEmail->Text, this->CreationPersonnelTextboxNom->Text, this->CreationPersonnelTextboxPrenom->Text, 7, index, 1, this->CreationPersonnelTextboxMotdepasse->Text, this->CreationPersonnelDateTimePicker->Text);
+		}
+
 
 		//
 		//this->CreationPersonnelTextboxMotdepasse->Text;
@@ -3468,6 +3481,11 @@ private: System::Windows::Forms::Label^ label75;
 	private: System::Void ModifierPersonnelButtonModifier_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void SupprimerPersonnelButton_Click(System::Object^ sender, System::EventArgs^ e) {
+		CLservicePersonnel^ servicePersonnel = gcnew CLservicePersonnel();
+		CLcad^ ComboCad = gcnew CLcad();
+		int index = System::Convert::ToInt16(ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->SupprimerPersonnelComboBox->SelectedIndex]->ItemArray[0]->ToString());
+		servicePersonnel->SupprimerPersonnel(index);
+			
 	}
 	private: System::Void AfficherPersonnelButton_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
@@ -3498,6 +3516,12 @@ private: System::Windows::Forms::Label^ label75;
 	private: System::Void SupprimerClientCheckbox_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void SupprimerClientButton_Click(System::Object^ sender, System::EventArgs^ e) {
+		CLservicePersonnel^ servicePersonnel = gcnew CLservicePersonnel();
+		CLcad^ ComboCad = gcnew CLcad();
+		int index = System::Convert::ToInt16(ComboCad->getRows("EXECUTE SelIDN", "listeCombobox")->Tables["listeCombobox"]->Rows[this->CreationPersonnelComboboxSuperieur->SelectedIndex]->ItemArray[0]->ToString());
+		servicePersonnel->SupprimerPersonnel(index);
+		this->label69->Text = "appuyer sur le bouton suppr";
+
 	}
 	private: System::Void AfficherClientButton_Click(System::Object^ sender, System::EventArgs^ e) 
 	{

@@ -34,7 +34,7 @@ namespace Comp_Services
 
 	void CLservicePersonnel::SupprimerPersonnel(int a)
 	{
-		this->personnel->setid_personne(a);
+		this->personnel->setid_personnel(a);
 		this->oCad->actionRows(this->personnel->Delete());
 	}
 

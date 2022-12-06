@@ -27,7 +27,7 @@ namespace Comp_Mappage
 
 	System::String^ CLpersonnel::Delete(void)
 	{
-		return "EXECUTE SupprPersonnel @par1 " + this->getid_personnel();
+		return "EXECUTE SupprPersonnel @par1 =" + this->getid_personnel();
 	}
 
 	System::String^ CLpersonnel::Update()
