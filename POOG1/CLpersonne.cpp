@@ -13,6 +13,7 @@ namespace Comp_Mappage
 		return "Rien";
 	}
 
+
 	System::String^ CLpersonne::Delete(void)
 	{
 		return "Rien";
