@@ -19,14 +19,13 @@ namespace Comp_Services
 		this->adresse->setville(f);
 		this->oCad->actionRows(this->adresse->Insert());
 	}
-	void CLserviceAdresse::ModifierAdresse(int a, int  b, System::String^ c, System::String^ d, System::String^ e, int g, System::String^ f)
+	void CLserviceAdresse::ModifierAdresse(int a, int  b, System::String^ c, System::String^ d, System::String^ e,System::String^ f)
 	{
 		this->adresse->setid_adresse(a);
 		this->adresse->setnumero(b);
 		this->adresse->settype_voie(c);
 		this->adresse->setnom_voie(d);
 		this->adresse->setcode_postal(e);
-		this->adresse->setid_liste_ville(g);
 		this->adresse->setville(f);
 		this->oCad->actionRows(this->adresse->Update());
 	}

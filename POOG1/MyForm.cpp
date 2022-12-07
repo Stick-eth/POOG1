@@ -10,6 +10,7 @@ void IHMPROJETPOO::MyForm::CacherTab()
     this->TabcontrolGestionPersonnel->Visible = false;
     this->TabcontrolGestionArticle->Visible = false;
     this->TabcontrolGestionCommande->Visible = false;
+    this->TabcontrolStats->Visible = false;
 }
 
 void IHMPROJETPOO::MyForm::AfficherTabClient()
@@ -47,4 +48,9 @@ void IHMPROJETPOO::MyForm::AjouterTexteComboBox(System::Windows::Forms::ComboBox
         //fonctionne mais c'est un format de naze
     }
     ListeDeroulante->EndUpdate();
+}
+
+void IHMPROJETPOO::MyForm::AfficherStats()
+{
+    this->TabcontrolStats->Visible = true;
 }

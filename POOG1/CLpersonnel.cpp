@@ -32,7 +32,7 @@ namespace Comp_Mappage
 
 	System::String^ CLpersonnel::Update()
 	{
-		return "EXECUTE UpdPersonnel @id_personnel " + this->getid_personnel() + " @nom " + this->getnom() + " @prenom " + this->getprenom() + " @id_adresse " + this->getid_adresse() + " @id_superieur" + this->getid_superieur();
+		return "EXECUTE UpdPersonnel @id_personne ='" + this->getid_personne() + "', @date_embauche ='" + this->getdateemb() + "', @id_superieur = " + this->getid_superieur() + ", @mot_de_passe ='" + this->getmdp() + "', @id_adresse =" + this->getid_adresse() + ", @email ='" + this->getemail() + "', @nom = '" + this->getnom() + "',@prenom = '" + this->getprenom() + "'";
 	}
 
 	System::String^ CLpersonnel::LoginProc()

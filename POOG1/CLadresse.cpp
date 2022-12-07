@@ -16,7 +16,7 @@ namespace Comp_Mappage
 
 	System::String^ CLadresse::Update()
 	{
-		return "EXECUTE UpdAdresse @numero =" + this->getnumero() + ", @type_voie =" + this->gettype_voie() + ", @nom_voie =" + this->getnom_voie() + ", @code_postal = " + this->getcode_postal() + ", @id_liste_ville = " + this->getid_liste_ville();
+		return "EXECUTE UpdAdresse @id_adresse =" + this->getid_adresse() + ",@numero =" + this->getnumero() + ", @type_voie =" + this->gettype_voie() + ", @nom_voie =" + this->getnom_voie() + ", @code_postal = " + this->getcode_postal() + ", @nomville = '" + this->getville() + "'";
 	}
 
 	//Définition des setters

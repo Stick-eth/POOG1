@@ -10,7 +10,7 @@ namespace Comp_Services
 	public:
 		CLservicePersonnel(void);
 		void CreerPersonnel(System::String^ a,System::String^ b, System::String^ c, int e, int f, int h, System::String^ g,System::String^ i);
-		void ModifierPersonnel(System::String^ b, System::String^ c, int d, int e, int f);
+		void ModifierPersonnel(int z, System::String^ a, System::String^ b, System::String^ c, int e, int f, System::String^ g, System::String^ i);
 		void SupprimerPersonnel(int);
 		System::Data::DataSet^ AfficherPersonnel(int);
 		System::Data::DataSet^ LoginPersonnel(System::String^ temail, System::String^ tpassword);

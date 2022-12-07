@@ -14,7 +14,7 @@ namespace Comp_Services
 	public:
 		CLserviceAdresse();
 		void CreerAdresse(int b, System::String^ c, System::String^ d, System::String^ e, System::String^ f);
-		void ModifierAdresse(int a, int  b, System::String^ c, System::String^ d, System::String^ e, int g, System::String^ f);
+		void ModifierAdresse(int a, int  b, System::String^ c, System::String^ d, System::String^ e, System::String^ f);
 		System::Data::DataSet^ AfficherAdresse(int a);
 	};
 }

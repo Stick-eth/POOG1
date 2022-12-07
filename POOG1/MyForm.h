@@ -64,6 +64,7 @@ namespace IHMPROJETPOO {
 		void AfficherTabArticle();
 		void AfficherTabCommande();
 		void AjouterTexteComboBox(System::Windows::Forms::ComboBox^ ListeDeroulante, System::Data::DataSet^ comboset);
+		void AfficherStats();
 
 	private: System::Data::DataSet ^ oDs;
 
@@ -471,6 +472,27 @@ private: System::Windows::Forms::RadioButton^ CreationPersonnelRadiobuttonEmploy
 private: System::Windows::Forms::RadioButton^ CreationPersonnelRadiobuttonRH;
 private: System::Windows::Forms::RadioButton^ CreationPersonnelRadiobuttonAdmin;
 private: System::Windows::Forms::Label^ label75;
+private: System::Windows::Forms::TabControl^ TabcontrolStats;
+private: System::Windows::Forms::TabPage^ TabpageStats;
+private: System::Windows::Forms::TextBox^ textBox7;
+private: System::Windows::Forms::TextBox^ textBox6;
+private: System::Windows::Forms::Label^ label89;
+private: System::Windows::Forms::Label^ label86;
+private: System::Windows::Forms::DataGridView^ dataGridView3;
+private: System::Windows::Forms::DataGridView^ dataGridView2;
+private: System::Windows::Forms::Label^ label85;
+private: System::Windows::Forms::Label^ label84;
+private: System::Windows::Forms::Label^ label83;
+private: System::Windows::Forms::DataGridView^ dataGridView1;
+private: System::Windows::Forms::NumericUpDown^ numericUpDown2;
+private: System::Windows::Forms::Label^ label82;
+private: System::Windows::Forms::Label^ label81;
+private: System::Windows::Forms::TextBox^ textBox2;
+private: System::Windows::Forms::Label^ label79;
+private: System::Windows::Forms::NumericUpDown^ numericUpDown1;
+private: System::Windows::Forms::TextBox^ textBox1;
+private: System::Windows::Forms::Label^ label78;
+private: System::Windows::Forms::TabPage^ TabpageStatsAv;
 
 
 
@@ -733,6 +755,27 @@ private: System::Windows::Forms::Label^ label75;
 			this->AfficherCommandeDataGridView = (gcnew System::Windows::Forms::DataGridView());
 			this->AfficherCommandeCombobox = (gcnew System::Windows::Forms::ComboBox());
 			this->label93 = (gcnew System::Windows::Forms::Label());
+			this->TabcontrolStats = (gcnew System::Windows::Forms::TabControl());
+			this->TabpageStats = (gcnew System::Windows::Forms::TabPage());
+			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
+			this->label89 = (gcnew System::Windows::Forms::Label());
+			this->label86 = (gcnew System::Windows::Forms::Label());
+			this->dataGridView3 = (gcnew System::Windows::Forms::DataGridView());
+			this->dataGridView2 = (gcnew System::Windows::Forms::DataGridView());
+			this->label85 = (gcnew System::Windows::Forms::Label());
+			this->label84 = (gcnew System::Windows::Forms::Label());
+			this->label83 = (gcnew System::Windows::Forms::Label());
+			this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
+			this->numericUpDown2 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->label82 = (gcnew System::Windows::Forms::Label());
+			this->label81 = (gcnew System::Windows::Forms::Label());
+			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
+			this->label79 = (gcnew System::Windows::Forms::Label());
+			this->numericUpDown1 = (gcnew System::Windows::Forms::NumericUpDown());
+			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
+			this->label78 = (gcnew System::Windows::Forms::Label());
+			this->TabpageStatsAv = (gcnew System::Windows::Forms::TabPage());
 			this->TabcontrolGestionClient->SuspendLayout();
 			this->TabpageCreationClient->SuspendLayout();
 			this->TabpageModifierClient->SuspendLayout();
@@ -757,6 +800,13 @@ private: System::Windows::Forms::Label^ label75;
 			this->TabpageSupprimerCommande->SuspendLayout();
 			this->TabpageAfficherCommande->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->AfficherCommandeDataGridView))->BeginInit();
+			this->TabcontrolStats->SuspendLayout();
+			this->TabpageStats->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView3))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown2))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// ButtonGestionClient
@@ -2219,12 +2269,13 @@ private: System::Windows::Forms::Label^ label75;
 			// label52
 			// 
 			this->label52->AutoSize = true;
-			this->label52->Location = System::Drawing::Point(44, 22);
+			this->label52->Location = System::Drawing::Point(20, 22);
 			this->label52->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label52->Name = L"label52";
-			this->label52->Size = System::Drawing::Size(159, 13);
+			this->label52->Size = System::Drawing::Size(180, 13);
 			this->label52->TabIndex = 214;
-			this->label52->Text = L"Selectionner le client à modifier :";
+			this->label52->Text = L"Selectionner le personnel à modifier :";
+			this->label52->Click += gcnew System::EventHandler(this, &MyForm::label52_Click);
 			// 
 			// TabpageSupprimerPersonnel
 			// 
@@ -3353,6 +3404,235 @@ private: System::Windows::Forms::Label^ label75;
 			this->label93->TabIndex = 2;
 			this->label93->Text = L"Selectionner la commande à afficher :";
 			// 
+			// TabcontrolStats
+			// 
+			this->TabcontrolStats->Controls->Add(this->TabpageStats);
+			this->TabcontrolStats->Controls->Add(this->TabpageStatsAv);
+			this->TabcontrolStats->ImeMode = System::Windows::Forms::ImeMode::On;
+			this->TabcontrolStats->Location = System::Drawing::Point(9, 75);
+			this->TabcontrolStats->Margin = System::Windows::Forms::Padding(2);
+			this->TabcontrolStats->Name = L"TabcontrolStats";
+			this->TabcontrolStats->SelectedIndex = 0;
+			this->TabcontrolStats->Size = System::Drawing::Size(1207, 578);
+			this->TabcontrolStats->TabIndex = 185;
+			// 
+			// TabpageStats
+			// 
+			this->TabpageStats->Controls->Add(this->textBox7);
+			this->TabpageStats->Controls->Add(this->textBox6);
+			this->TabpageStats->Controls->Add(this->label89);
+			this->TabpageStats->Controls->Add(this->label86);
+			this->TabpageStats->Controls->Add(this->dataGridView3);
+			this->TabpageStats->Controls->Add(this->dataGridView2);
+			this->TabpageStats->Controls->Add(this->label85);
+			this->TabpageStats->Controls->Add(this->label84);
+			this->TabpageStats->Controls->Add(this->label83);
+			this->TabpageStats->Controls->Add(this->dataGridView1);
+			this->TabpageStats->Controls->Add(this->numericUpDown2);
+			this->TabpageStats->Controls->Add(this->label82);
+			this->TabpageStats->Controls->Add(this->label81);
+			this->TabpageStats->Controls->Add(this->textBox2);
+			this->TabpageStats->Controls->Add(this->label79);
+			this->TabpageStats->Controls->Add(this->numericUpDown1);
+			this->TabpageStats->Controls->Add(this->textBox1);
+			this->TabpageStats->Controls->Add(this->label78);
+			this->TabpageStats->Location = System::Drawing::Point(4, 22);
+			this->TabpageStats->Margin = System::Windows::Forms::Padding(2);
+			this->TabpageStats->Name = L"TabpageStats";
+			this->TabpageStats->Padding = System::Windows::Forms::Padding(2);
+			this->TabpageStats->Size = System::Drawing::Size(1199, 552);
+			this->TabpageStats->TabIndex = 0;
+			this->TabpageStats->Text = L"Général";
+			this->TabpageStats->UseVisualStyleBackColor = true;
+			// 
+			// textBox7
+			// 
+			this->textBox7->Location = System::Drawing::Point(431, 189);
+			this->textBox7->Margin = System::Windows::Forms::Padding(2);
+			this->textBox7->Name = L"textBox7";
+			this->textBox7->Size = System::Drawing::Size(131, 20);
+			this->textBox7->TabIndex = 17;
+			// 
+			// textBox6
+			// 
+			this->textBox6->Location = System::Drawing::Point(431, 37);
+			this->textBox6->Margin = System::Windows::Forms::Padding(2);
+			this->textBox6->Name = L"textBox6";
+			this->textBox6->Size = System::Drawing::Size(131, 20);
+			this->textBox6->TabIndex = 16;
+			// 
+			// label89
+			// 
+			this->label89->AutoSize = true;
+			this->label89->Location = System::Drawing::Point(443, 171);
+			this->label89->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label89->Name = L"label89";
+			this->label89->Size = System::Drawing::Size(111, 13);
+			this->label89->TabIndex = 15;
+			this->label89->Text = L"Valeur du stock (TTC)";
+			// 
+			// label86
+			// 
+			this->label86->AutoSize = true;
+			this->label86->Location = System::Drawing::Point(432, 19);
+			this->label86->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label86->Name = L"label86";
+			this->label86->Size = System::Drawing::Size(138, 13);
+			this->label86->TabIndex = 14;
+			this->label86->Text = L"Valeur du stock (hors-taxes)";
+			// 
+			// dataGridView3
+			// 
+			this->dataGridView3->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
+			this->dataGridView3->Location = System::Drawing::Point(226, 189);
+			this->dataGridView3->Margin = System::Windows::Forms::Padding(2);
+			this->dataGridView3->Name = L"dataGridView3";
+			this->dataGridView3->RowHeadersWidth = 51;
+			this->dataGridView3->RowTemplate->Height = 24;
+			this->dataGridView3->Size = System::Drawing::Size(182, 231);
+			this->dataGridView3->TabIndex = 13;
+			// 
+			// dataGridView2
+			// 
+			this->dataGridView2->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
+			this->dataGridView2->Location = System::Drawing::Point(16, 189);
+			this->dataGridView2->Margin = System::Windows::Forms::Padding(2);
+			this->dataGridView2->Name = L"dataGridView2";
+			this->dataGridView2->RowHeadersWidth = 51;
+			this->dataGridView2->RowTemplate->Height = 24;
+			this->dataGridView2->Size = System::Drawing::Size(182, 231);
+			this->dataGridView2->TabIndex = 12;
+			// 
+			// label85
+			// 
+			this->label85->AutoSize = true;
+			this->label85->Location = System::Drawing::Point(244, 171);
+			this->label85->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label85->Name = L"label85";
+			this->label85->Size = System::Drawing::Size(139, 13);
+			this->label85->TabIndex = 11;
+			this->label85->Text = L"10 articles les moins vendus";
+			// 
+			// label84
+			// 
+			this->label84->AutoSize = true;
+			this->label84->Location = System::Drawing::Point(41, 174);
+			this->label84->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label84->Name = L"label84";
+			this->label84->Size = System::Drawing::Size(131, 13);
+			this->label84->TabIndex = 10;
+			this->label84->Text = L"10 articles les plus vendus";
+			// 
+			// label83
+			// 
+			this->label83->AutoSize = true;
+			this->label83->Location = System::Drawing::Point(217, 19);
+			this->label83->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label83->Name = L"label83";
+			this->label83->Size = System::Drawing::Size(135, 13);
+			this->label83->TabIndex = 9;
+			this->label83->Text = L"Produits à réapprovisionner";
+			// 
+			// dataGridView1
+			// 
+			this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
+			this->dataGridView1->Location = System::Drawing::Point(154, 37);
+			this->dataGridView1->Margin = System::Windows::Forms::Padding(2);
+			this->dataGridView1->Name = L"dataGridView1";
+			this->dataGridView1->RowHeadersWidth = 51;
+			this->dataGridView1->RowTemplate->Height = 24;
+			this->dataGridView1->Size = System::Drawing::Size(254, 122);
+			this->dataGridView1->TabIndex = 8;
+			// 
+			// numericUpDown2
+			// 
+			this->numericUpDown2->Location = System::Drawing::Point(94, 144);
+			this->numericUpDown2->Margin = System::Windows::Forms::Padding(2);
+			this->numericUpDown2->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 2023, 0, 0, 0 });
+			this->numericUpDown2->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 2012, 0, 0, 0 });
+			this->numericUpDown2->Name = L"numericUpDown2";
+			this->numericUpDown2->Size = System::Drawing::Size(44, 20);
+			this->numericUpDown2->TabIndex = 7;
+			this->numericUpDown2->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 2022, 0, 0, 0 });
+			// 
+			// label82
+			// 
+			this->label82->AutoSize = true;
+			this->label82->Location = System::Drawing::Point(104, 128);
+			this->label82->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label82->Name = L"label82";
+			this->label82->Size = System::Drawing::Size(38, 13);
+			this->label82->TabIndex = 6;
+			this->label82->Text = L"Année";
+			// 
+			// label81
+			// 
+			this->label81->AutoSize = true;
+			this->label81->Location = System::Drawing::Point(21, 128);
+			this->label81->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label81->Name = L"label81";
+			this->label81->Size = System::Drawing::Size(29, 13);
+			this->label81->TabIndex = 5;
+			this->label81->Text = L"Mois";
+			// 
+			// textBox2
+			// 
+			this->textBox2->Location = System::Drawing::Point(23, 103);
+			this->textBox2->Margin = System::Windows::Forms::Padding(2);
+			this->textBox2->Name = L"textBox2";
+			this->textBox2->Size = System::Drawing::Size(116, 20);
+			this->textBox2->TabIndex = 4;
+			// 
+			// label79
+			// 
+			this->label79->AutoSize = true;
+			this->label79->Location = System::Drawing::Point(25, 84);
+			this->label79->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label79->Name = L"label79";
+			this->label79->Size = System::Drawing::Size(124, 13);
+			this->label79->TabIndex = 3;
+			this->label79->Text = L"Chiffre d\'affaires mensuel";
+			// 
+			// numericUpDown1
+			// 
+			this->numericUpDown1->Location = System::Drawing::Point(23, 144);
+			this->numericUpDown1->Margin = System::Windows::Forms::Padding(2);
+			this->numericUpDown1->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 12, 0, 0, 0 });
+			this->numericUpDown1->Minimum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 1, 0, 0, 0 });
+			this->numericUpDown1->Name = L"numericUpDown1";
+			this->numericUpDown1->Size = System::Drawing::Size(34, 20);
+			this->numericUpDown1->TabIndex = 2;
+			this->numericUpDown1->Value = System::Decimal(gcnew cli::array< System::Int32 >(4) { 12, 0, 0, 0 });
+			// 
+			// textBox1
+			// 
+			this->textBox1->Location = System::Drawing::Point(23, 39);
+			this->textBox1->Margin = System::Windows::Forms::Padding(2);
+			this->textBox1->Name = L"textBox1";
+			this->textBox1->Size = System::Drawing::Size(116, 20);
+			this->textBox1->TabIndex = 1;
+			// 
+			// label78
+			// 
+			this->label78->AutoSize = true;
+			this->label78->Location = System::Drawing::Point(21, 23);
+			this->label78->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label78->Name = L"label78";
+			this->label78->Size = System::Drawing::Size(127, 13);
+			this->label78->TabIndex = 0;
+			this->label78->Text = L"Montant du panier moyen";
+			// 
+			// TabpageStatsAv
+			// 
+			this->TabpageStatsAv->Location = System::Drawing::Point(4, 22);
+			this->TabpageStatsAv->Margin = System::Windows::Forms::Padding(2);
+			this->TabpageStatsAv->Name = L"TabpageStatsAv";
+			this->TabpageStatsAv->Padding = System::Windows::Forms::Padding(2);
+			this->TabpageStatsAv->Size = System::Drawing::Size(1199, 552);
+			this->TabpageStatsAv->TabIndex = 1;
+			this->TabpageStatsAv->Text = L"Avancé";
+			this->TabpageStatsAv->UseVisualStyleBackColor = true;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -3367,6 +3647,7 @@ private: System::Windows::Forms::Label^ label75;
 			this->Controls->Add(this->TabcontrolGestionCommande);
 			this->Controls->Add(this->TabcontrolGestionClient);
 			this->Controls->Add(this->TabcontrolGestionArticle);
+			this->Controls->Add(this->TabcontrolStats);
 			this->Margin = System::Windows::Forms::Padding(2);
 			this->Name = L"MyForm";
 			this->Text = L"MyForm";
@@ -3411,6 +3692,14 @@ private: System::Windows::Forms::Label^ label75;
 			this->TabpageAfficherCommande->ResumeLayout(false);
 			this->TabpageAfficherCommande->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->AfficherCommandeDataGridView))->EndInit();
+			this->TabcontrolStats->ResumeLayout(false);
+			this->TabpageStats->ResumeLayout(false);
+			this->TabpageStats->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView3))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown2))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->numericUpDown1))->EndInit();
 			this->ResumeLayout(false);
 
 		}
@@ -3451,6 +3740,7 @@ private: System::Windows::Forms::Label^ label75;
 	}
 	private: System::Void ButtonGestionStats_Click(System::Object^ sender, System::EventArgs^ e) {
 		CacherTab();
+		AfficherStats();
 	}
 	private: System::Void CreationPersonnelButtonCreer_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->label49->Text = this->CreationPersonnelDateTimePicker->Text;
@@ -3483,8 +3773,6 @@ private: System::Windows::Forms::Label^ label75;
 
 	}
 
-	private: System::Void ModificationPersonnelButtonModifier_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
 	private: System::Void SupprimerPersonnelButton_Click(System::Object^ sender, System::EventArgs^ e) {
 		CLservicePersonnel^ servicePersonnel = gcnew CLservicePersonnel();
 		CLcad^ ComboCad = gcnew CLcad();
@@ -3554,6 +3842,22 @@ private: System::Windows::Forms::Label^ label75;
 	}
 	private: System::Void SupprimerPersonnelCheckbox_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
+	private: System::Void ModificationPersonnelButtonModifier_Click(System::Object^ sender, System::EventArgs^ e) {
+		CLcad^ ComboCad = gcnew CLcad();
+		CLservicePersonnel^ servicePersonnel = gcnew CLservicePersonnel();
+		CLserviceAdresse^ serviceAdresse = gcnew CLserviceAdresse();
+		this->oDs = servicePersonnel->SelPourModifPersonnel();
+
+
+		int id_personne = System::Convert::ToInt16(this->oDs->Tables["SelPersonneUpd"]->Rows[this->ModificationPersonnelComboBoxPersonnel->SelectedIndex]->ItemArray[6]->ToString());
+		int id_superieur = System::Convert::ToInt16(this->oDs->Tables["SelPersonneUpd"]->Rows[this->ModificationPersonnelComboBoxPersonnel->SelectedIndex]->ItemArray[2]->ToString());
+		int idadresse = System::Convert::ToInt16(this->oDs->Tables["SelPersonneUpd"]->Rows[this->ModificationPersonnelComboBoxPersonnel->SelectedIndex]->ItemArray[5]->ToString());
+
+		servicePersonnel->ModifierPersonnel(id_personne, this->ModificationPersonnelTexteboxEmail->Text, this->ModificationPersonnelTexteboxNom->Text, this->ModificationPersonnelTexteboxPrenom->Text, 7, id_superieur, this->ModificationPersonnelTexteboxMotDePasse->Text, this->ModificationPersonnelDatetimepicker->Text);
+		serviceAdresse->ModifierAdresse(idadresse,System::Convert::ToInt16(this->textBox5->Text), this->textBox15->Text, this->textBox14->Text, this->textBox3->Text,this->textBox4->Text);
+	}
+	private: System::Void label52_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
 	private: System::Void ModificationPersonnelComboBoxPersonnel_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 		CLservicePersonnel^ servicePersonnel = gcnew CLservicePersonnel();
 
@@ -3561,12 +3865,14 @@ private: System::Windows::Forms::Label^ label75;
 		int index = this->ModificationPersonnelComboBoxPersonnel->SelectedIndex;
 
 		int indexsup;
+		bool etat = false;
 
 		for (int i = 0; i < this->oDs->Tables["SelPersonneUpd"]->Rows->Count - 1; i++)
 		{
-			if (this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[2]->ToString() == this->oDs->Tables["SelPersonneUpd"]->Rows[i]->ItemArray[2]->ToString())
+			if (this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[2]->ToString() == this->oDs->Tables["SelPersonneUpd"]->Rows[i]->ItemArray[0]->ToString())
 			{
 				indexsup = i;
+				etat = true;
 			}
 		}
 
@@ -3574,8 +3880,12 @@ private: System::Windows::Forms::Label^ label75;
 		this->ModificationPersonnelTexteboxPrenom->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[10]->ToString();
 		this->ModificationPersonnelTexteboxEmail->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[9]->ToString();
 		this->ModificationPersonnelTexteboxMotDePasse->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[3]->ToString();
-		this->ModificationPersonnelComboBoxSuperieur->SelectedIndex = indexsup;
 		this->ModificationPersonnelDatetimepicker->Text = this->oDs->Tables["SelPersonneUpd"]->Rows[index]->ItemArray[1]->ToString();
+
+		if (etat == true)
+		{
+			this->ModificationPersonnelComboBoxSuperieur->SelectedIndex = indexsup;
+		}
 	}
 };
 }

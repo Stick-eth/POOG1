@@ -22,13 +22,16 @@ namespace Comp_Services
 		this->oCad->actionRows(this->personnel->Insert());
 	}
 
-	void CLservicePersonnel::ModifierPersonnel(System::String^ b, System::String^ c, int d, int e, int f)
+	void CLservicePersonnel::ModifierPersonnel(int z, System::String^ a, System::String^ b, System::String^ c, int e, int f, System::String^ g, System::String^ i)
 	{
+		this->personnel->setemail(a);
 		this->personnel->setnom(b);
 		this->personnel->setprenom(c);
-		this->personnel->setid_personnel(d);
 		this->personnel->setid_adresse(e);
 		this->personnel->setid_superieur(f);
+		this->personnel->setmdp(g);
+		this->personnel->setdateemb(i);
+		this->personnel->setid_personne(z);
 		this->oCad->actionRows(this->personnel->Update());
 	}
 
