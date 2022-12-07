@@ -1,5 +1,1235 @@
-﻿  MyForm.cpp
-  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+﻿  CLadresse.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLarticle.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLcad.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLclient.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLmaps.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLpersonne.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLpersonnel.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLremise.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLservice.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLserviceClient.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  CLservicePersonnel.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  Main.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  MyForm.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+  Remise.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): warning C4570: 'Comp_Mappage::CLarticle' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLarticle.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): warning C4570: 'Comp_Mappage::CLpersonne' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonne.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLclient::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): warning C4570: 'Comp_Mappage::CLclient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLclient.h(8,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLpersonnel::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): warning C4570: 'Comp_Mappage::CLpersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLpersonnel.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(int)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLservicePersonnel::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): warning C4570: 'Comp_Services::CLservicePersonnel' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservicePersonnel.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Creer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Modifier' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Supprimer' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::Afficher' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(16,16): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): warning C4570: 'Comp_Services::CLserviceClient' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(8,12): message : 'void Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
   Génération de code en cours...
-  MyForm.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
-  POOG1.vcxproj -> C:\Users\Aniss\source\repos\POOG1\x64\Debug\POOG1.exe
+  CLadresse.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
+  POOG1.vcxproj -> E:\CESI\GitHub\POOG1\x64\Debug\POOG1.exe
