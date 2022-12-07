@@ -7,7 +7,7 @@ namespace Comp_Mappage {
 
 	System::String^ CLcommande::Insert()
 	{
-		return "EXECUTE InsCommande @reference" + this->getreference() + " @date_emission " + this->getdate_emission() + "@date_livraison " + this->getdate_livraison() + " @id_client " + this->getid_client();
+		return "EXECUTE InsCommande @reference ='" + this->getreference() + "', @date_emission " + this->getdate_emission() + "@date_livraison " + this->getdate_livraison() + " @id_client " + this->getid_client();
 	}
 
 	System::String^ CLcommande::Update()
