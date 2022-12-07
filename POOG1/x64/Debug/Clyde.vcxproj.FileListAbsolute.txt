@@ -1,0 +1,15 @@
+E:\CESI\POOG1-Appli\POOG1\x64\Debug\Clyde.vcxproj.AssemblyReference.cache
+E:\CESI\POOG1-Appli\POOG1\x64\Debug\Clyde.vcxproj.SuggestedBindingRedirects.cache
+E:\CESI\POOG1-Appli\POOG1\x64\Debug\POOG1.MyForm.resources
+E:\CESI\POOG1-Appli\POOG1\x64\Debug\POOG1.MyFormLogin.resources
+E:\CESI\POOG1-Appli\POOG1\x64\Debug\Clyde.vcxproj.GenerateResource.cache
+E:\CESI\GitHub\POOG1\POOG1\x64\Debug\Clyde.vcxproj.AssemblyReference.cache
+E:\CESI\GitHub\POOG1\POOG1\x64\Debug\Clyde.vcxproj.SuggestedBindingRedirects.cache
+E:\CESI\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyForm.resources
+E:\CESI\GitHub\POOG1\POOG1\x64\Debug\POOG1.MyFormLogin.resources
+E:\CESI\GitHub\POOG1\POOG1\x64\Debug\Clyde.vcxproj.GenerateResource.cache
+E:\CESI\Clyde Backup 3\POOG1\x64\Debug\Clyde.vcxproj.AssemblyReference.cache
+E:\CESI\Clyde Backup 3\POOG1\x64\Debug\Clyde.vcxproj.SuggestedBindingRedirects.cache
+E:\CESI\Clyde Backup 3\POOG1\x64\Debug\POOG1.MyForm.resources
+E:\CESI\Clyde Backup 3\POOG1\x64\Debug\POOG1.MyFormLogin.resources
+E:\CESI\Clyde Backup 3\POOG1\x64\Debug\Clyde.vcxproj.GenerateResource.cache

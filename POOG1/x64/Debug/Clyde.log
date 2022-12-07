@@ -1,0 +1,45 @@
+﻿E:\CESI\VS\1\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: Le répertoire intermédiaire (x64\Debug\) contient des fichiers partagés provenant d'un autre projet (POOG1.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
+  CLpersonnel.cpp
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(16,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLadresse::Select' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(16,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(17,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLadresse::Insert' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(17,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(18,27): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Mappage::CLadresse::Update' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLadresse.h(18,27): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): warning C4570: 'Comp_Mappage::CLmaps' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): warning C4570: 'Comp_Mappage::CLremise' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Select(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(9): message : voir la déclaration de 'Comp_Mappage::CLmaps::Select'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Insert(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(10): message : voir la déclaration de 'Comp_Mappage::CLmaps::Insert'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Delete(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(11): message : voir la déclaration de 'Comp_Mappage::CLmaps::Delete'
+E:\CESI\GitHub\POOG1\POOG1\CLremise.h(6,12): message : 'System::String ^Comp_Mappage::CLmaps::Update(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLmaps.h(12): message : voir la déclaration de 'Comp_Mappage::CLmaps::Update'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): warning C4570: 'Comp_Services::CLservice' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Creer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(14): message : voir la déclaration de 'Comp_Services::CLservice::Creer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Modifier(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(15): message : voir la déclaration de 'Comp_Services::CLservice::Modifier'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'void Comp_Services::CLservice::Supprimer(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(16): message : voir la déclaration de 'Comp_Services::CLservice::Supprimer'
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(8,12): message : 'System::Data::DataSet ^Comp_Services::CLservice::Afficher(void)' : est abstrait
+E:\CESI\GitHub\POOG1\POOG1\CLservice.h(17): message : voir la déclaration de 'Comp_Services::CLservice::Afficher'
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(12,8): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::CreerClient' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(12,8): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,8): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::ModifierClient' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(13,8): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,8): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::SupprimerClient' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(14,8): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,26): warning C4490: 'override' : utilisation incorrecte du spécificateur de substitution ; 'Comp_Services::CLserviceClient::AfficherClient' ne correspond pas à une méthode de classe ref de base
+E:\CESI\GitHub\POOG1\POOG1\CLserviceClient.h(15,26): message : 'new' ou 'override' sont autorisés uniquement lorsqu'une méthode de base correspondante existe à partir d'une classe ref
+  CLadresse.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
+  Clyde.vcxproj -> E:\CESI\GitHub\POOG1\x64\Debug\Clyde.exe
